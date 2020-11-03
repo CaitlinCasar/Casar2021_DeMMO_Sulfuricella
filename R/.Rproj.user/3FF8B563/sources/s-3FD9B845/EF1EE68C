@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1603227937307.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EF1EE68C",
+    "lastKnownWriteTime" : 1603228150,
+    "last_content_update" : 1603228150690,
+    "path" : "~/Desktop/DeMMO_Pubs/DeMMO_isolate/R/proteo_tree.R",
+    "project_path" : "proteo_tree.R",
+    "properties" : {
+        "cursorPosition" : "74,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

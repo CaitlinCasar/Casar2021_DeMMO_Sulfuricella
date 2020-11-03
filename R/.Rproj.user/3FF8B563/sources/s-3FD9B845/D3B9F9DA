@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1601909669331.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D3B9F9DA",
+    "lastKnownWriteTime" : 1602527454,
+    "last_content_update" : 1602527454998,
+    "path" : "~/Desktop/DeMMO_Pubs/DeMMO_isolate/R/tree.R",
+    "project_path" : "tree.R",
+    "properties" : {
+        "cursorPosition" : "88,2",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

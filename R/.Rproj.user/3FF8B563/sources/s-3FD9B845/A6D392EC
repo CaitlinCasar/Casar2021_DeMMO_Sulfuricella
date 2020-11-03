@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1603227960386.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A6D392EC",
+    "lastKnownWriteTime" : 1603218722,
+    "last_content_update" : 1603218722,
+    "path" : "~/Desktop/DeMMO_Pubs/DeMMO_isolate/R/universal_tree.R",
+    "project_path" : "universal_tree.R",
+    "properties" : {
+        "cursorPosition" : "6,51",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
