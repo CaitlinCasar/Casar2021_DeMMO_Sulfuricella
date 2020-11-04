@@ -1,6 +1,6 @@
 pacman::p_load(tidyverse, ggtree, ape, extrafont, readxl)
 
-files <- list.files("../data/tree/beta_tree_by_assembly/", full.names = T)
+files <- list.files("../../data/tree/tree_iterations/beta_tree_0.7/", full.names = T)
 
 #read tree data 
 
@@ -8,6 +8,7 @@ tree <- read.tree(files[str_detect(files, "[.]tre")])
 
 genome_summary <- read_delim(files[str_detect(files, "summary_info")], delim = "\t")  %>%
   mutate(NCBI_family = if_else(NCBI_order == "Nitrosomonadales", NCBI_family, NCBI_order),
+         NCBI_family = if_else(NCBI_class %in% c("Gammaproteobacteria", "Acidithiobacillia"), NCBI_class, NCBI_family),
          NCBI_family = if_else(label == "Candidatus_Gallionella_acididurans", "Gallionellaceae", NCBI_family),
          NCBI_species = if_else(label == "Candidatus_Gallionella_acididurans", "Candidatus Gallionella acididurans", NCBI_species),
          NCBI_family = if_else(label ==  'bin_1_Betaproteobacteria', "Sulfuricellaceae", NCBI_family),
@@ -32,8 +33,11 @@ groups <- split(tree$tip.label, taxa$NCBI_family)
 
 grouped_tree <- groupOTU(tree,  groups)
 
-taxa_colors <- c("#DAA520", rep("black", 5), "#da3c20", rep("black",3))
-names(taxa_colors) <- c(genome_summary %>% select(NCBI_family) %>% distinct() %>% pull() , 0)
+tree_taxa <- c(c("Sulfuricellaceae", "Gallionellaceae"), genome_summary %>% select(NCBI_family) %>% filter(!NCBI_family %in% c("Gallionellaceae", "Sulfuricellaceae")) %>%
+                 distinct() %>% pull(), 0)
+
+taxa_colors <- c("#DAA520", "#da3c20", rep("gray",length(tree_taxa) -2))
+names(taxa_colors) <- tree_taxa
 
 
 colored_tree <- ggtree(grouped_tree, aes(color=group, label = group))+ 

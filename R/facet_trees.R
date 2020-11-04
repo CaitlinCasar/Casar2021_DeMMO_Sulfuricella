@@ -1,8 +1,9 @@
 pacman::p_load(tidyverse, ggtree, ape, extrafont, readxl)
 
-dirs <- list.dirs("../data/tree/tree_iterations", recursive = F)
+dirs <- list.dirs("../../data/tree/tree_iterations", recursive = F)
 
 trees <- list()
+removed_genomes <- list()
 for(i in 1:length(dirs)){
   files <- list.files(dirs[i], full.names = T)
   
@@ -10,8 +11,12 @@ for(i in 1:length(dirs)){
   message(paste0("importing ", tree_title, "..."))
   #read tree data 
   tree <- read.tree(files[str_detect(files, "[.]tre")])
+  genome_summary <- read_delim(files[str_detect(files, "summary_info")], delim = "\t")
+  removed_genomes[[i]] <- genome_summary %>%
+    select(assembly_id, label, in_final_tree) %>%
+    rename(!!tree_title := "in_final_tree")
   if(!is.null(tree)){
-    genome_summary <- read_delim(files[str_detect(files, "summary_info")], delim = "\t")  %>%
+    genome_summary <- genome_summary  %>%
       mutate(NCBI_family = if_else(NCBI_order == "Nitrosomonadales", NCBI_family, NCBI_order),
              NCBI_family = if_else(label == "Candidatus_Gallionella_acididurans", "Gallionellaceae", NCBI_family),
              NCBI_species = if_else(label == "Candidatus_Gallionella_acididurans", "Candidatus Gallionella acididurans", NCBI_species),
@@ -36,7 +41,7 @@ for(i in 1:length(dirs)){
     taxa_colors <- c("#DAA520", "#da3c20", rep("gray",length(tree_taxa) -2))
     names(taxa_colors) <- tree_taxa
     
-    
+    if(length(grouped_tree$edge.length) > 1){
     colored_tree <- ggtree(grouped_tree, aes(color=group, label = group))+ 
       geom_text2(aes(subset=!isTip, label=node), hjust=-.3, size = 2) + 
       geom_nodelab(size = 3, col= "black", hjust = -.3) +
@@ -47,8 +52,13 @@ for(i in 1:length(dirs)){
     
     trees[[i]] <- colored_tree
     names(trees)[[i]] <- tree_title
+    }
   }
 }
+
+genome_info <- reduce(removed_genomes, full_join) %>%
+  mutate_at(vars(-assembly_id, -label), ~ifelse(. == "Yes", 1, NA)) %>%
+  select(where(~!any(is.na(.))))
 
 #plot trees by type
 tree_types <- c("beta", "proteo", "universal")
