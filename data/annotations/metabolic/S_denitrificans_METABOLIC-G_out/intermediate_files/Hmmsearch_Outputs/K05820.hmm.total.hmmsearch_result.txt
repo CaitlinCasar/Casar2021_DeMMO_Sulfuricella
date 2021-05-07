@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967536.1_1      -          K05820               -           8.3e-125  416.1  55.7  1.1e-124  415.8  55.7   1.0   1   0   0   1   1   1   1 # 2 # 1216 # 1 # ID=62_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.600
+k99_463_5            -          K05820               -           1.2e-122  409.1  54.6  1.4e-122  408.8  54.6   1.0   1   0   0   1   1   1   1 # 5614 # 6750 # 1 # ID=45_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.621
+NC_022357.1_865      -          K05820               -           1.5e-122  408.7  62.0  1.7e-122  408.5  62.0   1.0   1   0   0   1   1   1   1 # 875082 # 876218 # 1 # ID=1_865;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.597
+k99_1873_8           -          K05820               -            1.3e-75  254.0  45.2   1.5e-75  253.7  45.2   1.0   1   0   0   1   1   1   1 # 11102 # 12085 # -1 # ID=208_8;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.718
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K05820.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K05820.hmm.total.hmmsearch_result.txt -T 185.10 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K05820.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:06:56 2020
+# [ok]

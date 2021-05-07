@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967531.1_105    -          K00989               -           3.4e-141  470.3   1.8  4.1e-141  470.0   1.8   1.0   1   0   0   1   1   1   1 # 92335 # 93054 # -1 # ID=67_105;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.615
+k99_2022_23          -          K00989               -           4.5e-140  466.6   1.6    5e-140  466.4   1.6   1.0   1   0   0   1   1   1   1 # 17929 # 18648 # 1 # ID=189_23;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.643
+NC_022357.1_515      -          K00989               -           6.6e-140  466.0   1.2  7.3e-140  465.9   1.2   1.0   1   0   0   1   1   1   1 # 542599 # 543318 # 1 # ID=1_515;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.592
+k99_134_8            -          K00989               -           5.4e-133  443.2   1.9    6e-133  443.1   1.9   1.0   1   0   0   1   1   1   1 # 5938 # 6651 # 1 # ID=12_8;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.681
+k99_1722_7           -          K00989               -            3.2e-10   39.2   7.4   1.7e-09   36.8   1.7   3.3   3   1   0   3   3   0   1 # 6708 # 8831 # 1 # ID=148_7;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.584
+k99_2117_5           -          K00989               -            5.4e-10   38.5   3.4    0.0006   18.6   0.0   4.2   3   1   1   4   4   0   3 # 3341 # 5476 # -1 # ID=238_5;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.662
+NZ_DF967537.1_62     -          K00989               -            1.1e-08   34.2   9.3   2.4e-08   33.1   2.8   3.3   2   1   0   2   2   0   1 # 63325 # 65448 # -1 # ID=61_62;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.550
+NC_022357.1_1677     -          K00989               -            1.8e-08   33.4  10.0   2.5e-08   33.0   2.3   3.5   2   1   1   3   3   0   1 # 1732950 # 1735073 # -1 # ID=1_1677;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.553
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K00989.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K00989.hmm.total.hmmsearch_result.txt --domT 228.57 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K00989.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:04:40 2020
+# [ok]

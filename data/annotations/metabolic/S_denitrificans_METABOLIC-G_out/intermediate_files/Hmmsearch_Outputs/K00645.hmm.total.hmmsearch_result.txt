@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1585_3           -          K00645               -           1.3e-123  413.3  14.1  1.5e-123  413.1  14.1   1.0   1   0   0   1   1   1   1 # 2011 # 2952 # 1 # ID=173_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.708
+NZ_DF967553.1_15     -          K00645               -           2.8e-120  402.3   6.6  3.4e-120  402.0   6.6   1.0   1   0   0   1   1   1   1 # 10781 # 11710 # -1 # ID=45_15;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.571
+k99_2176_14          -          K00645               -           1.7e-118  396.5   9.8  1.8e-118  396.4   9.8   1.0   1   0   0   1   1   1   1 # 13649 # 14578 # 1 # ID=209_14;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.602
+NC_022357.1_1505     -          K00645               -           2.7e-109  366.1   4.0  3.1e-109  365.9   4.0   1.0   1   0   0   1   1   1   1 # 1546450 # 1547331 # -1 # ID=1_1505;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.605
+NZ_DF967522.1_52     -          K00645               -            9.2e-61  206.0   0.6   1.1e-60  205.7   0.6   1.0   1   0   0   1   1   0   1 # 66980 # 67909 # 1 # ID=76_52;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.633
+k99_1145_22          -          K00645               -            2.2e-60  204.8   1.4   2.5e-60  204.6   1.4   1.0   1   0   0   1   1   0   1 # 23493 # 24446 # 1 # ID=92_22;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.684
+k99_508_9            -          K00645               -            3.3e-18   65.6   0.2   4.3e-18   65.3   0.2   1.1   1   0   0   1   1   0   1 # 10868 # 11899 # 1 # ID=55_9;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K00645.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K00645.hmm.total.hmmsearch_result.txt --domT 261.30 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K00645.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:04:28 2020
+# [ok]

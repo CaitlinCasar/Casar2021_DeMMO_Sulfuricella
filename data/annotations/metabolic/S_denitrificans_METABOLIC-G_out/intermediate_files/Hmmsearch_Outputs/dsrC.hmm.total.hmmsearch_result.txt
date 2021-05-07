@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_1909     -          dsrC_tusE            -            5.6e-59  196.8   0.0   9.4e-33  112.5   0.0   2.0   2   0   0   2   2   2   2 # 1989735 # 1990478 # 1 # ID=1_1909;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.492
+k99_2321_6           -          dsrC_tusE            -              1e-46  157.4   0.1   1.1e-46  157.3   0.1   1.0   1   0   0   1   1   1   1 # 3953 # 4285 # 1 # ID=217_6;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.529
+NC_022357.1_2659     -          dsrC_tusE            -            2.3e-46  156.3   0.1   2.5e-46  156.2   0.1   1.0   1   0   0   1   1   1   1 # 2759055 # 2759387 # -1 # ID=1_2659;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.502
+NZ_DF967539.1_92     -          dsrC_tusE            -            2.3e-46  156.3   0.1   2.5e-46  156.2   0.1   1.0   1   0   0   1   1   1   1 # 93987 # 94319 # 1 # ID=59_92;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.523
+k99_2146_62          -          dsrC_tusE            -            2.4e-44  149.8   0.2   2.6e-44  149.7   0.2   1.0   1   0   0   1   1   1   1 # 71932 # 72264 # -1 # ID=244_62;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.595
+NC_022357.1_983      -          dsrC_tusE            -            2.4e-31  108.0   0.0   2.9e-31  107.8   0.0   1.0   1   0   0   1   1   1   1 # 1006446 # 1006772 # -1 # ID=1_983;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.563
+NZ_DF967533.1_94     -          dsrC_tusE            -            6.7e-31  106.6   0.0   7.9e-31  106.3   0.0   1.0   1   0   0   1   1   1   1 # 93481 # 93807 # 1 # ID=65_94;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.572
+NC_022357.1_2667     -          dsrC_tusE            -            1.6e-27   95.7   0.1   1.7e-27   95.6   0.1   1.0   1   0   0   1   1   1   1 # 2764465 # 2764794 # 1 # ID=1_2667;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.527
+NZ_DF967539.1_83     -          dsrC_tusE            -            1.7e-27   95.6   0.1   1.9e-27   95.5   0.1   1.0   1   0   0   1   1   1   1 # 88537 # 88866 # -1 # ID=59_83;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.533
+k99_1300_7           -          dsrC_tusE            -            5.3e-27   94.0   0.0   6.1e-27   93.8   0.0   1.0   1   0   0   1   1   1   1 # 3847 # 4182 # -1 # ID=138_7;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.655
+k99_2236_3           -          dsrC_tusE            -            1.9e-26   92.3   0.1     2e-26   92.2   0.1   1.0   1   0   0   1   1   1   1 # 1281 # 1610 # 1 # ID=213_3;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.558
+k99_2146_54          -          dsrC_tusE            -            6.8e-25   87.3   0.0   8.4e-25   87.0   0.0   1.0   1   0   0   1   1   1   1 # 63240 # 63572 # -1 # ID=244_54;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.664
+NC_022357.1_2019     -          dsrC_tusE            -            2.3e-24   85.6   0.0   2.9e-24   85.3   0.0   1.0   1   0   0   1   1   1   1 # 2104307 # 2104663 # 1 # ID=1_2019;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.541
+NZ_DF967585.1_128    -          dsrC_tusE            -            7.3e-24   83.9   0.0   8.4e-24   83.8   0.0   1.1   1   0   0   1   1   1   1 # 137266 # 137622 # 1 # ID=13_128;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.549
+NZ_DF967563.1_26     -          dsrC_tusE            -            2.2e-22   79.2   0.0   2.3e-22   79.1   0.0   1.0   1   0   0   1   1   1   1 # 25013 # 25312 # -1 # ID=35_26;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.563
+k99_618_10           -          dsrC_tusE            -            2.2e-22   79.2   0.0   2.5e-22   79.0   0.0   1.0   1   0   0   1   1   1   1 # 9243 # 9536 # 1 # ID=53_10;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.578
+NC_022357.1_1859     -          dsrC_tusE            -              4e-22   78.4   0.0   4.5e-22   78.2   0.0   1.0   1   0   0   1   1   1   1 # 1931682 # 1931975 # 1 # ID=1_1859;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.510
+NZ_DF967541.1_45     -          dsrC_tusE            -              4e-22   78.4   0.0   4.5e-22   78.2   0.0   1.0   1   0   0   1   1   1   1 # 50300 # 50593 # -1 # ID=57_45;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.507
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/dsrC.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/dsrC.hmm.total.hmmsearch_result.txt -T 52.85 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/dsrC.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:30 2020
+# [ok]

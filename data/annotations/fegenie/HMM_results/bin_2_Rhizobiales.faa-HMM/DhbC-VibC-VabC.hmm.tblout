@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//DhbC-VibC-VabC.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/DhbC-VibC-VabC.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/DhbC-VibC-VabC.hmm.tblout -T 376 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//DhbC-VibC-VabC.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:09 2020
+# [ok]

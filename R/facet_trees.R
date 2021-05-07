@@ -1,6 +1,6 @@
 pacman::p_load(tidyverse, ggtree, ape, extrafont, readxl)
 
-dirs <- list.dirs("../../data/tree/tree_iterations", recursive = F)
+dirs <- list.dirs(paste0(data_path, "tree/tree_iterations"), recursive = F)
 
 trees <- list()
 removed_genomes <- list()
@@ -65,9 +65,10 @@ tree_types <- c("beta", "proteo", "universal")
 for(i in 1:length(tree_types)){
   trees_list <- trees[str_detect(names(trees), tree_types[i])]
   tree_plots <- gridExtra::arrangeGrob(grobs = trees_list, nrow = 3)
-  cairo_pdf(paste0("../figures/", tree_types[i], "_tree_iterations.pdf"), 
+  cairo_pdf(paste0(write_figures, tree_types[i], "_tree_iterations.pdf"), 
             family="Arial Unicode MS",
             width = 20, height = 30)
   gridExtra::grid.arrange(tree_plots)
   dev.off()
 }
+

@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_695_6            -          K13893               -           9.1e-252  837.5   2.7    1e-251  837.3   2.7   1.0   1   0   0   1   1   1   1 # 5234 # 7081 # 1 # ID=73_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.661
+k99_695_7            -          K13893               -           8.1e-234  778.1   0.6  1.1e-233  777.7   0.6   1.0   1   0   0   1   1   1   1 # 7078 # 8964 # 1 # ID=73_7;partial=00;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=3-4bp;gc_cont=0.703
+k99_871_2            -          K13893               -           3.9e-223  742.7   0.3  4.6e-223  742.5   0.3   1.0   1   0   0   1   1   0   1 # 1838 # 3742 # -1 # ID=87_2;partial=00;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.696
+k99_509_18           -          K13893               -            3.7e-56  190.1   0.1     2e-54  184.4   0.1   2.0   1   1   0   1   1   0   1 # 19159 # 20721 # -1 # ID=56_18;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_cont=0.628
+k99_295_9            -          K13893               -            7.7e-40  136.1   0.1     5e-36  123.5   0.0   2.1   2   0   0   2   2   0   2 # 8220 # 9770 # 1 # ID=26_9;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.691
+k99_698_27           -          K13893               -            3.2e-35  120.9   1.5   1.6e-28   98.7   0.0   2.1   2   0   0   2   2   0   2 # 24733 # 26280 # -1 # ID=74_27;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.663
+k99_1862_11          -          K13893               -            4.4e-34  117.1   2.4   2.3e-31  108.1   2.4   2.9   1   1   0   1   1   0   1 # 6962 # 8491 # 1 # ID=207_11;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.643
+k99_231_25           -          K13893               -            8.2e-33  112.9   0.0   1.7e-31  108.5   0.0   2.4   2   1   0   2   2   0   1 # 24568 # 26088 # 1 # ID=21_25;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.652
+k99_1606_3           -          K13893               -            1.8e-32  111.8   0.3   2.6e-23   81.5   0.1   2.9   1   1   1   2   2   0   2 # 1474 # 2982 # 1 # ID=175_3;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.657
+k99_436_21           -          K13893               -              1e-31  109.2   0.0   3.1e-23   81.2   0.0   2.1   2   0   0   2   2   0   2 # 23672 # 25222 # -1 # ID=47_21;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.685
+k99_436_9            -          K13893               -            1.9e-30  105.0   0.0   6.7e-30  103.2   0.0   1.8   1   1   0   1   1   0   1 # 8916 # 10469 # -1 # ID=47_9;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.653
+k99_1438_30          -          K13893               -            1.4e-24   85.6   1.3   1.6e-20   72.2   0.9   2.3   2   1   0   2   2   0   2 # 32084 # 33682 # 1 # ID=159_30;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.635
+k99_423_5            -          K13893               -            1.1e-23   82.7   0.1   4.9e-21   73.9   0.0   2.2   2   0   0   2   2   0   2 # 4862 # 6397 # 1 # ID=45_5;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.667
+k99_1257_15          -          K13893               -              4e-22   77.5   0.1   1.2e-17   62.7   0.0   2.4   2   1   0   2   2   0   2 # 15135 # 16661 # 1 # ID=135_15;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.652
+k99_436_3            -          K13893               -            2.9e-21   74.7   0.1   6.9e-20   70.1   0.0   2.3   1   1   0   2   2   0   1 # 1703 # 3280 # -1 # ID=47_3;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.677
+k99_2164_1           -          K13893               -            1.1e-17   62.8   3.5   2.7e-08   31.7   0.2   3.5   4   0   0   4   4   0   2 # 32 # 1669 # -1 # ID=247_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.654
+k99_575_8            -          K13893               -            1.3e-17   62.5   0.0     2e-16   58.7   0.0   2.1   2   0   0   2   2   0   1 # 8627 # 10240 # 1 # ID=62_8;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.648
+k99_1400_2           -          K13893               -            8.9e-16   56.5   3.8   6.2e-10   37.2   0.2   2.5   3   0   0   3   3   0   2 # 627 # 2783 # 1 # ID=117_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.618
+NC_022357.1_1145     -          K13893               -            4.8e-15   54.1   0.8   5.9e-08   30.6   0.1   2.2   2   0   0   2   2   0   2 # 1175837 # 1177987 # 1 # ID=1_1145;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.574
+NZ_DF967563.1_5      -          K13893               -            2.4e-14   51.8   0.5   1.4e-07   29.4   0.1   2.3   2   0   0   2   2   0   2 # 4559 # 6709 # 1 # ID=35_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.592
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K13893.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K13893.hmm.total.hmmsearch_result.txt --domT 746.93 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K13893.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:09:57 2020
+# [ok]

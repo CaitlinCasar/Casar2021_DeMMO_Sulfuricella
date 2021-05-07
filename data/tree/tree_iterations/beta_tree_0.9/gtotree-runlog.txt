@@ -1,0 +1,179 @@
+
+
+               GToTree v1.5.38 (github.com/AstrobioMike/GToTree)
+
+
+ ---------------------------------  RUN INFO  --------------------------------- 
+
+    Command entered:
+    /home/cpc7770/.conda/envs/gtotree/bin/GToTree -a assembly_ids_betaproteobacteria_for_tree_clean.txt -f D3_Bin1.txt -H Betaproteobacteria -t -j 4 -o beta_tree_0.9 -G 0.9 -P
+
+
+    Input genome sources include:
+      - NCBI accessions listed in assembly_ids_betaproteobacteria_for_tree_clean.txt (99 genomes)
+      - Fasta files listed in D3_Bin1.txt (1 genomes)
+
+                             [0;32mTotal input genomes: 100[0m
+
+    HMM source to be used:
+      - Betaproteobacteria (203 targets)
+
+
+    Options set:
+      - The output directory has been set to "beta_tree_0.9/".
+      - Taxonkit will be used to add NCBI taxonomy info to labels where possible.
+      - Genome minimum gene-copy threshold ("-G") has been set to 0.9.
+      - Number of jobs to run during parallelizable steps has been set to 4.
+      - Attempting to use http instead of ftp.
+
+ ############################################################################## 
+ ####          Working on the genomes provided as NCBI accessions          ####
+ ############################################################################## 
+
+		  [0;32mDownloading GenBank assembly summaries...[0m
+
+
+		  [0;32mDownloading RefSeq assembly summaries...[0m
+
+
+
+	        [0;32mAll 99 input accessions successfully found.[0m
+
+________________________________________________________________________________
+
+
+     ******************************* [0;32mUPDATE[0m *******************************  
+        Of the input genomes provided by NCBI accession:
+
+                [0;32mAll 99 successfully downloaded and searched :)[0m
+     ********************************************************************** 
+
+
+ ############################################################################## 
+ ####            Working on the genomes provided as fasta files            ####
+ ############################################################################## 
+
+           It is currently 12:48 PM; the process started at 12:37 PM.
+               Current process runtime: 0 hours and 10 minutes.
+
+_______________________________________________________________________________
+
+
+ ############################################################################## 
+ ####                     Filtering genes by length                        ####
+ ############################################################################## 
+
+     Keeping those with lengths within 20% of the median for the gene set.
+
+           It is currently 12:48 PM; the process started at 12:37 PM.
+               Current process runtime: 0 hours and 10 minutes.
+
+________________________________________________________________________________ 
+
+
+
+ ############################################################################## 
+ ####                Filtering genomes with too few hits                   ####
+ ############################################################################## 
+
+     Removing those with fewer than 90% of the total SCGs targeted.
+
+           It is currently 12:49 PM; the process started at 12:37 PM.
+               Current process runtime: 0 hours and 12 minutes.
+
+  [0;33m********************************** [0mNOTICE [0;33m**********************************[0m  
+    34 genome(s) removed from analysis due to having too few hits.
+
+    Reported in "beta_tree_0.9/run_files/Genomes_removed_for_too_few_hits.tsv".
+  [0;33m****************************************************************************[0m  
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####          Aligning, trimming, and inserting gap-sequences             ####
+ ############################################################################## 
+
+           It is currently 12:49 PM; the process started at 12:37 PM.
+               Current process runtime: 0 hours and 12 minutes.
+
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                  Catting all alignments together                     ####
+ ############################################################################## 
+
+           It is currently 12:52 PM; the process started at 12:37 PM.
+               Current process runtime: 0 hours and 15 minutes.
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                   Adding more informative headers                    ####
+ ############################################################################## 
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                          Running FastTree                            ####
+ ############################################################################## 
+
+           It is currently 12:53 PM; the process started at 12:37 PM.
+               Current process runtime: 0 hours and 15 minutes.
+
+
+
+#################################################################################
+####                                 [0;32mDone!![0m                                  ####
+#################################################################################
+
+  Overall, 67 genomes of the input 100 were retained (see notes below).
+
+    Tree written to:
+        [0;32mbeta_tree_0.9/beta_tree_0.9.tre[0m
+
+    Alignment written to:
+        [0;32mbeta_tree_0.9/Aligned_SCGs_mod_names.faa[0m
+
+    Main genomes summary table with comp./redund. estimates written to:
+        [0;32mbeta_tree_0.9/Genomes_summary_info.tsv[0m
+
+    Summary table with hits per target gene per genome written to:
+        [0;32mbeta_tree_0.9/SCG_hit_counts.tsv[0m
+
+    Partitions (for downstream use with mixed-model treeing) written to:
+        [0;32mbeta_tree_0.9/run_files/Partitions.txt[0m
+
+ _______________________________________________________________________________
+
+  Notes:
+
+        34 genome(s) removed due to having too few hits to the targeted SCGs.
+        2 genome(s) had an estimated redundancy of >= 10%.
+
+    Reported along with additional informative run files in:
+        [0;32mbeta_tree_0.9/run_files/[0m
+
+ _______________________________________________________________________________
+
+    Log file written to:
+        [0;32mbeta_tree_0.9/gtotree-runlog.txt[0m
+
+    Programs used and their citations have been written to:
+        [0;32mbeta_tree_0.9/citations.txt[0m
+
+
+                                         Total process runtime: 0 hours and 20 minutes.
+                                                      [0;32mHappy Friday :)[0m
+

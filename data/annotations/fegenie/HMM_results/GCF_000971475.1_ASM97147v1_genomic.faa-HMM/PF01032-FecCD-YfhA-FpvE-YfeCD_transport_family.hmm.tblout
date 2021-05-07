@@ -1,0 +1,14 @@
+#                                                                                         --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                     accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                           -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967526.1_19     -          PF01032-FecCD-YfhA-FpvE-YfeCD_transport_family PF01032.13   6.7e-84  279.2  42.7   8.3e-84  278.9  42.7   1.0   1   0   0   1   1   1   1 # 24359 # 25321 # 1 # ID=72_19;partial=00;start_type=GTG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.675
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01032-FecCD-YfhA-FpvE-YfeCD_transport_family.hmm
+# Target file:     ORFs//GCF_000971475.1_ASM97147v1_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF01032-FecCD-YfhA-FpvE-YfeCD_transport_family.hmm.txt --tblout fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF01032-FecCD-YfhA-FpvE-YfeCD_transport_family.hmm.tblout -T 25 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01032-FecCD-YfhA-FpvE-YfeCD_transport_family.hmm ORFs//GCF_000971475.1_ASM97147v1_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:01 2020
+# [ok]

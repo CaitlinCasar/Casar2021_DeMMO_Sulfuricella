@@ -1,0 +1,17 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name               accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------     -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1015_5           -          rubisco_form_I_alignment -           6.7e-278  921.2   0.4  7.9e-278  920.9   0.4   1.0   1   0   0   1   1   1   1 # 4049 # 5515 # -1 # ID=104_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.662
+k99_121_24           -          rubisco_form_I_alignment -           1.5e-266  883.7   0.0  1.7e-266  883.5   0.0   1.0   1   0   0   1   1   1   1 # 24973 # 26394 # -1 # ID=8_24;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.622
+NZ_DF967585.1_96     -          rubisco_form_I_alignment -             8e-266  881.3   0.0  8.9e-266  881.2   0.0   1.0   1   0   0   1   1   1   1 # 108562 # 109983 # 1 # ID=13_96;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.598
+NC_022357.1_1988     -          rubisco_form_I_alignment -           1.7e-265  880.2   0.0  1.9e-265  880.1   0.0   1.0   1   0   0   1   1   1   1 # 2074039 # 2075460 # 1 # ID=1_1988;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.589
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/rubisco_form_I.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/rubisco_form_I.hmm.total.hmmsearch_result.txt -T 500 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/rubisco_form_I.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:32 2020
+# [ok]

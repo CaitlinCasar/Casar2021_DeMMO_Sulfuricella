@@ -1,0 +1,14 @@
+#                                                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                              accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                    -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2106_43          -          PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA PF01497.18   2.8e-27   93.1   0.0   3.5e-27   92.8   0.0   1.1   1   0   0   1   1   1   1 # 41081 # 41977 # 1 # ID=199_43;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.638
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm.tblout -T 27 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:58 2020
+# [ok]

@@ -1,0 +1,3 @@
+Assembly_name	Original_file_name	taxid	num_SCG_hits	uniq_SCG_hits	perc_comp	perc_redund
+bin_1_Betaproteobacteria	genomes/bin_1_Betaproteobacteria.fa	NA	186	178	87.68	3.94
+Candidatus_Gallionella_acididurans	genomes/Candidatus_Gallionella_acididurans.fna.gz	NA	190	182	89.66	4.93

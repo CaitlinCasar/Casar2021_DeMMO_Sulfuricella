@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967528.1_216    -          PF02472-ExbD         PF02472.11   1.8e-31  106.7   0.7     2e-31  106.6   0.7   1.0   1   0   0   1   1   1   1 # 228217 # 228639 # -1 # ID=70_216;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.577
+NZ_DF967522.1_13     -          PF02472-ExbD         PF02472.11   2.1e-31  106.5   0.2   2.3e-31  106.3   0.2   1.0   1   0   0   1   1   1   1 # 11840 # 12244 # -1 # ID=76_13;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.536
+NZ_DF967539.1_262    -          PF02472-ExbD         PF02472.11   6.1e-28   95.3   3.8     7e-28   95.1   3.8   1.0   1   0   0   1   1   1   1 # 252146 # 252586 # 1 # ID=59_262;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.583
+NZ_DF967530.1_6      -          PF02472-ExbD         PF02472.11   1.4e-27   94.1   0.2   1.5e-27   94.0   0.2   1.0   1   0   0   1   1   1   1 # 4392 # 4808 # -1 # ID=68_6;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.583
+NZ_DF967535.1_19     -          PF02472-ExbD         PF02472.11   1.6e-24   84.2   1.2   1.9e-24   84.0   1.2   1.0   1   0   0   1   1   1   1 # 21326 # 21727 # -1 # ID=63_19;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.537
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF02472-ExbD.hmm
+# Target file:     ORFs//GCF_000971475.1_ASM97147v1_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF02472-ExbD.hmm.txt --tblout fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF02472-ExbD.hmm.tblout -T 32 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF02472-ExbD.hmm ORFs//GCF_000971475.1_ASM97147v1_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:01 2020
+# [ok]

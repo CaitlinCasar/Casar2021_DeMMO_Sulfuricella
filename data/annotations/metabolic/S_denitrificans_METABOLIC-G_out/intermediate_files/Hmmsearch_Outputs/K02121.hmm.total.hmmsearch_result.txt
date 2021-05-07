@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2971     -          K02121               -            4.9e-07   29.1  17.3   5.5e-07   29.0  17.3   1.1   1   0   0   1   1   0   1 # 3120263 # 3120733 # -1 # ID=1_2971;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.573
+NZ_DF967522.1_224    -          K02121               -              1e-06   28.1  20.5   1.2e-06   27.9  20.5   1.1   1   0   0   1   1   0   1 # 266601 # 267071 # -1 # ID=76_224;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.567
+k99_1497_38          -          K02121               -            4.1e-06   26.1  20.7   4.5e-06   26.0  20.7   1.1   1   0   0   1   1   0   1 # 43153 # 43623 # -1 # ID=124_38;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.554
+NZ_DF967528.1_79     -          K02121               -               0.38    9.8   9.7      0.42    9.7   8.8   1.5   1   1   0   1   1   0   0 # 80398 # 81264 # -1 # ID=70_79;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.548
+k99_604_22           -          K02121               -               0.39    9.8  11.2      0.39    9.8  10.2   1.5   1   1   0   1   1   0   0 # 22463 # 23329 # 1 # ID=52_22;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.584
+NC_022357.1_1753     -          K02121               -               0.61    9.2  10.7      0.61    9.2   9.6   1.5   1   1   0   1   1   0   0 # 1819298 # 1820164 # -1 # ID=1_1753;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.521
+k99_164_15           -          K02121               -                1.9    7.6  24.9       2.7    7.1  24.9   1.2   1   0   0   1   1   0   0 # 12145 # 12636 # -1 # ID=13_15;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.685
+k99_1999_10          -          K02121               -                3.6    6.7   6.8      0.81    8.8   2.0   2.0   1   1   1   2   2   0   0 # 8309 # 9457 # 1 # ID=221_10;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.665
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K02121.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K02121.hmm.total.hmmsearch_result.txt --domT 97.43 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K02121.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:05:24 2020
+# [ok]

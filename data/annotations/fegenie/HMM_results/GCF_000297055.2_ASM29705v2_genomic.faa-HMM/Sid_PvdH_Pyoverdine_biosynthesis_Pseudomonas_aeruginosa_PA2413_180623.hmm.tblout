@@ -1,0 +1,16 @@
+#                                                                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2137     -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            3.3e-43  145.2   4.7   2.7e-32  109.2   1.8   3.0   1   1   1   2   2   2   2 # 2218765 # 2219928 # 1 # ID=1_2137;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.613
+NC_022357.1_2876     -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            1.1e-32  110.5   0.9   8.7e-19   64.7   0.3   2.1   1   1   1   2   2   2   2 # 2997134 # 2998423 # 1 # ID=1_2876;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.617
+NC_022357.1_494      -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            4.9e-29   98.5   0.1   1.5e-28   96.9   0.1   1.6   1   1   0   1   1   1   1 # 522264 # 523610 # 1 # ID=1_494;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.600
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm.tblout -T 98 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:24 2020
+# [ok]

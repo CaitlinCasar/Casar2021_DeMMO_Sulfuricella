@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1201_2           -          K00093               -              3e-59  200.4   1.0   1.3e-58  198.4   1.0   2.0   1   1   0   1   1   1   1 # 232 # 2907 # -1 # ID=129_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.668
+k99_2232_38          -          K00093               -            8.4e-58  195.7   3.5   9.9e-58  195.4   3.5   1.1   1   0   0   1   1   1   1 # 34199 # 35335 # 1 # ID=254_38;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.726
+k99_875_3            -          K00093               -              1e-43  149.3   0.1   1.5e-43  148.7   0.1   1.2   1   1   0   1   1   1   1 # 1602 # 2732 # -1 # ID=88_3;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.707
+NZ_DF967563.1_3      -          K00093               -            8.5e-34  116.6   0.0   1.1e-33  116.3   0.0   1.1   1   0   0   1   1   1   1 # 2454 # 3638 # 1 # ID=35_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.620
+NC_022357.1_1143     -          K00093               -            1.9e-32  112.2   0.0   2.2e-32  112.0   0.0   1.1   1   0   0   1   1   1   1 # 1173732 # 1174916 # 1 # ID=1_1143;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.600
+k99_1092_8           -          K00093               -            2.1e-28   98.9   0.0   2.4e-28   98.7   0.0   1.1   1   0   0   1   1   1   1 # 9334 # 10242 # -1 # ID=87_8;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.626
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K00093.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K00093.hmm.total.hmmsearch_result.txt -T 50 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K00093.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:04:07 2020
+# [ok]

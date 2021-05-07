@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1497_4           -          Cyc1                 -            2.9e-54  180.8   0.3   3.7e-54  180.5   0.3   1.1   1   0   0   1   1   1   1 # 3612 # 4235 # -1 # ID=124_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.579
+k99_809_1            -          Cyc1                 -              1e-30  104.2   0.2   2.1e-30  103.1   0.2   1.5   1   1   0   1   1   1   1 # 227 # 952 # 1 # ID=64_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.585
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_oxidation//Cyc1.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Cyc1.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Cyc1.hmm.tblout -T 98 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_oxidation//Cyc1.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:26 2020
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1115_13          -          K01056               -            7.6e-85  285.1   0.0   8.5e-85  285.0   0.0   1.0   1   0   0   1   1   1   1 # 9502 # 10191 # 1 # ID=122_13;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.687
+NC_022357.1_2564     -          K01056               -            1.4e-82  277.6   0.0   1.7e-82  277.4   0.0   1.0   1   0   0   1   1   1   1 # 2667293 # 2667889 # -1 # ID=1_2564;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.610
+NZ_DF967539.1_170    -          K01056               -            1.7e-82  277.4   0.0     2e-82  277.1   0.0   1.0   1   0   0   1   1   1   1 # 168374 # 168970 # 1 # ID=59_170;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.608
+k99_2142_4           -          K01056               -            1.3e-80  271.1   0.0   1.4e-80  271.0   0.0   1.0   1   0   0   1   1   1   1 # 2967 # 3563 # -1 # ID=208_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.625
+k99_611_3            -          K01056               -            5.1e-27   94.5  11.4   5.1e-27   94.5  11.4   1.8   1   1   1   2   2   1   1 # 3300 # 4382 # 1 # ID=64_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.770
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K01056.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K01056.hmm.total.hmmsearch_result.txt --domT 46.77 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K01056.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:04:42 2020
+# [ok]

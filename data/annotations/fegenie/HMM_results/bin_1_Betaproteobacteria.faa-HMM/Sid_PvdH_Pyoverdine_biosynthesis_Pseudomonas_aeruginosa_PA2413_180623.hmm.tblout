@@ -1,0 +1,15 @@
+#                                                                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1688_7           -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            7.8e-45  150.4   3.2   2.2e-33  112.6   0.7   3.0   1   1   1   2   2   2   2 # 5082 # 6245 # -1 # ID=146_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.646
+k99_314_5            -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            1.3e-29  100.1   0.5   4.8e-27   91.7   0.5   2.1   1   1   0   1   1   1   1 # 3793 # 5073 # -1 # ID=28_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.645
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm.tblout -T 98 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:16 2020
+# [ok]

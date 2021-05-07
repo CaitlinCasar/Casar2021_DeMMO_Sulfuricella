@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1538_27          -          FeoB_N               PF02421.13   1.5e-48  161.6   0.0   2.2e-48  161.0   0.0   1.2   1   0   0   1   1   1   1 # 24135 # 25922 # -1 # ID=132_27;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.583
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF02421-FeoB_N.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PF02421-FeoB_N.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PF02421-FeoB_N.hmm.tblout -T 120 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF02421-FeoB_N.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:39 2020
+# [ok]

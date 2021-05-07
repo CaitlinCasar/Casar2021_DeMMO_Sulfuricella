@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967528.1_221    -          FTR1                 PF03239.9    7.2e-30  101.8  19.9   9.8e-30  101.4  19.9   1.1   1   0   0   1   1   1   1 # 232866 # 233702 # -1 # ID=70_221;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.581
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF03239-Iron_permease_FTR1_EfeU_Fip1_family.hmm
+# Target file:     ORFs//GCF_000971475.1_ASM97147v1_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF03239-Iron_permease_FTR1_EfeU_Fip1_family.hmm.txt --tblout fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF03239-Iron_permease_FTR1_EfeU_Fip1_family.hmm.tblout -T 24 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF03239-Iron_permease_FTR1_EfeU_Fip1_family.hmm ORFs//GCF_000971475.1_ASM97147v1_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:41 2020
+# [ok]

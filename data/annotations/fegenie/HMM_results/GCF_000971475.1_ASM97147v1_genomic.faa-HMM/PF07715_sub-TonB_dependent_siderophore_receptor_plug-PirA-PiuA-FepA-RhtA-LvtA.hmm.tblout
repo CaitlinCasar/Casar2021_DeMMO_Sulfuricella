@@ -1,0 +1,20 @@
+#                                                                                                                        --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                                    accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                          -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967531.1_93     -          PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA -            1.1e-22   78.3   0.5   2.9e-22   77.0   0.5   1.7   1   0   0   1   1   1   1 # 79416 # 81482 # -1 # ID=67_93;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.645
+NZ_DF967522.1_58     -          PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA -            5.1e-22   76.2   0.4     1e-21   75.2   0.4   1.5   1   0   0   1   1   1   1 # 71013 # 72935 # 1 # ID=76_58;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.543
+NZ_DF967539.1_256    -          PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA -            1.3e-17   62.1   0.2   6.1e-17   59.9   0.2   2.2   1   0   0   1   1   1   1 # 245847 # 248135 # 1 # ID=59_256;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.546
+NZ_DF967585.1_144    -          PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA -            2.7e-17   61.0   0.7   5.3e-17   60.1   0.0   1.9   2   0   0   2   2   2   1 # 152113 # 154122 # -1 # ID=13_144;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.562
+NZ_DF967585.1_143    -          PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA -            4.7e-17   60.2   0.0   2.3e-16   58.0   0.0   2.0   2   0   0   2   2   2   1 # 149857 # 151881 # -1 # ID=13_143;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.587
+NZ_DF967539.1_253    -          PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA -            2.1e-11   42.0   0.4     2e-10   38.9   0.1   2.8   2   0   0   2   2   2   1 # 241552 # 243855 # 1 # ID=59_253;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.563
+NZ_DF967539.1_263    -          PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA -            4.3e-10   37.8   0.6   1.5e-09   36.1   0.6   2.1   1   1   0   1   1   1   1 # 252766 # 255036 # 1 # ID=59_263;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.555
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA.hmm
+# Target file:     ORFs//GCF_000971475.1_ASM97147v1_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA.hmm.txt --tblout fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA.hmm.tblout -T 21 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF07715_sub-TonB_dependent_siderophore_receptor_plug-PirA-PiuA-FepA-RhtA-LvtA.hmm ORFs//GCF_000971475.1_ASM97147v1_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:00 2020
+# [ok]

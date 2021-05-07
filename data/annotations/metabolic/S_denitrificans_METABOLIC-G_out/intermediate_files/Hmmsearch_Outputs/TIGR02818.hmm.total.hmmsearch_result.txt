@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2188     -          TIGR02818            TIGR02818   3.9e-199  660.7   7.0  4.4e-199  660.6   7.0   1.0   1   0   0   1   1   1   1 # 2270518 # 2271627 # 1 # ID=1_2188;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.567
+NZ_DF967563.1_37     -          TIGR02818            TIGR02818   5.9e-199  660.1   6.7  6.6e-199  660.0   6.7   1.0   1   0   0   1   1   1   1 # 36476 # 37585 # 1 # ID=35_37;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.559
+k99_1022_20          -          TIGR02818            TIGR02818   3.2e-185  614.9   5.4  3.6e-185  614.8   5.4   1.0   1   0   0   1   1   1   1 # 20131 # 21258 # -1 # ID=106_20;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.663
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR02818.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/TIGR02818.hmm.total.hmmsearch_result.txt -T 509.55 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR02818.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:28 2020
+# [ok]

@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1452_11          -          K09825               -            3.2e-34  117.7   0.5   3.6e-34  117.5   0.5   1.0   1   0   0   1   1   0   1 # 9957 # 10385 # 1 # ID=121_11;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.531
+NZ_DF967585.1_192    -          K09825               -            2.8e-32  111.4   0.5     3e-32  111.2   0.5   1.0   1   0   0   1   1   0   1 # 199751 # 200179 # -1 # ID=13_192;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.492
+NC_022357.1_908      -          K09825               -            3.2e-32  111.2   0.4   3.8e-32  110.9   0.4   1.0   1   0   0   1   1   0   1 # 924360 # 924785 # -1 # ID=1_908;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.570
+NZ_DF967533.1_168    -          K09825               -            3.7e-32  111.0   0.4   4.3e-32  110.7   0.4   1.0   1   0   0   1   1   0   1 # 170031 # 170456 # 1 # ID=65_168;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.592
+k99_2149_16          -          K09825               -            5.7e-32  110.3   0.0   6.8e-32  110.1   0.0   1.0   1   0   0   1   1   0   1 # 14841 # 15335 # -1 # ID=245_16;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.667
+NC_022357.1_2075     -          K09825               -            1.2e-31  109.3   0.4   1.3e-31  109.2   0.4   1.0   1   0   0   1   1   0   1 # 2163259 # 2163687 # -1 # ID=1_2075;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.501
+k99_685_14           -          K09825               -            3.6e-31  107.7   0.6     4e-31  107.6   0.6   1.0   1   0   0   1   1   0   1 # 13662 # 14120 # -1 # ID=72_14;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.645
+k99_192_18           -          K09825               -            1.3e-28   99.3   0.0   1.6e-28   99.1   0.0   1.0   1   0   0   1   1   0   1 # 19445 # 19933 # 1 # ID=20_18;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.714
+k99_191_14           -          K09825               -            3.4e-24   84.9   0.3   3.6e-24   84.8   0.3   1.0   1   0   0   1   1   0   1 # 15310 # 15648 # -1 # ID=12_14;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.602
+k99_530_13           -          K09825               -            5.2e-15   54.9   0.0   6.5e-15   54.6   0.0   1.0   1   0   0   1   1   0   1 # 11962 # 12411 # -1 # ID=58_13;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.718
+k99_1541_1           -          K09825               -            8.5e-13   47.7   0.0   8.6e-13   47.6   0.0   1.0   1   0   0   1   1   0   1 # 1 # 186 # -1 # ID=133_1;partial=10;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.608
+k99_1110_5           -          K09825               -              0.062   12.2   0.0     0.079   11.8   0.0   1.1   1   0   0   1   1   0   0 # 6857 # 7471 # 1 # ID=121_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.698
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K09825.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K09825.hmm.total.hmmsearch_result.txt --domT 155.73 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K09825.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:08:31 2020
+# [ok]

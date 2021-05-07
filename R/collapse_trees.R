@@ -1,6 +1,6 @@
 pacman::p_load(tidyverse, ggtree, ape, extrafont, readxl)
 
-dirs <- dir("../../data/tree/tree_iterations", recursive = F, pattern = "0.7", full.names = T)
+dirs <- dir(paste0(data_path, "tree/tree_iterations"), recursive = F, pattern = "0.7", full.names = T)
 
 for(i in 1:length(dirs)){
   files <- list.files(dirs[i], full.names = T)
@@ -81,7 +81,7 @@ for(i in 1:length(dirs)){
     theme(text=element_text(family="Arial Unicode MS"))
   
   
-  cairo_pdf(paste0("../figures/", tree_title, "_collapsed.pdf"), 
+  cairo_pdf(paste0(write_figures, tree_title, "_collapsed.pdf"), 
             family="Arial Unicode MS",
             width = 10, height = 7)
   gridExtra::grid.arrange(tree_figure)

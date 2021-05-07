@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2238_25          -          K09971               -           1.2e-162  542.9  28.7  1.3e-162  542.7  28.7   1.0   1   0   0   1   1   1   1 # 28116 # 29255 # -1 # ID=256_25;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.660
+k99_2238_26          -          K09971               -            2.1e-51  175.1  16.3   6.3e-28   97.5   8.4   2.0   1   1   1   2   2   0   2 # 29260 # 30462 # -1 # ID=256_26;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.657
+k99_295_5            -          K09971               -            2.5e-41  141.8  17.9   1.7e-40  139.0  17.9   1.9   1   1   0   1   1   0   1 # 4054 # 4962 # 1 # ID=26_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.663
+k99_1549_5           -          K09971               -            7.3e-41  140.3  15.1   8.5e-41  140.0  15.1   1.0   1   0   0   1   1   0   1 # 6033 # 6692 # 1 # ID=169_5;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.630
+k99_2232_28          -          K09971               -            1.8e-39  135.7  12.4   2.1e-39  135.4  12.4   1.0   1   0   0   1   1   0   1 # 25258 # 25923 # -1 # ID=254_28;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.638
+k99_2044_15          -          K09971               -            7.9e-38  130.2  17.3   9.8e-38  129.9  17.3   1.0   1   0   0   1   1   0   1 # 14356 # 15027 # -1 # ID=230_15;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.658
+k99_1565_11          -          K09971               -            2.9e-33  115.1   9.2   3.5e-33  114.9   9.2   1.0   1   0   0   1   1   0   1 # 8884 # 9582 # -1 # ID=171_11;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.635
+k99_2044_16          -          K09971               -            1.1e-32  113.2  20.3   1.3e-32  112.9  20.3   1.0   1   0   0   1   1   0   1 # 15032 # 15694 # -1 # ID=230_16;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.653
+k99_509_10           -          K09971               -            4.8e-32  111.1  20.2   5.7e-32  110.9  20.2   1.0   1   0   0   1   1   0   1 # 10056 # 10712 # -1 # ID=56_10;partial=00;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;gc_cont=0.610
+k99_1565_12          -          K09971               -            7.4e-31  107.2  16.1   8.9e-31  106.9  16.1   1.0   1   0   0   1   1   0   1 # 9579 # 10220 # -1 # ID=171_12;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.665
+k99_2071_1           -          K09971               -            3.7e-29  101.6  25.0   5.7e-29  100.9  25.0   1.2   1   0   0   1   1   0   1 # 38 # 1168 # 1 # ID=233_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.679
+NZ_DF967528.1_125    -          K09971               -            0.00068   18.1   2.3   0.00068   18.1   2.3   2.1   1   1   1   2   2   0   1 # 126202 # 126975 # 1 # ID=70_125;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.614
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K09971.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K09971.hmm.total.hmmsearch_result.txt --domT 272.93 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K09971.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:08:38 2020
+# [ok]

@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1926_20          -          PF02472-ExbD         PF02472.11   9.6e-31  104.7   0.0   1.1e-30  104.6   0.0   1.0   1   0   0   1   1   1   1 # 13957 # 14412 # 1 # ID=214_20;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.667
+k99_1257_27          -          PF02472-ExbD         PF02472.11   1.1e-19   69.0   0.0   1.2e-19   68.8   0.0   1.0   1   0   0   1   1   1   1 # 29484 # 29903 # 1 # ID=135_27;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.707
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF02472-ExbD.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/PF02472-ExbD.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/PF02472-ExbD.hmm.tblout -T 32 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF02472-ExbD.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:55 2020
+# [ok]

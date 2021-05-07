@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967539.1_62     -          DFE_0461             -            5.2e-30  101.6  42.6   1.1e-26   90.6  35.7   2.8   2   1   0   2   2   2   2 # 64095 # 65198 # 1 # ID=59_62;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.580
+NZ_DF967539.1_60     -          DFE_0461             -            6.1e-12   41.9  35.4   1.4e-11   40.7  35.4   1.5   1   1   0   1   1   1   1 # 61755 # 63566 # 1 # ID=59_60;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.581
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_reduction//DFE_0461.hmm
+# Target file:     ORFs//GCF_000971475.1_ASM97147v1_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/DFE_0461.hmm.txt --tblout fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/DFE_0461.hmm.tblout -T 40 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_reduction//DFE_0461.hmm ORFs//GCF_000971475.1_ASM97147v1_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:31 2020
+# [ok]

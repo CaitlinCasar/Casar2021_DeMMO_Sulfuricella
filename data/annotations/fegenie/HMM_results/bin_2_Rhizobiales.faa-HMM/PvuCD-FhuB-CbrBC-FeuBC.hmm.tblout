@@ -1,0 +1,15 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1959_3           -          PvuCD-FhuB-CbrBC-FeuBC -            1.9e-66  222.4  26.0   2.4e-66  222.1  26.0   1.0   1   0   0   1   1   1   1 # 1204 # 2322 # -1 # ID=216_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.732
+k99_1514_8           -          PvuCD-FhuB-CbrBC-FeuBC -            1.5e-65  219.5  28.8   1.7e-65  219.3  28.8   1.0   1   0   0   1   1   1   1 # 7775 # 8716 # -1 # ID=166_8;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.715
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PvuCD-FhuB-CbrBC-FeuBC.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/PvuCD-FhuB-CbrBC-FeuBC.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/PvuCD-FhuB-CbrBC-FeuBC.hmm.tblout -T 18 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PvuCD-FhuB-CbrBC-FeuBC.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:54 2020
+# [ok]

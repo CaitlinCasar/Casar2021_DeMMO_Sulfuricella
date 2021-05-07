@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2321_43          -          DFE_0463             -            6.8e-42  140.6   7.3   1.5e-18   64.0   0.3   3.5   1   1   2   3   3   3   3 # 38952 # 39992 # 1 # ID=217_43;partial=00;start_type=TTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.590
+k99_1806_11          -          DFE_0463             -            9.1e-40  133.7   0.5   1.1e-27   93.9   0.1   2.2   1   1   1   2   2   2   2 # 10361 # 11509 # -1 # ID=159_11;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.619
+k99_299_2            -          DFE_0463             -            1.9e-38  129.3   0.9     2e-30  103.0   0.1   2.1   1   1   1   2   2   2   2 # 1313 # 2401 # -1 # ID=26_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.609
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_reduction//DFE_0463.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/DFE_0463.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/DFE_0463.hmm.tblout -T 100 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_reduction//DFE_0463.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:30 2020
+# [ok]

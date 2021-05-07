@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2230_3           -          FoxY                 -           3.3e-127  422.0   1.2    4e-127  421.7   1.2   1.0   1   0   0   1   1   1   1 # 3501 # 4583 # -1 # ID=253_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.680
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_oxidation//FoxY.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/FoxY.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/FoxY.hmm.tblout -T 124 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_oxidation//FoxY.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:25 2020
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_961_21           -          TIGR04315            TIGR04315   4.1e-195  648.4  10.4  4.7e-195  648.2  10.4   1.0   1   0   0   1   1   1   1 # 19368 # 21002 # -1 # ID=99_21;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.650
+k99_696_3            -          TIGR04315            TIGR04315   1.6e-193  643.2  19.5  1.9e-193  643.0  19.5   1.0   1   0   0   1   1   1   1 # 1175 # 2851 # 1 # ID=58_3;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.580
+NZ_DF967563.1_1      -          TIGR04315            TIGR04315   6.1e-193  641.3  21.8    7e-193  641.1  21.8   1.0   1   0   0   1   1   1   1 # 3 # 1643 # -1 # ID=35_1;partial=10;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.559
+NC_022357.1_1141     -          TIGR04315            TIGR04315   4.7e-191  635.1  21.4  5.4e-191  634.9  21.4   1.0   1   0   0   1   1   1   1 # 1171198 # 1172919 # -1 # ID=1_1141;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.555
+NZ_DF967567.1_5      -          TIGR04315            TIGR04315   5.2e-189  628.3  16.2    6e-189  628.1  16.2   1.0   1   0   0   1   1   1   1 # 3490 # 5079 # 1 # ID=31_5;partial=01;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.573
+NC_022357.1_1136     -          TIGR04315            TIGR04315   1.4e-188  626.9  18.1  1.6e-188  626.7  18.1   1.0   1   0   0   1   1   1   1 # 1165724 # 1167358 # -1 # ID=1_1136;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.572
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR04315.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/TIGR04315.hmm.total.hmmsearch_result.txt -T 325.00 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR04315.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:29 2020
+# [ok]

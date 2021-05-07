@@ -1,0 +1,4 @@
+bin_1_Betaproteobacteria    2659
+bin_2_Rhizobiales    4353
+GCF_000297055    3073
+GCF_000971475    3343

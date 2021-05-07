@@ -1,0 +1,13 @@
+X,GCF_000297055.2_ASM29705v2_genomic.faa,GCF_000971475.1_ASM97147v1_genomic.faa,bin_1_Betaproteobacteria.faa,bin_2_Rhizobiales.faa
+iron_aquisition-iron_transport,0,2,6,19
+iron_aquisition-heme_transport,0,0,0,2
+iron_aquisition-heme_oxygenase,0,0,0,0
+iron_aquisition-siderophore_synthesis,0,0,0,0
+iron_aquisition-siderophore_transport_potential,28,29,14,14
+iron_gene_regulation,2,5,4,13
+iron_oxidation,2,2,0,2
+possible_iron_oxidation_and_possible_iron_reduction,0,2,0,0
+probable_iron_reduction,0,0,0,0
+iron_reduction,0,0,0,0
+iron_storage,1,2,0,3
+magnetosome_formation,0,0,0,0

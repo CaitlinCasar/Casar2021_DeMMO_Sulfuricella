@@ -1,0 +1,28 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_168_25           -          K20539               -              3e-51  173.6   0.0   3.7e-51  173.3   0.0   1.0   1   0   0   1   1   0   1 # 28254 # 29081 # 1 # ID=16_25;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.732
+k99_1768_34          -          K20539               -            4.5e-39  133.7   0.0   4.9e-39  133.6   0.0   1.0   1   0   0   1   1   0   1 # 30219 # 31019 # 1 # ID=197_34;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.690
+k99_1514_5           -          K20539               -            4.1e-33  114.2   1.8   4.6e-33  114.0   1.8   1.0   1   0   0   1   1   0   1 # 4603 # 5367 # 1 # ID=166_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.702
+k99_2044_12          -          K20539               -              2e-31  108.7   0.0   2.4e-31  108.4   0.0   1.0   1   0   0   1   1   0   1 # 12188 # 12997 # -1 # ID=230_12;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.662
+k99_1798_34          -          K20539               -              1e-29  103.0   0.3   1.3e-29  102.7   0.3   1.0   1   0   0   1   1   0   1 # 36455 # 37243 # -1 # ID=200_34;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.731
+k99_423_13           -          K20539               -              3e-24   85.2   0.0   3.6e-24   84.9   0.0   1.0   1   0   0   1   1   0   1 # 13297 # 13887 # 1 # ID=45_13;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.701
+k99_698_32           -          K20539               -            1.2e-20   73.3   0.0   1.4e-20   73.1   0.0   1.0   1   0   0   1   1   0   1 # 30056 # 30889 # 1 # ID=74_32;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.711
+k99_2044_19          -          K20539               -            2.5e-19   69.0   0.0   2.7e-19   68.9   0.0   1.0   1   0   0   1   1   0   1 # 17991 # 18794 # -1 # ID=230_19;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.693
+k99_2164_7           -          K20539               -            1.8e-18   66.2   0.0   2.2e-18   65.9   0.0   1.0   1   0   0   1   1   0   1 # 7458 # 8309 # -1 # ID=247_7;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=3-4bp;gc_cont=0.744
+k99_2005_1           -          K20539               -            4.3e-08   32.2   0.1   4.3e-08   32.2   0.1   1.0   1   0   0   1   1   0   1 # 2 # 313 # 1 # ID=224_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.721
+NC_022357.1_1183     -          K20539               -             0.0039   16.0   0.0    0.0067   15.2   0.0   1.3   1   0   0   1   1   0   1 # 1218283 # 1218819 # 1 # ID=1_1183;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.557
+NZ_DF967531.1_138    -          K20539               -               0.02   13.6   0.0     0.032   13.0   0.0   1.3   1   0   0   1   1   0   0 # 122551 # 123087 # 1 # ID=67_138;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.549
+NC_022358.1_78       -          K20539               -              0.021   13.6   0.0     0.022   13.5   0.0   1.1   1   0   0   1   1   0   0 # 68370 # 68714 # -1 # ID=2_78;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.597
+k99_1565_24          -          K20539               -              0.024   13.4   0.0      0.03   13.0   0.0   1.1   1   0   0   1   1   0   0 # 23320 # 23727 # -1 # ID=171_24;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.654
+k99_871_2            -          K20539               -               0.16   10.7   0.0      0.26   10.0   0.0   1.2   1   0   0   1   1   0   0 # 1838 # 3742 # -1 # ID=87_2;partial=00;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K20539.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K20539.hmm.total.hmmsearch_result.txt --domT 209.43 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K20539.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:12:21 2020
+# [ok]

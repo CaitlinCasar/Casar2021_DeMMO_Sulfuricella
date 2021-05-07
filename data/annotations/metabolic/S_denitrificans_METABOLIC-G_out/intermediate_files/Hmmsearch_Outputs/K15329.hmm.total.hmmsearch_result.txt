@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1585_3           -          K15329               -            6.8e-78  262.3   3.1     8e-78  262.0   3.1   1.0   1   0   0   1   1   0   1 # 2011 # 2952 # 1 # ID=173_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.708
+NZ_DF967553.1_15     -          K15329               -            4.2e-69  233.2   0.8     5e-69  232.9   0.8   1.0   1   0   0   1   1   0   1 # 10781 # 11710 # -1 # ID=45_15;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.571
+k99_2176_14          -          K15329               -            1.4e-68  231.4   1.5   1.7e-68  231.2   1.5   1.0   1   0   0   1   1   0   1 # 13649 # 14578 # 1 # ID=209_14;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.602
+NC_022357.1_1505     -          K15329               -            5.3e-61  206.4   0.4   6.7e-61  206.0   0.4   1.0   1   0   0   1   1   0   1 # 1546450 # 1547331 # -1 # ID=1_1505;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.605
+NZ_DF967522.1_52     -          K15329               -              2e-34  118.3   0.0   2.4e-34  118.1   0.0   1.0   1   0   0   1   1   0   1 # 66980 # 67909 # 1 # ID=76_52;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.633
+k99_1145_22          -          K15329               -            2.5e-34  118.0   0.0     3e-34  117.8   0.0   1.0   1   0   0   1   1   0   1 # 23493 # 24446 # 1 # ID=92_22;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.684
+k99_2011_2           -          K15329               -            1.3e-06   26.3   0.9      0.02   12.4   2.6   2.2   2   0   0   2   2   0   2 # 1506 # 2429 # 1 # ID=225_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.706
+k99_508_9            -          K15329               -            1.9e-05   22.4   0.0   0.00018   19.2   0.0   2.0   1   1   0   1   1   0   1 # 10868 # 11899 # 1 # ID=55_9;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.696
+k99_2255_5           -          K15329               -              0.013   13.0   0.1      0.15    9.5   0.0   1.9   2   0   0   2   2   0   0 # 3898 # 4794 # -1 # ID=214_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.605
+NC_022357.1_1723     -          K15329               -               0.02   12.4   0.0      0.21    9.0   0.0   1.9   2   0   0   2   2   0   0 # 1786857 # 1787744 # -1 # ID=1_1723;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.574
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K15329.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K15329.hmm.total.hmmsearch_result.txt --domT 623.43 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K15329.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:10:18 2020
+# [ok]

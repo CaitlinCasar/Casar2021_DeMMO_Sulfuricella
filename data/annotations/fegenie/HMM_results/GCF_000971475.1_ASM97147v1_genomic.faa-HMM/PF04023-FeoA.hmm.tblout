@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967529.1_63     -          FeoA                 PF04023.9    2.4e-21   73.4   0.3   2.6e-21   73.2   0.3   1.0   1   0   0   1   1   1   1 # 64733 # 64969 # -1 # ID=69_63;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.591
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF04023-FeoA.hmm
+# Target file:     ORFs//GCF_000971475.1_ASM97147v1_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF04023-FeoA.hmm.txt --tblout fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF04023-FeoA.hmm.tblout -T 21 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF04023-FeoA.hmm ORFs//GCF_000971475.1_ASM97147v1_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:40 2020
+# [ok]

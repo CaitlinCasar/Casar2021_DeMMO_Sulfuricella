@@ -1,0 +1,14 @@
+#                                                                      --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                  accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------        -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2255_13          -          FbpC-iron_uptake_ATPase-rep -           9.1e-107  353.7   0.0  1.6e-106  352.9   0.0   1.4   1   1   0   1   1   1   1 # 12467 # 13546 # 1 # ID=214_13;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.647
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//FbpC-iron_uptake_ATPase-rep.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/FbpC-iron_uptake_ATPase-rep.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/FbpC-iron_uptake_ATPase-rep.hmm.tblout -T 300 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//FbpC-iron_uptake_ATPase-rep.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:39 2020
+# [ok]

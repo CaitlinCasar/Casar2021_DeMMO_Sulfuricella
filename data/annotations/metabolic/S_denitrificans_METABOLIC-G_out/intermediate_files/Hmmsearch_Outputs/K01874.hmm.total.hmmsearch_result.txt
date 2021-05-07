@@ -1,0 +1,37 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_910_28           -          K01874               -           1.7e-207  691.4   0.0  2.2e-207  691.1   0.0   1.0   1   0   0   1   1   1   1 # 33119 # 34690 # 1 # ID=94_28;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.681
+NZ_DF967528.1_192    -          K01874               -           1.2e-198  662.1   0.0  1.3e-198  661.9   0.0   1.0   1   0   0   1   1   1   1 # 198485 # 200524 # 1 # ID=70_192;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.563
+NC_022357.1_1827     -          K01874               -           9.3e-198  659.2   0.0    1e-197  659.0   0.0   1.0   1   0   0   1   1   1   1 # 1893659 # 1895698 # 1 # ID=1_1827;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.574
+k99_514_4            -          K01874               -           1.3e-192  642.2   0.0  1.4e-192  642.0   0.0   1.0   1   0   0   1   1   1   1 # 4276 # 6450 # 1 # ID=48_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.609
+NC_022357.1_53       -          K01874               -            5.2e-48  163.3   0.0   1.7e-47  161.6   0.0   1.7   1   1   0   1   1   0   1 # 64270 # 66753 # 1 # ID=1_53;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.599
+NZ_DF967532.1_11     -          K01874               -            3.1e-47  160.7   0.0   1.1e-46  159.0   0.0   1.6   1   1   0   1   1   0   1 # 7843 # 10293 # -1 # ID=66_11;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.601
+k99_1794_1           -          K01874               -            9.2e-47  159.2   0.0   8.1e-46  156.1   0.0   2.0   1   1   0   1   1   0   1 # 1 # 2514 # 1 # ID=158_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.630
+NC_022357.1_800      -          K01874               -            1.1e-39  135.7   0.1   2.9e-29  101.2   0.1   2.1   2   0   0   2   2   0   2 # 809831 # 812566 # -1 # ID=1_800;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.598
+NZ_DF967523.1_105    -          K01874               -            7.5e-39  133.0   0.0   1.2e-28   99.2   0.1   2.1   2   0   0   2   2   0   2 # 113561 # 116296 # -1 # ID=75_105;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.606
+k99_1408_4           -          K01874               -            9.3e-37  126.1   0.1   5.8e-26   90.3   0.2   2.4   2   1   0   2   2   0   2 # 2770 # 5733 # 1 # ID=119_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.611
+NC_022357.1_2086     -          K01874               -            5.2e-30  103.7   0.0   9.7e-16   56.5   0.0   2.3   2   0   0   2   2   0   2 # 2174713 # 2177553 # -1 # ID=1_2086;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.603
+k99_1513_7           -          K01874               -            1.9e-29  101.9   0.1   2.6e-29  101.4   0.1   1.2   1   0   0   1   1   0   1 # 4445 # 6364 # -1 # ID=165_7;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.680
+k99_778_1            -          K01874               -            3.7e-28   97.6   0.0   2.4e-22   78.3   0.0   2.1   2   0   0   2   2   0   2 # 3 # 1961 # -1 # ID=78_1;partial=10;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.661
+NZ_DF967585.1_203    -          K01874               -            4.5e-28   97.3   0.0   1.5e-14   52.5   0.0   2.3   2   0   0   2   2   0   2 # 211109 # 213907 # -1 # ID=13_203;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.606
+k99_943_3            -          K01874               -            5.4e-28   97.1   0.0   2.1e-16   58.7   0.0   2.2   2   0   0   2   2   0   2 # 893 # 3910 # -1 # ID=96_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.670
+k99_1871_3           -          K01874               -            1.6e-27   95.5   0.0   2.5e-13   48.5   0.0   2.3   2   0   0   2   2   0   2 # 1228 # 4068 # -1 # ID=173_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.637
+k99_2258_9           -          K01874               -              7e-17   60.3   0.0   8.1e-17   60.0   0.0   1.0   1   0   0   1   1   0   1 # 10223 # 10978 # -1 # ID=259_9;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.704
+NZ_DF967533.1_187    -          K01874               -              2e-11   42.2   1.6   2.1e-08   32.2   0.2   2.3   2   1   0   2   2   0   2 # 190196 # 191587 # -1 # ID=65_187;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.597
+k99_2046_3           -          K01874               -            2.2e-11   42.0   0.3   2.2e-08   32.1   0.0   2.1   2   0   0   2   2   0   2 # 2230 # 3570 # 1 # ID=194_3;partial=01;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.621
+NC_022357.1_892      -          K01874               -            2.3e-11   42.0   2.5   2.5e-08   31.9   0.2   2.3   2   1   0   2   2   0   2 # 903405 # 904889 # 1 # ID=1_892;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.591
+k99_93_1             -          K01874               -            2.2e-09   35.4   0.0   2.8e-09   35.1   0.0   1.2   1   0   0   1   1   0   1 # 2 # 1027 # -1 # ID=8_1;partial=10;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.682
+k99_1022_7           -          K01874               -            3.6e-08   31.4   0.0   5.1e-08   30.9   0.0   1.1   1   0   0   1   1   0   1 # 4430 # 5824 # -1 # ID=106_7;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.687
+k99_1636_13          -          K01874               -              0.018   12.5   0.1      0.48    7.8   0.1   2.3   3   0   0   3   3   0   0 # 10871 # 12628 # 1 # ID=181_13;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.666
+k99_978_4            -          K01874               -              0.022   12.3   0.0     0.022   12.3   0.0   1.1   1   0   0   1   1   0   0 # 3328 # 3513 # 1 # ID=78_4;partial=01;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.586
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K01874.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K01874.hmm.total.hmmsearch_result.txt --domT 203.97 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K01874.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:05:12 2020
+# [ok]

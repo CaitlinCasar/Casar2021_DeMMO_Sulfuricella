@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_685_14           -          FUR                  PF01475.14   8.2e-41  136.9   0.5   9.6e-41  136.7   0.5   1.1   1   0   0   1   1   1   1 # 13662 # 14120 # -1 # ID=72_14;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.645
+k99_192_18           -          FUR                  PF01475.14   1.9e-22   77.6   0.0   2.1e-22   77.5   0.0   1.1   1   0   0   1   1   1   1 # 19445 # 19933 # 1 # ID=20_18;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.714
+k99_2149_16          -          FUR                  PF01475.14   1.8e-20   71.3   0.0   2.2e-20   71.0   0.0   1.1   1   0   0   1   1   1   1 # 14841 # 15335 # -1 # ID=245_16;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.667
+k99_530_13           -          FUR                  PF01475.14   7.7e-07   27.3   0.0     9e-07   27.1   0.0   1.1   1   0   0   1   1   1   1 # 11962 # 12411 # -1 # ID=58_13;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.718
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_gene_regulation//PF01475-Iron_dependent_repressor-fur_family.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/PF01475-Iron_dependent_repressor-fur_family.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/PF01475-Iron_dependent_repressor-fur_family.hmm.tblout -T 23 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_gene_regulation//PF01475-Iron_dependent_repressor-fur_family.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:46 2020
+# [ok]

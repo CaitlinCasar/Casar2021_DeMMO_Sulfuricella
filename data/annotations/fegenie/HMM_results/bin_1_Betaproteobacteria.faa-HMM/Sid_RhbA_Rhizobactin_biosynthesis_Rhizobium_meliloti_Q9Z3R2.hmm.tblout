@@ -1,0 +1,16 @@
+#                                                                                                      --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                  accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                        -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1688_7           -          Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2 -            1.6e-60  202.2   4.7   2.1e-43  145.8   2.7   3.0   2   1   0   2   2   2   2 # 5082 # 6245 # -1 # ID=146_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.646
+k99_314_5            -          Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2 -            8.1e-37  124.1   1.0   2.7e-35  119.1   1.0   2.1   1   1   0   1   1   1   1 # 3793 # 5073 # -1 # ID=28_5;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.645
+k99_1258_9           -          Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2 -            1.9e-28   96.5   0.0   1.3e-19   67.3   0.0   2.7   2   1   0   2   2   2   2 # 8952 # 10343 # 1 # ID=102_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.640
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2.hmm.tblout -T 35 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:16 2020
+# [ok]

@@ -1,0 +1,14 @@
+#                                                                        --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                    accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------          -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_359      -          VabC-DhbC-VibC-EntC-AmoA-PchA -            6.2e-61  204.0   0.0   1.4e-60  202.9   0.0   1.5   1   1   0   1   1   1   1 # 379555 # 380907 # 1 # ID=1_359;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.629
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//VabC-DhbC-VibC-EntC-AmoA-PchA.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/VabC-DhbC-VibC-EntC-AmoA-PchA.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/VabC-DhbC-VibC-EntC-AmoA-PchA.hmm.tblout -T 161 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//VabC-DhbC-VibC-EntC-AmoA-PchA.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:24 2020
+# [ok]

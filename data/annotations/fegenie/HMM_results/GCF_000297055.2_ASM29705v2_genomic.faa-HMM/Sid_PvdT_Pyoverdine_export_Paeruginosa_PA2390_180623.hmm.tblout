@@ -1,0 +1,20 @@
+#                                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                 -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_1656     -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            1.8e-69  232.4   0.4     2e-69  232.2   0.4   1.0   1   0   0   1   1   1   1 # 1710830 # 1711546 # 1 # ID=1_1656;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.607
+NC_022357.1_2354     -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            2.9e-69  231.7   0.0   3.4e-69  231.5   0.0   1.0   1   0   0   1   1   1   1 # 2448830 # 2449525 # -1 # ID=1_2354;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.589
+NC_022357.1_1657     -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            2.2e-68  228.8   9.0   2.6e-68  228.6   9.0   1.0   1   0   0   1   1   1   1 # 1711546 # 1712754 # 1 # ID=1_1657;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.596
+NC_022357.1_407      -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            1.5e-62  209.5   0.4   1.7e-62  209.3   0.4   1.0   1   0   0   1   1   1   1 # 429894 # 430592 # 1 # ID=1_407;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.670
+NC_022357.1_2353     -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            2.8e-57  192.1   2.9   3.6e-57  191.8   2.9   1.0   1   0   0   1   1   1   1 # 2447931 # 2448833 # -1 # ID=1_2353;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.589
+NC_022357.1_409      -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            2.1e-54  182.6   8.2   2.5e-54  182.4   8.2   1.0   1   0   0   1   1   1   1 # 431911 # 433116 # 1 # ID=1_409;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.648
+NC_022357.1_2949     -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -              2e-52  176.1   0.0   2.3e-52  175.9   0.0   1.0   1   0   0   1   1   1   1 # 3091612 # 3092595 # 1 # ID=1_2949;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.541
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623.hmm.tblout -T 175 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:04 2020
+# [ok]

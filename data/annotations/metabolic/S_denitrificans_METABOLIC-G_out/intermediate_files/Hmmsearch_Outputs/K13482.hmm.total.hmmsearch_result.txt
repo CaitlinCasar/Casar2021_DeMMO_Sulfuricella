@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_684_16           -          K13482               -                  0 1199.6   0.0         0 1199.2   0.0   1.0   1   0   0   1   1   1   1 # 17680 # 20031 # 1 # ID=71_16;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.716
+k99_979_26           -          K13482               -            4.1e-95  319.0   0.0   2.2e-78  263.7   0.0   2.0   1   1   0   2   2   0   2 # 28811 # 31573 # -1 # ID=102_26;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.667
+NC_022357.1_1008     -          K13482               -            1.3e-31  108.9   0.6   1.9e-16   58.8   0.0   4.1   2   1   2   4   4   0   4 # 1022955 # 1025150 # -1 # ID=1_1008;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.630
+NZ_DF967533.1_52     -          K13482               -            1.6e-29  102.0   0.2   1.7e-15   55.6   0.0   4.0   2   1   2   4   4   0   4 # 51296 # 53491 # 1 # ID=65_52;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.643
+k99_1775_8           -          K13482               -            2.6e-29  101.3   3.1   7.7e-15   53.4   0.1   4.0   2   1   2   4   4   0   4 # 5636 # 7828 # 1 # ID=155_8;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.661
+k99_684_15           -          K13482               -              8e-23   79.8   0.0     8e-23   79.8   0.0   1.1   1   0   0   1   1   0   1 # 16203 # 17696 # 1 # ID=71_15;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.726
+k99_1775_7           -          K13482               -            4.9e-12   44.1   0.0   5.4e-12   44.0   0.0   1.0   1   0   0   1   1   0   1 # 5174 # 5632 # 1 # ID=155_7;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.673
+NC_022357.1_1009     -          K13482               -            1.1e-10   39.7   0.0   1.2e-10   39.6   0.0   1.0   1   0   0   1   1   0   1 # 1025154 # 1025612 # -1 # ID=1_1009;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.619
+NZ_DF967533.1_51     -          K13482               -            1.7e-10   39.1   0.0   1.8e-10   38.9   0.0   1.0   1   0   0   1   1   0   1 # 50834 # 51292 # 1 # ID=65_51;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.654
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K13482.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K13482.hmm.total.hmmsearch_result.txt --domT 1034.70 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K13482.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:09:45 2020
+# [ok]

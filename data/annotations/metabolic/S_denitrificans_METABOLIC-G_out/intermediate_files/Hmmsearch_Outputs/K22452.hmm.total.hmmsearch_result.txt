@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967563.1_123    -          K22452               -           1.7e-237  790.1  22.9  2.3e-237  789.7  22.9   1.0   1   0   0   1   1   1   1 # 115085 # 117049 # -1 # ID=35_123;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.619
+NC_022357.1_1266     -          K22452               -           1.9e-236  786.7  21.4  2.3e-236  786.4  21.4   1.0   1   0   0   1   1   1   1 # 1294594 # 1296549 # -1 # ID=1_1266;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.613
+k99_216_3            -          K22452               -           2.7e-236  786.2  25.0    3e-236  786.0  25.0   1.0   1   0   0   1   1   1   1 # 1758 # 3695 # -1 # ID=15_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.662
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K22452.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K22452.hmm.total.hmmsearch_result.txt -T 103.80 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K22452.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:06 2020
+# [ok]

@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_838_9            -          K11942               -            1.1e-96  324.4   3.0   1.1e-72  245.0   0.4   3.0   2   1   1   3   3   0   3 # 8200 # 10362 # -1 # ID=84_9;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.673
+k99_460_5            -          K11942               -            5.3e-61  206.3   0.2   2.6e-34  117.9   0.0   3.0   2   1   1   3   3   0   3 # 3810 # 5789 # -1 # ID=51_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.693
+k99_838_4            -          K11942               -            4.8e-36  123.6   0.0   5.9e-36  123.3   0.0   1.0   1   0   0   1   1   0   1 # 3340 # 4434 # -1 # ID=84_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.708
+k99_382_2            -          K11942               -            1.2e-35  122.3   0.1   1.4e-35  122.1   0.1   1.0   1   0   0   1   1   0   1 # 435 # 1388 # 1 # ID=40_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.752
+NZ_DF967541.1_34     -          K11942               -            3.1e-07   28.2   0.1   4.2e-07   27.8   0.1   1.1   1   0   0   1   1   0   1 # 39726 # 40379 # 1 # ID=57_34;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.641
+k99_838_10           -          K11942               -            3.2e-07   28.2   0.0   4.3e-07   27.7   0.0   1.0   1   0   0   1   1   0   1 # 10499 # 12328 # -1 # ID=84_10;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.710
+NC_022357.1_1868     -          K11942               -            1.4e-06   26.0   0.1   1.9e-06   25.6   0.1   1.1   1   0   0   1   1   0   1 # 1940663 # 1941307 # -1 # ID=1_1868;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.648
+k99_1110_8           -          K11942               -            0.00011   19.8   0.0   0.00014   19.4   0.0   1.0   1   0   0   1   1   0   1 # 10293 # 10988 # 1 # ID=121_8;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.659
+NZ_DF967544.1_155    -          K11942               -             0.0021   15.5   0.1    0.0031   15.0   0.1   1.1   1   0   0   1   1   0   1 # 160264 # 163959 # 1 # ID=54_155;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.599
+NC_022357.1_224      -          K11942               -             0.0029   15.1   0.1    0.0043   14.5   0.1   1.1   1   0   0   1   1   0   1 # 239711 # 243406 # -1 # ID=1_224;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.591
+k99_2236_7           -          K11942               -             0.0046   14.4   0.2    0.0067   13.9   0.2   1.1   1   0   0   1   1   0   1 # 6173 # 9871 # -1 # ID=213_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.623
+k99_1877_3           -          K11942               -              0.026   11.9   0.0     0.038   11.4   0.0   1.2   1   1   0   1   1   0   0 # 1525 # 2160 # -1 # ID=209_3;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.681
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K11942.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K11942.hmm.total.hmmsearch_result.txt --domT 738.50 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K11942.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:09:16 2020
+# [ok]

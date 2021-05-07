@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_962      -          TIGR03507            TIGR03507    7.4e-29  100.2 423.7   4.5e-05   21.6  13.2  22.7   1   1  20  23  23  23  23 # 980956 # 985977 # 1 # ID=1_962;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.610
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR03507.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/TIGR03507.hmm.total.hmmsearch_result.txt -T 60.05 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR03507.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:29 2020
+# [ok]

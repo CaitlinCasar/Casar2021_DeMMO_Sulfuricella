@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_321_7            -          K05520               -            3.2e-73  246.1   0.0   3.5e-73  246.0   0.0   1.0   1   0   0   1   1   1   1 # 6222 # 6734 # 1 # ID=29_7;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.581
+NZ_DF967529.1_71     -          K05520               -            7.7e-73  244.9   0.1   8.3e-73  244.8   0.1   1.0   1   0   0   1   1   1   1 # 71573 # 72085 # -1 # ID=69_71;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.581
+k99_894_4            -          K05520               -            3.5e-71  239.5   0.5   3.8e-71  239.3   0.5   1.0   1   0   0   1   1   1   1 # 3417 # 3998 # 1 # ID=91_4;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.675
+k99_1688_2           -          K05520               -            9.8e-41  139.6   0.1   1.2e-40  139.4   0.1   1.0   1   0   0   1   1   0   1 # 1203 # 1763 # -1 # ID=146_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.663
+NZ_DF967527.1_36     -          K05520               -            2.6e-37  128.4   0.1     3e-37  128.1   0.1   1.0   1   0   0   1   1   0   1 # 31957 # 32517 # -1 # ID=71_36;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.613
+k99_1732_4           -          K05520               -            3.1e-14   52.6   2.8   3.5e-14   52.5   2.8   1.0   1   0   0   1   1   0   1 # 1860 # 2441 # -1 # ID=193_4;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.744
+k99_910_37           -          K05520               -              3e-09   36.3   0.2   3.9e-09   35.9   0.2   1.2   1   0   0   1   1   0   1 # 41018 # 42010 # 1 # ID=94_37;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.719
+NZ_DF967524.1_37     -          K05520               -            5.3e-07   29.0   0.0   5.3e-07   29.0   0.0   1.0   1   0   0   1   1   0   1 # 35740 # 35868 # -1 # ID=74_37;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.488
+NC_022357.1_2143     -          K05520               -            2.7e-05   23.3   0.0   5.5e-05   22.3   0.0   1.5   1   0   0   1   1   0   1 # 2224373 # 2225089 # -1 # ID=1_2143;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.561
+NZ_DF967527.1_34     -          K05520               -            8.1e-05   21.8   0.0   0.00017   20.7   0.0   1.5   1   0   0   1   1   0   1 # 30079 # 30795 # 1 # ID=71_34;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.569
+k99_530_8            -          K05520               -            9.6e-05   21.5   0.1   0.00016   20.8   0.1   1.3   1   0   0   1   1   0   1 # 7221 # 7910 # 1 # ID=58_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.693
+k99_1688_16          -          K05520               -             0.0004   19.5   0.0   0.00064   18.8   0.0   1.3   1   0   0   1   1   0   1 # 12259 # 12969 # -1 # ID=146_16;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.627
+k99_1541_4           -          K05520               -            0.00052   19.1   0.0   0.00086   18.4   0.0   1.3   1   0   0   1   1   0   1 # 1900 # 3108 # 1 # ID=133_4;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.622
+k99_1147_9           -          K05520               -            0.00065   18.8   0.0   0.00087   18.4   0.0   1.3   1   0   0   1   1   0   1 # 9753 # 10706 # 1 # ID=126_9;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.686
+k99_1469_19          -          K05520               -             0.0014   17.7   0.1    0.0028   16.8   0.1   1.4   1   0   0   1   1   0   1 # 18606 # 19331 # 1 # ID=162_19;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.716
+NZ_DF967522.1_208    -          K05520               -              0.036   13.1   0.1     0.065   12.3   0.1   1.4   1   0   0   1   1   0   0 # 248310 # 249746 # 1 # ID=76_208;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.600
+k99_1673_22          -          K05520               -              0.037   13.1   0.3      0.17   10.9   0.0   2.0   2   0   0   2   2   0   0 # 21406 # 22614 # -1 # ID=184_22;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.730
+k99_1145_52          -          K05520               -              0.098   11.7   0.0      0.15   11.0   0.0   1.2   1   0   0   1   1   0   0 # 49559 # 50845 # -1 # ID=92_52;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.667
+NC_022357.1_911      -          K05520               -               0.13   11.3   0.0      0.23   10.5   0.0   1.4   1   0   0   1   1   0   0 # 926347 # 927477 # 1 # ID=1_911;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.585
+k99_2238_23          -          K05520               -               0.16   11.0   0.7      0.25   10.4   0.7   1.2   1   0   0   1   1   0   0 # 26040 # 27245 # 1 # ID=256_23;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.670
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K05520.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K05520.hmm.total.hmmsearch_result.txt --domT 208.97 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K05520.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:06:49 2020
+# [ok]

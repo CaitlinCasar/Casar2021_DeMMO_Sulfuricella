@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967544.1_145    -          K09806               -            1.2e-33  116.7   4.7   1.2e-33  116.6   4.7   1.0   1   0   0   1   1   1   1 # 152145 # 152420 # 1 # ID=54_145;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.598
+k99_581_5            -          K09806               -            4.2e-33  114.8   4.1   4.8e-33  114.7   4.1   1.0   1   0   0   1   1   1   1 # 4043 # 4327 # -1 # ID=51_5;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.600
+NC_022357.1_265      -          K09806               -            5.1e-32  111.3   2.4   5.3e-32  111.2   2.4   1.0   1   0   0   1   1   1   1 # 282915 # 283166 # -1 # ID=1_265;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.560
+k99_1115_6           -          K09806               -            7.8e-28   97.6   2.5   8.4e-28   97.5   2.5   1.0   1   0   0   1   1   1   1 # 4759 # 5079 # 1 # ID=122_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.707
+k99_695_15           -          K09806               -              0.003   17.3   1.8    0.0043   16.8   1.8   1.2   1   0   0   1   1   0   1 # 16328 # 17716 # -1 # ID=73_15;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.717
+NC_022357.1_1194     -          K09806               -              0.005   16.6   0.1    0.0067   16.1   0.1   1.2   1   0   0   1   1   0   1 # 1234359 # 1234829 # -1 # ID=1_1194;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.516
+NZ_DF967563.1_50     -          K09806               -              0.022   14.5   0.1     0.034   13.8   0.0   1.3   1   1   0   1   1   0   0 # 52375 # 52845 # -1 # ID=35_50;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.505
+k99_79_7             -          K09806               -              0.053   13.2   0.8     0.053   13.2   0.8   1.1   1   0   0   1   1   0   0 # 4495 # 4674 # 1 # ID=5_7;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.611
+k99_1837_8           -          K09806               -              0.072   12.7   3.7      0.11   12.1   3.7   1.2   1   0   0   1   1   0   0 # 6836 # 8233 # -1 # ID=168_8;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.652
+k99_1722_13          -          K09806               -               0.14   11.8   5.5       1.8    8.2   1.9   3.1   3   1   0   3   3   0   0 # 12421 # 14292 # 1 # ID=148_13;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.537
+k99_121_5            -          K09806               -               0.99    9.0   5.6       5.5    6.6   0.6   2.3   2   0   0   2   2   0   0 # 3609 # 5492 # -1 # ID=8_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.621
+k99_1834_5           -          K09806               -                2.5    7.7   7.9      0.35   10.5   0.1   2.2   2   0   0   2   2   0   0 # 7384 # 8607 # 1 # ID=205_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.701
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K09806.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K09806.hmm.total.hmmsearch_result.txt --domT 29.07 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K09806.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:08:30 2020
+# [ok]

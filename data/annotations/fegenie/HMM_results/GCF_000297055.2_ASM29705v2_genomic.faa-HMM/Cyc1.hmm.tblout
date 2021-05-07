@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_332      -          Cyc1                 -            5.7e-57  189.8   0.2   6.8e-57  189.5   0.2   1.0   1   0   0   1   1   1   1 # 349228 # 349869 # -1 # ID=1_332;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.565
+NC_022357.1_2882     -          Cyc1                 -            1.7e-55  185.0   1.2     2e-55  184.7   1.2   1.1   1   0   0   1   1   1   1 # 3004171 # 3004791 # -1 # ID=1_2882;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.570
+NC_022357.1_2881     -          Cyc1                 -              2e-50  168.5   0.2   2.5e-50  168.2   0.2   1.1   1   0   0   1   1   1   1 # 3003337 # 3003966 # -1 # ID=1_2881;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.556
+NC_022357.1_2880     -          Cyc1                 -            6.4e-33  111.5   0.8   1.2e-32  110.6   0.8   1.4   1   1   0   1   1   1   1 # 3002527 # 3003240 # -1 # ID=1_2880;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.553
+NC_022357.1_349      -          Cyc1                 -              1e-29  101.1   0.1   3.4e-29   99.4   0.1   1.7   1   1   0   1   1   1   1 # 370020 # 370757 # 1 # ID=1_349;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.538
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_oxidation//Cyc1.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Cyc1.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Cyc1.hmm.tblout -T 98 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_oxidation//Cyc1.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:27 2020
+# [ok]

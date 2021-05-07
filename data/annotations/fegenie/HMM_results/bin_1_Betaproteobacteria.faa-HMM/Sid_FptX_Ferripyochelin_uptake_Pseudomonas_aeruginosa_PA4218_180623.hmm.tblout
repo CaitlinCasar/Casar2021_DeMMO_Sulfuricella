@@ -1,0 +1,14 @@
+#                                                                                                              --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                          accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1522_3           -          Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623 -            1.8e-18   64.2  25.0   6.7e-18   62.2  25.0   1.8   1   1   0   1   1   1   1 # 2208 # 3458 # -1 # ID=129_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.627
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623.hmm.tblout -T 18 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:59 2020
+# [ok]

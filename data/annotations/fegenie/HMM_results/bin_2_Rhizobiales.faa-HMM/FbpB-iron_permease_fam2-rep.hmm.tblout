@@ -1,0 +1,14 @@
+#                                                                      --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                  accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------        -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_436_14           -          FbpB-iron_permease_fam2-rep -            2.5e-66  222.7  21.7   2.5e-66  222.7  21.7   1.4   2   0   0   2   2   2   1 # 14894 # 17020 # -1 # ID=47_14;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.711
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//FbpB-iron_permease_fam2-rep.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/FbpB-iron_permease_fam2-rep.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/FbpB-iron_permease_fam2-rep.hmm.tblout -T 88 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//FbpB-iron_permease_fam2-rep.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:38 2020
+# [ok]

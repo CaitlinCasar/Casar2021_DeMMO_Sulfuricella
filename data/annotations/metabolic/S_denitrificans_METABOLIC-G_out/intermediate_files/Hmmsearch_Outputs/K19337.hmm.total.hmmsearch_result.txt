@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1257_13          -          K19337               -            6.2e-32  110.5   0.6   1.2e-31  109.5   0.6   1.4   1   1   0   1   1   0   1 # 12307 # 13242 # 1 # ID=135_13;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.672
+k99_2005_13          -          K19337               -            1.4e-26   92.9   0.2   1.8e-26   92.6   0.2   1.1   1   0   0   1   1   0   1 # 12403 # 13257 # -1 # ID=224_13;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=3-4bp;gc_cont=0.705
+k99_938_11           -          K19337               -            2.6e-21   75.6   0.3   3.9e-21   75.1   0.3   1.2   1   0   0   1   1   0   1 # 7308 # 8297 # -1 # ID=73_11;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.655
+NZ_DF967531.1_52     -          K19337               -            2.8e-20   72.3   0.3   5.2e-20   71.4   0.3   1.3   1   0   0   1   1   0   1 # 44309 # 45298 # 1 # ID=67_52;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.641
+k99_784_17           -          K19337               -              5e-19   68.1   0.1   7.3e-19   67.6   0.1   1.2   1   0   0   1   1   0   1 # 15577 # 16641 # -1 # ID=79_17;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.699
+NC_022357.1_559      -          K19337               -            6.6e-17   61.2   0.6   9.4e-17   60.7   0.3   1.4   2   0   0   2   2   0   1 # 579422 # 580255 # -1 # ID=1_559;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.656
+k99_414_7            -          K19337               -            3.1e-10   39.3   1.3   4.9e-09   35.3   1.3   2.0   1   1   0   1   1   0   1 # 5462 # 6052 # 1 # ID=40_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.609
+NC_022357.1_2451     -          K19337               -              5e-09   35.3   1.3   1.7e-07   30.3   1.1   2.1   1   1   0   1   1   0   1 # 2560526 # 2561116 # 1 # ID=1_2451;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.575
+NZ_DF967548.1_141    -          K19337               -            8.7e-09   34.5   2.4   3.3e-07   29.3   2.4   2.3   1   1   0   1   1   0   1 # 145753 # 146343 # 1 # ID=50_141;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.602
+k99_482_1            -          K19337               -            6.5e-07   28.4   0.2    0.0011   17.8   0.1   2.3   1   1   1   2   2   0   2 # 35 # 1864 # -1 # ID=53_1;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.696
+NC_022357.1_2964     -          K19337               -              0.001   17.9   0.1      0.09   11.5   0.1   2.2   2   0   0   2   2   0   1 # 3112132 # 3113964 # -1 # ID=1_2964;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.564
+k99_2321_16          -          K19337               -             0.0011   17.8   0.0    0.0023   16.7   0.0   1.5   1   1   0   1   1   0   1 # 14960 # 15535 # 1 # ID=217_16;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.585
+NZ_DF967522.1_217    -          K19337               -              0.011   14.4   0.1      0.18   10.5   0.1   2.1   2   0   0   2   2   0   0 # 258472 # 260304 # -1 # ID=76_217;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.567
+k99_1497_31          -          K19337               -              0.035   12.8   0.1       0.2   10.4   0.1   2.0   2   0   0   2   2   0   0 # 34909 # 36741 # -1 # ID=124_31;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.584
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K19337.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K19337.hmm.total.hmmsearch_result.txt --domT 332.47 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K19337.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:11:56 2020
+# [ok]

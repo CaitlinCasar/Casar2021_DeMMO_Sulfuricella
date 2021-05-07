@@ -1,0 +1,14 @@
+#                                                                        --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                    accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------          -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1959_5           -          LbtU-LvtA-PiuA-PirA-RhtA-ViuA -            1.6e-16   57.6   0.1   3.9e-09   33.2   0.0   3.0   2   1   0   2   2   2   2 # 2747 # 4927 # 1 # ID=216_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.681
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//LbtU-LvtA-PiuA-PirA-RhtA-ViuA.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/LbtU-LvtA-PiuA-PirA-RhtA-ViuA.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/LbtU-LvtA-PiuA-PirA-RhtA-ViuA.hmm.tblout -T 25 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//LbtU-LvtA-PiuA-PirA-RhtA-ViuA.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:52 2020
+# [ok]

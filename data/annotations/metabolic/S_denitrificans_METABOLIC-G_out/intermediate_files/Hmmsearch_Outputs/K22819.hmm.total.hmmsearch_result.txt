@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2114_8           -          K22819               -            3.2e-55  187.4   0.2   3.5e-55  187.3   0.2   1.0   1   0   0   1   1   0   1 # 8156 # 9328 # 1 # ID=237_8;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.674
+k99_839_8            -          K22819               -            7.9e-54  182.9   6.2     1e-53  182.5   6.2   1.0   1   0   0   1   1   0   1 # 7897 # 9039 # -1 # ID=85_8;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.687
+k99_510_5            -          K22819               -              2e-52  178.2   5.1   2.5e-52  177.9   5.1   1.0   1   0   0   1   1   0   1 # 3370 # 4524 # -1 # ID=57_5;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.688
+k99_2271_26          -          K22819               -            1.3e-51  175.5   0.1   1.7e-51  175.2   0.1   1.0   1   0   0   1   1   0   1 # 23188 # 24306 # 1 # ID=262_26;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.666
+k99_1565_20          -          K22819               -            2.3e-44  151.7  14.4   2.9e-44  151.3  14.4   1.0   1   0   0   1   1   0   1 # 19613 # 20740 # 1 # ID=171_20;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.723
+k99_839_9            -          K22819               -            1.1e-41  142.9   0.0   1.2e-41  142.7   0.0   1.0   1   0   0   1   1   0   1 # 9067 # 10206 # -1 # ID=85_9;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.659
+k99_1469_52          -          K22819               -            7.3e-41  140.2   0.1   7.3e-41  140.2   0.1   2.0   2   0   0   2   2   0   1 # 51482 # 53155 # 1 # ID=162_52;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.682
+k99_1053_11          -          K22819               -            9.5e-38  129.9   0.0   1.3e-37  129.5   0.0   1.0   1   0   0   1   1   0   1 # 11045 # 12238 # -1 # ID=111_11;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.674
+k99_2146_37          -          K22819               -            2.2e-36  125.5  16.0   2.7e-36  125.1  16.0   1.0   1   0   0   1   1   0   1 # 43710 # 44912 # 1 # ID=244_37;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.736
+k99_2238_6           -          K22819               -            1.6e-14   53.5   7.8     2e-14   53.2   3.0   2.7   1   1   0   1   1   0   1 # 6003 # 7781 # 1 # ID=256_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.723
+k99_117_6            -          K22819               -            4.7e-11   42.1  14.5   4.7e-11   42.1  14.5   2.0   1   1   1   2   2   0   1 # 3997 # 5640 # 1 # ID=10_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.736
+k99_178_4            -          K22819               -            4.4e-09   35.6   0.9   9.2e-09   34.5   0.9   1.5   1   1   0   1   1   0   1 # 4816 # 6009 # -1 # ID=18_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.655
+k99_2256_1           -          K22819               -              3e-08   32.9   0.7   2.1e-05   23.5   0.0   2.7   2   1   0   2   2   0   2 # 51 # 1838 # -1 # ID=258_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.685
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K22819.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K22819.hmm.total.hmmsearch_result.txt --domT 329.30 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K22819.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:11 2020
+# [ok]

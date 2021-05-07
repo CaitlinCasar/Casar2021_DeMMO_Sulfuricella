@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2235_21          -          FeoE                 -            1.1e-36  124.6   5.7   1.5e-36  124.3   5.7   1.0   1   0   0   1   1   1   1 # 24225 # 25112 # 1 # ID=255_21;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.650
+k99_492_4            -          FeoE                 -            1.2e-36  124.6  17.0   2.8e-28   97.1   5.6   3.0   2   1   1   3   3   3   3 # 2659 # 4089 # 1 # ID=54_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.701
+k99_555_15           -          FeoE                 -            8.4e-05   20.0   7.9   8.4e-05   20.0   7.9   1.9   1   1   1   2   2   2   1 # 12055 # 13038 # -1 # ID=60_15;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.702
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//FeoE.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/FeoE.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/FeoE.hmm.tblout -T 20 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//FeoE.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:38 2020
+# [ok]

@@ -1,0 +1,14 @@
+#                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                              accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                    -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2124_8           -          PvsE-AcsE_vibrioferrin_biosynthesis-rep -            1.1e-49  166.7   0.0   1.5e-49  166.3   0.0   1.0   1   0   0   1   1   1   1 # 9142 # 10386 # -1 # ID=201_8;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.611
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//PvsE-AcsE_vibrioferrin_biosynthesis-rep.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PvsE-AcsE_vibrioferrin_biosynthesis-rep.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PvsE-AcsE_vibrioferrin_biosynthesis-rep.hmm.tblout -T 85 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//PvsE-AcsE_vibrioferrin_biosynthesis-rep.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:17 2020
+# [ok]

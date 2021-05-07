@@ -1,0 +1,15 @@
+#                                                                              --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                          accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_979_8            -          FbpA-iron_binding_and_transport-rep -            6.2e-46  154.8   0.0   7.3e-46  154.6   0.0   1.1   1   0   0   1   1   1   1 # 8949 # 9956 # 1 # ID=102_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.670
+k99_1257_8           -          FbpA-iron_binding_and_transport-rep -            7.1e-20   69.1   0.0   1.2e-19   68.4   0.0   1.3   1   1   0   1   1   1   1 # 7388 # 8377 # -1 # ID=135_8;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.675
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//FbpA-iron_binding_and_transport-rep.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/FbpA-iron_binding_and_transport-rep.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/FbpA-iron_binding_and_transport-rep.hmm.tblout -T 62 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//FbpA-iron_binding_and_transport-rep.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:38 2020
+# [ok]

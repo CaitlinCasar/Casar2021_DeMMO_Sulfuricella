@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2140_30          -          K01046               -            4.2e-20   72.2   0.1   4.3e-20   72.1   0.1   1.1   1   0   0   1   1   1   1 # 31058 # 32002 # 1 # ID=243_30;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_cont=0.717
+NZ_DF967545.1_4      -          K01046               -            1.1e-12   47.7   0.0   1.4e-12   47.4   0.0   1.1   1   0   0   1   1   0   1 # 6739 # 8346 # 1 # ID=53_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.530
+k99_1469_44          -          K01046               -            1.7e-12   47.1   0.1   1.7e-12   47.1   0.1   1.2   1   0   0   1   1   0   1 # 42765 # 43538 # 1 # ID=162_44;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.725
+k99_1145_10          -          K01046               -            1.7e-05   24.1   0.1   1.8e-05   24.0   0.1   1.1   1   0   0   1   1   0   1 # 11987 # 12709 # -1 # ID=92_10;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.622
+NC_022357.1_2610     -          K01046               -            7.6e-05   21.9   0.0   0.00012   21.3   0.0   1.3   1   1   0   1   1   0   1 # 2710314 # 2711087 # -1 # ID=1_2610;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.579
+NC_022357.1_399      -          K01046               -            0.00013   21.1   0.1   0.00014   21.1   0.1   1.1   1   0   0   1   1   0   1 # 423876 # 424745 # -1 # ID=1_399;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.566
+NZ_DF967538.1_47     -          K01046               -            0.00015   20.9   0.0   0.00015   20.9   0.0   1.1   1   0   0   1   1   0   1 # 47365 # 48084 # -1 # ID=60_47;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.500
+k99_1768_33          -          K01046               -            0.00023   20.4   0.1   0.00028   20.1   0.1   1.2   1   0   0   1   1   0   1 # 29398 # 30222 # 1 # ID=197_33;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.742
+k99_419_1            -          K01046               -            0.00035   19.8   0.1   0.00054   19.1   0.1   1.2   1   0   0   1   1   0   1 # 144 # 1046 # 1 # ID=41_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.640
+k99_2321_38          -          K01046               -            0.00096   18.3   0.0   0.00096   18.3   0.0   1.1   1   0   0   1   1   0   1 # 35208 # 35972 # 1 # ID=217_38;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.634
+NZ_DF967539.1_125    -          K01046               -             0.0012   18.0   0.0    0.0012   17.9   0.0   1.1   1   0   0   1   1   0   1 # 125336 # 126109 # 1 # ID=59_125;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.594
+NC_022357.1_2291     -          K01046               -             0.0015   17.7   0.0      0.24   10.4   0.1   2.0   1   1   1   2   2   0   2 # 2387236 # 2387904 # 1 # ID=1_2291;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.632
+NZ_DF967548.1_8      -          K01046               -              0.012   14.7   0.0      0.46    9.5   0.0   2.0   1   1   1   2   2   0   0 # 6438 # 7340 # 1 # ID=50_8;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.645
+NZ_DF967528.1_14     -          K01046               -              0.013   14.6   0.0     0.019   14.0   0.0   1.2   1   0   0   1   1   0   0 # 14603 # 15481 # 1 # ID=70_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.620
+k99_2232_7           -          K01046               -               0.02   13.9   0.0     0.022   13.9   0.0   1.2   1   0   0   1   1   0   0 # 5021 # 5842 # 1 # ID=254_7;partial=00;start_type=TTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.747
+k99_256_8            -          K01046               -              0.021   13.9   0.2     0.031   13.3   0.2   1.3   1   0   0   1   1   0   0 # 9746 # 10714 # 1 # ID=23_8;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.740
+NC_022357.1_216      -          K01046               -              0.086   11.9   0.0      0.12   11.4   0.0   1.2   1   0   0   1   1   0   0 # 225044 # 225604 # -1 # ID=1_216;partial=00;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.556
+k99_1801_3           -          K01046               -               0.12   11.5   0.1      0.15   11.1   0.1   1.2   1   0   0   1   1   0   0 # 2265 # 2852 # -1 # ID=201_3;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.757
+NZ_DF967524.1_61     -          K01046               -               0.13   11.3   0.2      0.19   10.7   0.2   1.5   1   1   0   1   1   0   0 # 60731 # 61588 # 1 # ID=74_61;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.592
+k99_2271_12          -          K01046               -               0.17   10.9   0.0      0.18   10.8   0.0   1.1   1   0   0   1   1   0   0 # 8048 # 8773 # 1 # ID=262_12;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.729
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K01046.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K01046.hmm.total.hmmsearch_result.txt --domT 58.23 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K01046.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:04:41 2020
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2255_3           -          K07100               -              3e-81  273.2   3.8   3.3e-81  273.0   3.8   1.0   1   0   0   1   1   1   1 # 2633 # 3280 # -1 # ID=214_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.633
+NC_022357.1_1721     -          K07100               -            1.8e-79  267.3   2.3     2e-79  267.1   2.3   1.0   1   0   0   1   1   1   1 # 1785639 # 1786271 # -1 # ID=1_1721;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.592
+NZ_DF967528.1_42     -          K07100               -            4.6e-79  266.0   3.2     5e-79  265.8   3.2   1.0   1   0   0   1   1   1   1 # 41507 # 42154 # -1 # ID=70_42;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=3-4bp;gc_cont=0.590
+NZ_DF967528.1_39     -          K07100               -            2.8e-71  240.3   0.2   3.1e-71  240.1   0.2   1.0   1   0   0   1   1   1   1 # 38344 # 39000 # 1 # ID=70_39;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.629
+NC_022357.1_1720     -          K07100               -            7.4e-69  232.3   0.5   8.4e-69  232.1   0.5   1.0   1   0   0   1   1   1   1 # 1785005 # 1785670 # 1 # ID=1_1720;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.617
+k99_2134_30          -          K07100               -            1.7e-52  178.2   0.4   1.9e-52  178.1   0.4   1.0   1   0   0   1   1   1   1 # 24418 # 25044 # 1 # ID=205_30;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.619
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K07100.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K07100.hmm.total.hmmsearch_result.txt -T 75.17 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K07100.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:07:32 2020
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2031     -          dsrA                 -             2e-190  632.2   0.1  2.4e-190  631.9   0.1   1.0   1   0   0   1   1   1   1 # 2112094 # 2113392 # 1 # ID=1_2031;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.590
+k99_514_12           -          dsrA                 -           6.4e-189  627.2   0.0  7.4e-189  627.0   0.0   1.0   1   0   0   1   1   1   1 # 12339 # 13604 # 1 # ID=48_12;partial=01;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.602
+k99_2146_67          -          dsrA                 -           6.4e-189  627.2   0.0  8.4e-189  626.8   0.0   1.0   1   0   0   1   1   1   1 # 74724 # 76001 # -1 # ID=244_67;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.642
+NC_022357.1_2664     -          dsrA                 -           8.3e-189  626.8   0.1    1e-188  626.5   0.1   1.0   1   0   0   1   1   1   1 # 2761732 # 2763030 # -1 # ID=1_2664;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.587
+k99_2321_1           -          dsrA                 -           1.4e-188  626.1   0.0  1.7e-188  625.8   0.0   1.0   1   0   0   1   1   1   1 # 257 # 1555 # 1 # ID=217_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.566
+NZ_DF967585.1_140    -          dsrA                 -            1.5e-96  323.1   0.2   1.8e-96  322.8   0.2   1.0   1   0   0   1   1   1   1 # 145649 # 146383 # 1 # ID=13_140;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.590
+NZ_DF967539.1_87     -          dsrA                 -            6.3e-95  317.7   0.1   7.7e-95  317.4   0.1   1.0   1   0   0   1   1   1   1 # 90908 # 91642 # 1 # ID=59_87;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.592
+NZ_DF967539.1_86     -          dsrA                 -            5.6e-60  202.6   0.0   6.6e-60  202.3   0.0   1.0   1   0   0   1   1   1   1 # 90283 # 90918 # 1 # ID=59_86;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.693
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/dsrA.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/dsrA.hmm.total.hmmsearch_result.txt -T 200.00 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/dsrA.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:30 2020
+# [ok]

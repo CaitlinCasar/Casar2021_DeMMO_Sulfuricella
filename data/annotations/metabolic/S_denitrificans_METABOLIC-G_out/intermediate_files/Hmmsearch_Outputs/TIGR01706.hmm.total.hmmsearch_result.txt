@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1832_6           -          TIGR01706            TIGR01706          0 1578.8   0.2         0 1578.6   0.2   1.0   1   0   0   1   1   1   1 # 3109 # 5634 # 1 # ID=165_6;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.597
+NZ_DF967552.1_2      -          TIGR01706            TIGR01706          0 1577.1   0.2         0 1576.9   0.2   1.0   1   0   0   1   1   1   1 # 868 # 3390 # -1 # ID=46_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.570
+NC_022357.1_376      -          TIGR01706            TIGR01706          0 1572.3   0.2         0 1572.2   0.2   1.0   1   0   0   1   1   1   1 # 397581 # 400106 # 1 # ID=1_376;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.565
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR01706.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/TIGR01706.hmm.total.hmmsearch_result.txt -T 472.50 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR01706.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:27 2020
+# [ok]

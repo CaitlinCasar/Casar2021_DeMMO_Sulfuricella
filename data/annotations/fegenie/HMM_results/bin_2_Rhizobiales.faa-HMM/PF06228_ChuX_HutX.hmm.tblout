@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1959_8           -          PF06228_ChuX_HutX    PF06228.13   4.5e-28   95.7   0.0   5.3e-28   95.5   0.0   1.1   1   0   0   1   1   1   1 # 6558 # 7097 # 1 # ID=216_8;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.670
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-heme_oxygenase//PF06228_ChuX_HutX.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/PF06228_ChuX_HutX.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/PF06228_ChuX_HutX.hmm.tblout -T 25 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-heme_oxygenase//PF06228_ChuX_HutX.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:47 2020
+# [ok]

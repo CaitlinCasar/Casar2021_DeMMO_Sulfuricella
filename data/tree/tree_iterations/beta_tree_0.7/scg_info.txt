@@ -1,0 +1,204 @@
+type	gene	abbr	position	description
+AA	5-formyltetrahydrofolate cyclo-ligase	5-FTHF_cyc-lig	1-153	"5-formyltetrahydrofolate cyclo-ligase or methenyl-THF synthetase EC:6.3.3.2 catalyses the interchange of 5-formyltetrahydrofolate (5-FTHF) to 5-10-methenyltetrahydrofolate, this requires ATP and Mg2+ [1]. 5-FTHF is used in chemotherapy where it is clinically known as Leucovorin [2]."
+AA	Adenylate kinase	ADK	159-374	"Adenylate kinase (EC 2.7.4.3) (also known as ADK or myokinase) is a phosphotransferase enzyme that catalyzes the interconversion of adenine nucleotides (ATP, ADP, and AMP). By constantly monitoring phosphate nucleotide levels inside the cell, ADK plays an important role in cellular energy homeostasis."
+AA	AICARFT/IMPCHase bienzyme	AICARFT_IMPCHas	380-896	"This is a family of bifunctional enzymes catalysing the last two steps in de novo purine biosynthesis. The bifunctional enzyme is found in both prokaryotes and eukaryotes. The second last step is catalysed by 5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase EC:2.1.2.3 (AICARFT), this enzyme catalyses the formylation of AICAR with 10-formyl-tetrahydrofolate to yield FAICAR and tetrahydrofolate [1]. This is catalysed by a pair of C-terminal deaminase fold domains in the protein [3] where the active site is formed by the dimeric interface of two monomeric units [3]. The last step is catalysed by the N-terminal IMP (Inosine monophosphate) cyclohydrolase domain EC:3.5.4.10 (IMPCHase), cyclizing FAICAR (5-formylaminoimidazole-4-carboxamide ribonucleotide) to IMP [1]."
+AA	AIR carboxylase	AIRC	902-1075	Members of this family catalyse the decarboxylation of 1-(5-phosphoribosyl)-5-amino-4-imidazole-carboxylate (AIR). This family catalyse the sixth step of de novo purine biosynthesis. Some members of this family contain two copies of this domain.
+AA	Delta-aminolevulinic acid dehydratase	ALAD	1081-1409	"Porphobilinogen synthase (or ALA dehydratase, or aminolevulinate dehydratase) synthesizes porphobilinogen through the asymmetric condensation of two molecules of aminolevulinic acid. All natural tetrapyrroles, including hemes, chlorophylls and vitamin B12, share porphobilinogen as a common precursor. The porphobilinogen synthase catalyzed reaction is the first common step in the biosynthesis of all biological tetrapyrroles."
+AA	Anhydro-N-acetylmuramic acid kinase	AnmK	1415-1708	"Anhydro-N-acetylmuramic acid kinase catalyses the specific phosphorylation of 1,6-anhydro-N-acetylmuramic acid (anhMurNAc) with the simultaneous cleavage of the 1,6-anhydro ring, generating MurNAc-6-P. It is also required for the utilization of anhMurNAc, either imported from the medium, or derived from its own cell wall murein, and in so doing plays a role in cell wall recycling [1,2]."
+AA	ArgJ protein family	ArgJ	1714-2121	"In molecular biology, members of the ArgJ protein family are bifunctional protein that catalyses the first (EC 2.3.1.35) and fifth steps (EC 2.3.1.1) in arginine biosynthesis.[1] The structure has been determined for glutamate N-acetyltransferase 2 (ornithine acetyltransferase), an ArgJ-like protein from Streptomyces clavuligerus.[2]"
+AA		ATP_bind_2	2127-2375	
+AA		Bax1-I	2381-2573	
+AA		BMFP	2579-2643	
+AA		Chorismate_synt	2649-3009	
+AA		CinA	3015-3153	
+AA		CoaE	3159-3322	
+AA		Colicin_V	3328-3471	
+AA		CRCB	3477-3585	
+AA		Cu-oxidase_4	3591-3784	
+AA		Cytochrom_C1	3790-3995	
+AA		DAGK_prokar	4001-4110	
+AA		DapB_C	4116-4377	
+AA		DAP_epimerase	4383-4652	
+AA		DciA	4658-4761	
+AA		DHFR_1	4767-4905	
+AA		DHQ_synthase	4911-5268	
+AA		DivIC	5274-5350	
+AA		DMRL_synthase	5356-5496	
+AA		DNA_pol3_chi	5502-5596	
+AA		DNA_pol3_delta	5602-5899	
+AA		DUF179	5905-6066	unknown
+AA		DUF1841	6072-6191	unknown
+AA		DUF2069	6197-6291	unknown
+AA		DUF2818	6297-6383	unknown
+AA		DUF3460	6389-6437	unknown
+AA		DUF4390	6443-6582	unknown
+AA		DUF455	6588-6802	unknown
+AA		DUF493	6808-6874	unknown
+AA		DUF498	6880-6969	unknown
+AA		DUF615	6975-7123	unknown
+AA		EarP	7129-7465	
+AA		EF_TS	7471-7758	
+AA		Enolase_C	7764-8190	
+AA		EutA	8196-8605	
+AA		Exonuc_VII_L	8611-8969	
+AA		Exonuc_VII_S	8975-9030	
+AA		FA_synthesis	9036-9372	
+AA		F_bP_aldolase	9378-9731	
+AA		FBPase	9737-10070	
+AA		Ferrochelatase	10076-10371	
+AA		Frataxin_Cyay	10377-10463	
+AA		FtsL	10469-10533	
+AA		G3P_acyltransf	10539-10694	
+AA		GatB_N	10700-11172	
+AA		GcpE	11178-11586	
+AA		GidB	11592-11759	
+AA		Glu-tRNAGln	11765-11863	
+AA		GrpE	11869-12022	
+AA		H2O2_YaaD	12028-12283	
+AA		Ham1p_like	12289-12480	
+AA		HEM4	12486-12663	
+AA		HemX	12669-12954	
+AA		HisG	12960-13170	
+AA		Histidinol_dh	13176-13604	
+AA		HPPK	13610-13748	
+AA		Hpr_kinase_C	13754-14028	
+AA		HSP33	14034-14266	
+AA		IGPD	14272-14466	
+AA		IGPS	14472-14732	
+AA		IPPT	14738-14977	
+AA		IPT	14983-15221	
+AA		Iron_traffic	15227-15316	
+AA		IspA	15322-15481	
+AA		Kinase-PPPase	15487-15703	
+AA		LapA_dom	15709-15787	
+AA		LolB	15793-15891	
+AA		LptE	15897-16019	
+AA		LpxB	16025-16330	
+AA		LpxK	16336-16581	
+AA		Methyltransf_28	16587-16886	
+AA		Methyltransf_5	16892-17197	
+AA		Methyltrans_RNA	17203-17393	
+AA		MinE	17399-17484	
+AA		MltA	17490-17813	
+AA		MnmE_helical	17819-18262	
+AA		MraZ	18268-18375	
+AA		MTHFR	18381-18656	
+AA		NDK	18662-18801	
+AA		NIF3	18807-19009	
+AA		NusG	19015-19189	
+AA		OMPdecase	19195-19447	
+AA		OmpH	19453-19591	
+AA		Oxidored_q3	19597-19759	
+AA		Oxidored_q4	19765-19882	
+AA		Pan_kinase	19888-20048	
+AA		Pantoate_ligase	20054-20326	
+AA		Pantoate_transf	20332-20591	
+AA		PDH	20597-20836	
+AA		PdxJ	20842-21082	
+AA		PEPcase	21088-21881	
+AA		Peptidase_A8	21887-22013	
+AA		Peptidase_M17	22019-22405	
+AA		Pept_tRNA_hydro	22411-22574	
+AA		PGK	22580-22969	
+AA		PgpA	22975-23108	
+AA		Porphobil_deam	23114-23414	
+AA		Ppx-GppA	23420-23826	
+AA		PRAI	23832-24005	
+AA		Prenyltransf	24011-24259	
+AA		PseudoU_synth_1	24265-24502	
+AA		Pyrophosphatase	24508-24681	
+AA		Queuosine_synth	24687-25044	
+AA		RBFA	25050-25144	
+AA		RecO_C	25150-25343	
+AA		RecX	25349-25467	
+AA		ResB	25473-26013	
+AA		Rib_5-P_isom_A	26019-26247	
+AA		Ribonuclease_P	26253-26337	
+AA		Ribonuc_red_sm	26343-26683	
+AA		Ribosomal_L13	26689-26832	ribosomal
+AA		Ribosomal_L14	26838-26959	ribosomal
+AA		Ribosomal_L16	26965-27101	ribosomal
+AA		Ribosomal_L17	27107-27234	ribosomal
+AA		Ribosomal_L18p	27240-27355	ribosomal
+AA		Ribosomal_L19	27361-27486	ribosomal
+AA		Ribosomal_L1	27492-27721	ribosomal
+AA		Ribosomal_L20	27727-27844	ribosomal
+AA		Ribosomal_L21p	27850-27951	ribosomal
+AA		Ribosomal_L22	27957-28070	ribosomal
+AA		Ribosomal_L23	28076-28173	ribosomal
+AA		ribosomal_L24	28179-28282	ribosomal
+AA		Ribosomal_L27A	28288-28443	ribosomal
+AA		Ribosomal_L27	28449-28533	ribosomal
+AA		Ribosomal_L28	28539-28615	ribosomal
+AA		Ribosomal_L29	28621-28683	ribosomal
+AA		Ribosomal_L32p	28689-28747	ribosomal
+AA		Ribosomal_L33	28753-28807	ribosomal
+AA		Ribosomal_L34	28813-28857	ribosomal
+AA		Ribosomal_L35p	28863-28926	ribosomal
+AA		Ribosomal_L3	28932-29142	ribosomal
+AA		Ribosomal_L4	29148-29352	ribosomal
+AA		Ribosomal_L6	29358-29533	ribosomal
+AA		Ribosomal_L9_C	29539-29687	ribosomal
+AA		Ribosomal_S10	29693-29795	ribosomal
+AA		Ribosomal_S11	29801-29933	ribosomal
+AA		Ribosomal_S13	29939-30058	ribosomal
+AA		Ribosomal_S14	30064-30164	ribosomal
+AA		Ribosomal_S15	30170-30257	ribosomal
+AA		Ribosomal_S16	30263-30344	ribosomal
+AA		Ribosomal_S17	30350-30439	ribosomal
+AA		Ribosomal_S19	30445-30540	ribosomal
+AA		Ribosomal_S20p	30546-30645	ribosomal
+AA		Ribosomal_S2	30651-30885	ribosomal
+AA		Ribosomal_S6	30891-31011	ribosomal
+AA		Ribosomal_S7	31017-31172	ribosomal
+AA		Ribosomal_S8	31178-31307	ribosomal
+AA		Ribosomal_S9	31313-31442	ribosomal
+AA		Ribosom_S12_S23	31448-31572	ribosomal
+AA		Ribul_P_3_epim	31578-31810	
+AA		RmuC	31816-32138	
+AA		RNA_pol_L	32144-32465	
+AA		RNA_pol_Rpb6	32471-32537	
+AA		RNase_HII	32543-32708	
+AA		RRF	32714-32898	
+AA		RsfS	32904-32995	
+AA		RuvC	33001-33171	
+AA		RuvX	33177-33277	
+AA		SAICAR_synt	33283-33574	
+AA	Succinate dehydrogenase complex subunit C	Sdh5	33580-33631	"Succinate dehydrogenase complex subunit C, also known as succinate dehydrogenase cytochrome b560 subunit, mitochondrial, is a protein that in humans is encoded by the SDHC gene.[5] This gene encodes one of four nuclear-encoded subunits that comprise succinate dehydrogenase, also known as mitochondrial complex II, a key enzyme complex of the tricarboxylic acid cycle and aerobic respiratory chains of mitochondria. The encoded protein is one of two integral membrane proteins that anchor other subunits of the complex, which form the catalytic core, to the inner mitochondrial membrane. There are several related pseudogenes for this gene on different chromosomes. Mutations in this gene have been associated with paragangliomas. Alternatively spliced transcript variants have been described.[6]"
+AA	Preprotein translocase subunit SecB Provide feedback	SecB	33637-33763	This family consists of preprotein translocase subunit SecB. SecB is required for the normal export of envelope proteins out of the cell cytoplasm [1].
+AA		SecE	33769-33884	
+AA		SecG	33890-33974	
+AA		SecY	33980-34417	
+AA		SMC_ScpA	34423-34636	
+AA		SMC_ScpB	34642-34783	
+AA		SmpB	34789-34953	
+AA		SPOUT_MTase	34959-35113	
+AA		SspB	35119-35219	
+AA		SurE	35225-35470	
+AA		TAL_FSA	35476-35788	
+AA		TatC	35794-36003	
+AA		TGT	36009-36375	
+AA		ThiC_Rad_SAM	36381-37017	
+AA		TIM	37023-37222	
+AA		Transcrip_reg	37228-37467	
+AA		Trm112p	37473-37531	
+AA		tRNA_m1G_MT	37537-37749	tRNA
+AA		tRNA-synt_1d	37755-38277	tRNA
+AA		tRNA-synt_2e	38283-38571	tRNA
+AA		tRNA_synt_2f	38577-39145	tRNA
+AA		tRNA_U5-meth_tr	39151-39526	tRNA
+AA		Trp_syntA	39532-39796	
+AA		TsaE	39802-39924	
+AA		Ub-RnfH	39930-39999	
+AA		UPF0054	40005-40120	unknown
+AA		UPF0225	40126-40211	unknown
+AA	Uroporphyrinogen decarboxylase (URO-D)	URO-D	40217-40568	-
+AA		YajC	40574-40657	
+AA		YbaB_DNA_bd	40663-40770	
+AA		YceD	40776-40889	
+AA		YceG	40895-41159	
+AA		YgbB	41165-41321	
+AA	"YicC-like family, N-terminal region"	YicC_N	41327-41566	"Family of bacterial proteins. Although poorly characterised, the members of this protein family have been demonstrated to play a role in stationary phase survival [1]. These proteins are not essential during stationary phase [1]."
+AA	\	YidD	41572-41641	"This family consists of membrane insertion efficiency factor proteins. They contain three conserved cysteine residues. Family members such as YidD may be involved in insertion of integral membrane proteins into the membrane by assisting YidC (membrane protein insertase). Some members of the yidD family have been previously thought to posses alpha-hemolysin activity, however no sufficient evidence was found to corroborate this idea. Secondary structure prediction indicated the presence of three alpha-helices in YidD. None of the three alpha-helices appeared sufficiently hydrophobic to serve as a transmembrane, suggesting a cytoplasmic localization for YidD. However, a closer examination of the alpha-helical wheel projection of the predicted first alpha-helix in YidD suggested an amphipathic structure in its N-terminal region which might be involved in membrane targeting [1]."
+AA	Yqey-like protein	YqeY	41647-41793	"The YqeY domain has been found to be involved in the recognition of tRNA charged with the amino acid glutamine (tRNA-Gln).[1] In some cases YqeY also increases the affinity of GlnRS for tRNA-Gln, but only when present in cis (that is, as part of the GlnRS polypeptide chain). However, the presence of YqeY as a standalone domain in organisms without GlnRS suggests that YqeY domains may have additional cellular functions.[2]"
+AA	ZapA family	ZapA	41799-41871	"In molecular biology, the ZapA protein family is a group of related proteins that includes the cell division protein ZapA. The structure of ZapA has a core structure consisting of two layers alpha/beta, and has a long C-terminal helix that forms dimeric parallel and tetrameric antiparallel coiled coils.[1] ZapA interacts with FtsZ, where FtsZ is part of a mid-cell cytokinetic structure termed the Z-ring that recruits a hierarchy of fission related proteins early in the bacterial cell cycle. ZapA drives the polymerisation and filament bundling of FtsZ, thereby contributing to the spatio-temporal tuning of the Z-ring."

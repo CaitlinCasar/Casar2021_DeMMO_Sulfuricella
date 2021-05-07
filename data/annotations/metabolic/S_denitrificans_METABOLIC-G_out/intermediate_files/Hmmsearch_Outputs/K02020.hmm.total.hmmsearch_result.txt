@@ -1,0 +1,42 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_165_1            -          K02020               -            2.8e-78  263.8  16.4   3.1e-78  263.7  16.4   1.0   1   0   0   1   1   1   1 # 124 # 921 # 1 # ID=14_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.694
+NZ_DF967527.1_153    -          K02020               -            1.4e-75  254.9   2.4   1.6e-75  254.8   2.4   1.0   1   0   0   1   1   1   1 # 131787 # 132557 # 1 # ID=71_153;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.584
+NZ_DF967533.1_12     -          K02020               -            5.1e-75  253.1   0.7   5.6e-75  253.0   0.7   1.0   1   0   0   1   1   1   1 # 11828 # 12559 # 1 # ID=65_12;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.579
+NC_022357.1_1046     -          K02020               -            9.1e-72  242.4   0.2   9.8e-72  242.3   0.2   1.0   1   0   0   1   1   1   1 # 1064547 # 1065302 # -1 # ID=1_1046;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.556
+k99_165_4            -          K02020               -            8.4e-39  133.7   8.3     1e-38  133.5   8.3   1.0   1   0   0   1   1   1   1 # 2842 # 3648 # 1 # ID=14_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.699
+k99_1257_8           -          K02020               -            1.7e-17   63.5   7.9   2.7e-17   62.8   7.9   1.3   1   1   0   1   1   0   1 # 7388 # 8377 # -1 # ID=135_8;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.675
+k99_1320_12          -          K02020               -              3e-13   49.5   0.0   3.7e-13   49.2   0.0   1.1   1   0   0   1   1   0   1 # 9178 # 10272 # 1 # ID=142_12;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.680
+k99_2255_11          -          K02020               -            1.5e-12   47.2   0.1   5.1e-12   45.4   0.1   1.7   1   1   0   1   1   0   1 # 9759 # 10760 # 1 # ID=214_11;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.604
+k99_436_16           -          K02020               -            1.9e-12   46.9   0.2   2.6e-12   46.4   0.2   1.2   1   0   0   1   1   0   1 # 18120 # 19076 # -1 # ID=47_16;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.661
+k99_979_8            -          K02020               -              2e-12   46.8   8.5   1.6e-11   43.8   8.5   1.9   1   1   0   1   1   0   1 # 8949 # 9956 # 1 # ID=102_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.670
+k99_1438_53          -          K02020               -            5.2e-12   45.4   1.9   3.5e-09   36.1   1.0   2.0   2   0   0   2   2   0   2 # 54682 # 55500 # -1 # ID=159_53;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.632
+k99_2314_2           -          K02020               -            2.6e-10   39.8   2.0   4.4e-10   39.1   2.0   1.3   1   1   0   1   1   0   1 # 1157 # 2194 # 1 # ID=269_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.637
+k99_910_51           -          K02020               -            5.5e-10   38.8   1.1   6.7e-09   35.2   1.1   1.9   1   1   0   1   1   0   1 # 57277 # 58125 # -1 # ID=94_51;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.675
+k99_1798_16          -          K02020               -            6.5e-10   38.5   7.4   4.4e-09   35.8   7.4   1.9   1   1   0   1   1   0   1 # 14794 # 15642 # -1 # ID=200_16;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.689
+k99_839_47           -          K02020               -            2.9e-07   29.8   1.1    0.0011   18.0   0.4   2.1   2   0   0   2   2   0   2 # 49762 # 50910 # -1 # ID=85_47;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.658
+k99_611_12           -          K02020               -            5.7e-06   25.5   4.0    0.0028   16.6   0.0   2.9   3   0   0   3   3   0   2 # 14111 # 15370 # -1 # ID=64_12;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.621
+k99_1549_4           -          K02020               -            4.8e-05   22.5   4.9     5e-05   22.4   4.9   1.0   1   0   0   1   1   0   1 # 5190 # 5942 # 1 # ID=169_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.653
+k99_695_14           -          K02020               -            0.00033   19.7   0.3     0.026   13.5   0.0   2.1   2   0   0   2   2   0   1 # 15240 # 16331 # -1 # ID=73_14;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.708
+k99_463_6            -          K02020               -            0.00059   18.9   4.1   0.00071   18.6   4.1   1.3   1   1   0   1   1   0   1 # 6822 # 7604 # -1 # ID=45_6;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.570
+k99_796_6            -          K02020               -            0.00075   18.5   2.6   0.00075   18.5   2.6   2.0   2   0   0   2   2   0   1 # 3924 # 5030 # 1 # ID=82_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.675
+k99_1306_31          -          K02020               -             0.0019   17.2   0.7    0.0031   16.5   0.7   1.3   1   0   0   1   1   0   1 # 29709 # 31625 # 1 # ID=139_31;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.737
+k99_1328_4           -          K02020               -               0.01   14.8   0.0     0.017   14.0   0.0   1.4   1   0   0   1   1   0   1 # 3084 # 4043 # 1 # ID=110_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.643
+k99_1131_12          -          K02020               -               0.02   13.8   0.0       2.1    7.1   0.0   2.1   2   0   0   2   2   0   0 # 14710 # 15819 # 1 # ID=124_12;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.579
+k99_1308_2           -          K02020               -              0.022   13.7   2.9     0.028   13.4   2.9   1.4   1   1   0   1   1   0   0 # 801 # 1844 # 1 # ID=140_2;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.643
+k99_2005_40          -          K02020               -              0.031   13.2   0.7       0.2   10.5   0.1   2.0   2   0   0   2   2   0   0 # 46166 # 47371 # -1 # ID=224_40;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.656
+k99_1996_23          -          K02020               -              0.069   12.1   1.8      0.44    9.4   0.3   2.0   2   0   0   2   2   0   0 # 22656 # 23975 # 1 # ID=220_23;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.648
+k99_2306_13          -          K02020               -               0.11   11.4   1.0      0.32    9.9   0.0   1.9   2   0   0   2   2   0   0 # 13377 # 14453 # 1 # ID=267_13;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.732
+NZ_DF967539.1_59     -          K02020               -               0.12   11.3   0.0      0.14   11.1   0.0   1.1   1   0   0   1   1   0   0 # 59865 # 60743 # -1 # ID=59_59;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.507
+k99_839_20           -          K02020               -               0.16   10.9   0.0      0.22   10.4   0.0   1.1   1   0   0   1   1   0   0 # 21366 # 22319 # 1 # ID=85_20;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.634
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K02020.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K02020.hmm.total.hmmsearch_result.txt --domT 106.37 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K02020.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:05:18 2020
+# [ok]

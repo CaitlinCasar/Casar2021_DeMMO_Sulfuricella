@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2942     -          MamA                 -            2.2e-60  200.6  35.5   3.8e-13   47.0   0.3   8.2   2   2   5   8   8   8   8 # 3081638 # 3084412 # 1 # ID=1_2942;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.544
+NC_022357.1_1332     -          MamA                 -            1.9e-58  194.3  57.3     7e-15   52.6   1.4   7.5   1   1   5   8   8   8   8 # 1369400 # 1371787 # 1 # ID=1_1332;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.516
+NC_022357.1_2941     -          MamA                 -              2e-57  191.0  23.1   8.9e-14   49.0   0.1   8.1   2   2   5   7   7   7   7 # 3078822 # 3081623 # 1 # ID=1_2941;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.571
+NC_022357.1_1942     -          MamA                 -            2.3e-49  164.8  21.8   1.9e-14   51.2   0.0   7.7   2   2   5   8   8   8   8 # 2021177 # 2024032 # 1 # ID=1_1942;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.554
+NC_022357.1_1620     -          MamA                 -            1.1e-43  146.3   0.3   1.2e-21   74.7   0.0   3.3   1   1   1   2   2   2   2 # 1668826 # 1671033 # 1 # ID=1_1620;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.541
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/magnetosome_formation//MamA.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/MamA.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/MamA.hmm.tblout -T 119 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/magnetosome_formation//MamA.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:36 2020
+# [ok]

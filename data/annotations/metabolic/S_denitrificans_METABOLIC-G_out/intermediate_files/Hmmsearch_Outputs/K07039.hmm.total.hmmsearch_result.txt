@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2349_1           -          K07039               -            2.3e-59  201.4   1.9   2.5e-59  201.2   1.9   1.0   1   0   0   1   1   1   1 # 2 # 646 # 1 # ID=221_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.637
+k99_296_6            -          K07039               -            2.8e-59  201.1   1.2   3.1e-59  200.9   1.2   1.0   1   0   0   1   1   1   1 # 5639 # 6340 # 1 # ID=25_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.540
+NC_022357.1_1528     -          K07039               -            1.1e-53  182.7   0.1   1.2e-53  182.6   0.1   1.0   1   0   0   1   1   1   1 # 1569971 # 1570654 # -1 # ID=1_1528;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.497
+NZ_DF967553.1_38     -          K07039               -            7.2e-52  176.7   0.0   7.9e-52  176.6   0.0   1.0   1   0   0   1   1   1   1 # 33676 # 34365 # -1 # ID=45_38;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.507
+k99_291_16           -          K07039               -              2e-21   76.6   3.3   2.1e-21   76.6   3.3   1.0   1   0   0   1   1   1   1 # 15868 # 16068 # 1 # ID=24_16;partial=01;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.602
+k99_2031_1           -          K07039               -            6.1e-17   61.9  10.0   3.5e-13   49.5   0.4   2.1   1   1   1   2   2   0   2 # 95 # 592 # -1 # ID=190_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.639
+NZ_DF967548.1_113    -          K07039               -            1.5e-14   54.0   0.1   9.6e-14   51.4   0.1   2.2   2   0   0   2   2   0   1 # 114435 # 117155 # -1 # ID=50_113;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.582
+NC_022357.1_2422     -          K07039               -            1.9e-14   53.7   0.1   1.1e-13   51.2   0.1   2.1   2   0   0   2   2   0   1 # 2529386 # 2532106 # -1 # ID=1_2422;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.567
+k99_2211_9           -          K07039               -            2.6e-14   53.3   0.4   8.6e-14   51.5   0.4   1.9   2   0   0   2   2   0   1 # 8168 # 10894 # -1 # ID=210_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.616
+NZ_DF967561.1_4      -          K07039               -            4.1e-08   32.9   0.6   6.8e-08   32.1   0.6   1.3   1   0   0   1   1   0   1 # 1589 # 2701 # 1 # ID=37_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.500
+k99_1021_5           -          K07039               -              2e-07   30.6   3.3   4.8e-07   29.4   3.3   1.8   1   1   0   1   1   0   1 # 4004 # 6754 # 1 # ID=105_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.660
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K07039.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K07039.hmm.total.hmmsearch_result.txt --domT 64.53 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K07039.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:07:29 2020
+# [ok]

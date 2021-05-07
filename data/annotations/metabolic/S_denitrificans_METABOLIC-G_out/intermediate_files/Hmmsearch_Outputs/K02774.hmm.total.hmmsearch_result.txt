@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_509_18           -          K02774               -               0.11   12.4   0.0       0.3   11.0   0.0   1.7   1   0   0   1   1   0   0 # 19159 # 20721 # -1 # ID=56_18;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_cont=0.628
+k99_1391_4           -          K02774               -               0.17   11.8   0.6      0.46   10.4   0.6   1.6   1   0   0   1   1   0   0 # 4560 # 6293 # 1 # ID=151_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.713
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K02774.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K02774.hmm.total.hmmsearch_result.txt --domT 64.30 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K02774.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:05:48 2020
+# [ok]

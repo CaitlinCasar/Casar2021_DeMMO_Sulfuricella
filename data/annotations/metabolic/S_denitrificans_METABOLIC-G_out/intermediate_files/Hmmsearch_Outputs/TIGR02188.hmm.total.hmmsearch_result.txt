@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_307_3            -          TIGR02188            TIGR02188          0 1031.8   0.0         0 1031.5   0.0   1.0   1   0   0   1   1   1   1 # 2280 # 4220 # 1 # ID=29_3;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.667
+k99_1898_8           -          TIGR02188            TIGR02188   9.7e-304 1008.0   0.0  1.1e-303 1007.8   0.0   1.0   1   0   0   1   1   1   1 # 7848 # 9815 # 1 # ID=180_8;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.637
+NC_022357.1_1915     -          TIGR02188            TIGR02188   4.8e-302 1002.4   0.0  5.5e-302 1002.2   0.0   1.0   1   0   0   1   1   1   1 # 1993328 # 1995295 # -1 # ID=1_1915;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.599
+NZ_DF967585.1_28     -          TIGR02188            TIGR02188   1.6e-300  997.4   0.0  1.8e-300  997.2   0.0   1.0   1   0   0   1   1   1   1 # 30445 # 32412 # -1 # ID=13_28;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.625
+NC_022357.1_1478     -          TIGR02188            TIGR02188   3.5e-212  705.6   0.0  4.1e-212  705.4   0.0   1.0   1   0   0   1   1   1   1 # 1520115 # 1522022 # 1 # ID=1_1478;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.589
+NZ_DF967529.1_88     -          TIGR02188            TIGR02188   3.7e-212  705.5   0.0  4.2e-212  705.3   0.0   1.0   1   0   0   1   1   1   1 # 91007 # 92914 # 1 # ID=69_88;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.588
+k99_1813_14          -          TIGR02188            TIGR02188   6.1e-212  704.8   0.0  6.9e-212  704.6   0.0   1.0   1   0   0   1   1   1   1 # 14161 # 16071 # 1 # ID=162_14;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;gc_cont=0.590
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR02188.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/TIGR02188.hmm.total.hmmsearch_result.txt -T 684.65 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/TIGR02188.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:27 2020
+# [ok]

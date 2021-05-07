@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1372_18          -          FeoB_N               PF02421.13   3.7e-51  170.7   0.0   5.1e-51  170.3   0.0   1.2   1   0   0   1   1   1   1 # 21578 # 23443 # 1 # ID=150_18;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF02421-FeoB_N.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/PF02421-FeoB_N.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/PF02421-FeoB_N.hmm.tblout -T 120 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF02421-FeoB_N.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:36 2020
+# [ok]

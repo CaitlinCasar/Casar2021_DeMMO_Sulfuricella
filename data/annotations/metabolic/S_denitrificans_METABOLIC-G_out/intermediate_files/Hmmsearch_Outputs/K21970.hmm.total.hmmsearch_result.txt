@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1438_76          -          K21970               -            6.4e-30  104.0   0.0   7.7e-30  103.7   0.0   1.1   1   0   0   1   1   0   1 # 72009 # 73448 # 1 # ID=159_76;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.733
+k99_1743_1           -          K21970               -            1.1e-26   93.3   0.0   1.5e-26   92.8   0.0   1.1   1   0   0   1   1   0   1 # 609 # 1955 # -1 # ID=153_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.644
+NC_022357.1_2310     -          K21970               -            3.8e-26   91.6   0.0   5.1e-26   91.1   0.0   1.1   1   0   0   1   1   0   1 # 2404127 # 2405386 # 1 # ID=1_2310;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.609
+NZ_DF967548.1_27     -          K21970               -            4.7e-26   91.2   0.0   6.4e-26   90.8   0.0   1.1   1   0   0   1   1   0   1 # 22456 # 23730 # 1 # ID=50_27;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.620
+k99_2038_3           -          K21970               -            3.6e-24   85.0   0.0   5.6e-24   84.4   0.0   1.2   1   0   0   1   1   0   1 # 2207 # 3478 # -1 # ID=192_3;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.624
+NC_022357.1_12       -          K21970               -            1.3e-23   83.2   0.0     2e-23   82.6   0.0   1.2   1   0   0   1   1   0   1 # 13685 # 14956 # 1 # ID=1_12;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.571
+NZ_DF967522.1_246    -          K21970               -              3e-23   82.0   0.0   4.5e-23   81.4   0.0   1.2   1   0   0   1   1   0   1 # 291451 # 292587 # 1 # ID=76_246;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.581
+k99_2130_4           -          K21970               -            1.4e-15   56.7   0.0   2.1e-15   56.1   0.0   1.2   1   0   0   1   1   0   1 # 2784 # 4097 # 1 # ID=240_4;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.734
+k99_1541_9           -          K21970               -              0.065   11.7   0.0       0.1   11.0   0.0   1.2   1   0   0   1   1   0   0 # 7903 # 8532 # 1 # ID=133_9;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.605
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K21970.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K21970.hmm.total.hmmsearch_result.txt --domT 302.23 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K21970.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:12:53 2020
+# [ok]

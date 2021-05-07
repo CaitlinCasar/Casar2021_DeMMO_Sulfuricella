@@ -1,0 +1,14 @@
+#                                                                       --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                   accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------         -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967539.1_249    -          PF00210-Ferritin_like_domain PF00210.19   4.9e-24   82.6   5.4   5.6e-24   82.4   5.4   1.0   1   0   0   1   1   1   1 # 238030 # 238455 # 1 # ID=59_249;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.523
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_storage//PF00210-Ferritin_like_domain.hmm
+# Target file:     ORFs//GCF_000971475.1_ASM97147v1_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF00210-Ferritin_like_domain.hmm.txt --tblout fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/PF00210-Ferritin_like_domain.hmm.tblout -T 44 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_storage//PF00210-Ferritin_like_domain.hmm ORFs//GCF_000971475.1_ASM97147v1_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:45 2020
+# [ok]

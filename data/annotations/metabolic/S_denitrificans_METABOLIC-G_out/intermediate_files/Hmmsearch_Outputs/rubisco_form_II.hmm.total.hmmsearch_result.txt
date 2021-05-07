@@ -1,0 +1,16 @@
+#                                                                    --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------      -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1145_6           -          rubisco_form_II_alignment -           1.3e-274  910.3   0.9  1.4e-274  910.1   0.9   1.0   1   0   0   1   1   1   1 # 6100 # 7479 # 1 # ID=92_6;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.635
+NC_022357.1_2795     -          rubisco_form_II_alignment -           2.7e-271  899.3   0.9    3e-271  899.2   0.9   1.0   1   0   0   1   1   1   1 # 2905484 # 2906863 # 1 # ID=1_2795;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.577
+NZ_DF967522.1_37     -          rubisco_form_II_alignment -           1.2e-270  897.2   1.0  1.4e-270  897.0   1.0   1.0   1   0   0   1   1   1   1 # 50291 # 51670 # 1 # ID=76_37;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.598
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/rubisco_form_II.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/rubisco_form_II.hmm.total.hmmsearch_result.txt -T 500 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/rubisco_form_II.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:32 2020
+# [ok]

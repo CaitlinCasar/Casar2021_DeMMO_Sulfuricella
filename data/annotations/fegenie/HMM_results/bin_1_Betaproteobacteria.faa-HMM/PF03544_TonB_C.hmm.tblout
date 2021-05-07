@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_385_1            -          PF03544_TonB_C       PF03544.14   8.9e-22   74.7   0.0   1.5e-21   73.9   0.0   1.4   1   0   0   1   1   1   1 # 126 # 794 # 1 # ID=39_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.665
+k99_385_4            -          PF03544_TonB_C       PF03544.14   5.5e-21   72.2   0.1     1e-20   71.3   0.1   1.5   1   0   0   1   1   1   1 # 2088 # 2798 # 1 # ID=39_4;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=3-4bp;gc_cont=0.668
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF03544_TonB_C.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PF03544_TonB_C.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PF03544_TonB_C.hmm.tblout -T 24 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF03544_TonB_C.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:58 2020
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                        --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                    accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------          -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2805     -          LbtU-LvtA-PiuA-PirA-RhtA-ViuA -            2.2e-24   83.0   5.0   4.1e-23   78.9   5.1   2.3   1   1   0   1   1   1   1 # 2915981 # 2917903 # 1 # ID=1_2805;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.536
+NC_022357.1_2494     -          LbtU-LvtA-PiuA-PirA-RhtA-ViuA -            1.1e-13   47.7   1.4   1.6e-10   37.3   0.1   2.2   2   0   0   2   2   2   2 # 2604580 # 2606997 # -1 # ID=1_2494;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.550
+NC_022357.1_2035     -          LbtU-LvtA-PiuA-PirA-RhtA-ViuA -            1.1e-11   41.1   0.0   4.8e-08   29.1   0.0   2.2   2   0   0   2   2   2   2 # 2119200 # 2121338 # -1 # ID=1_2035;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.550
+NC_022357.1_2034     -          LbtU-LvtA-PiuA-PirA-RhtA-ViuA -            1.5e-09   34.1   0.1   2.2e-05   20.3   0.0   2.1   2   0   0   2   2   2   2 # 2116984 # 2119038 # -1 # ID=1_2034;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.531
+NC_022357.1_2491     -          LbtU-LvtA-PiuA-PirA-RhtA-ViuA -            7.5e-09   31.7   8.2   4.6e-08   29.2   1.6   3.0   3   0   0   3   3   3   2 # 2600298 # 2602586 # -1 # ID=1_2491;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.541
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//LbtU-LvtA-PiuA-PirA-RhtA-ViuA.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/LbtU-LvtA-PiuA-PirA-RhtA-ViuA.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/LbtU-LvtA-PiuA-PirA-RhtA-ViuA.hmm.tblout -T 25 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//LbtU-LvtA-PiuA-PirA-RhtA-ViuA.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:03 2020
+# [ok]

@@ -1,0 +1,14 @@
+#                                                                                                              --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                          accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_89       -          Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623 -              5e-19   66.2  23.3   1.7e-18   64.4  23.3   1.8   1   1   0   1   1   1   1 # 97424 # 98674 # 1 # ID=1_89;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.601
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623.hmm.tblout -T 18 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_FptX_Ferripyochelin_uptake_Pseudomonas_aeruginosa_PA4218_180623.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:05 2020
+# [ok]

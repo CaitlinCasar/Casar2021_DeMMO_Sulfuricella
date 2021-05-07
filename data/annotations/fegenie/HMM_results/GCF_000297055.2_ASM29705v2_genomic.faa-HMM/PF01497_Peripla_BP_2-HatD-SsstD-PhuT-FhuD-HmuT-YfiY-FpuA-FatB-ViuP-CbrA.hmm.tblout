@@ -1,0 +1,14 @@
+#                                                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                              accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                    -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2002     -          PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA PF01497.18   6.4e-29   98.7   0.0     8e-29   98.4   0.0   1.1   1   0   0   1   1   1   1 # 2088674 # 2089573 # -1 # ID=1_2002;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.603
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm.tblout -T 27 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:03 2020
+# [ok]

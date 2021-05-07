@@ -1,0 +1,14 @@
+#                                                                                                      --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                  accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                        -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1837_7           -          Sid_FpvC_metal_ion_transport_PA2407_Paeruginosa_PAO1_180602 -            1.7e-08   31.4   0.1   2.2e-08   31.0   0.1   1.2   1   0   0   1   1   1   1 # 5918 # 6826 # -1 # ID=168_7;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.659
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_FpvC_metal_ion_transport_PA2407_Paeruginosa_PAO1_180602.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_FpvC_metal_ion_transport_PA2407_Paeruginosa_PAO1_180602.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_FpvC_metal_ion_transport_PA2407_Paeruginosa_PAO1_180602.hmm.tblout -T 18 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_FpvC_metal_ion_transport_PA2407_Paeruginosa_PAO1_180602.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:58 2020
+# [ok]

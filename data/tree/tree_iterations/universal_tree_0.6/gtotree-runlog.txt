@@ -1,0 +1,188 @@
+
+
+               GToTree v1.5.38 (github.com/AstrobioMike/GToTree)
+
+
+ ---------------------------------  RUN INFO  --------------------------------- 
+
+    Command entered:
+    /home/cpc7770/.conda/envs/gtotree/bin/GToTree -a assembly_ids_betaproteobacteria_for_tree_clean.txt -f D3_Bin1.txt -H Universal -t -j 4 -o universal_tree_0.6 -G 0.6 -P
+
+
+    Input genome sources include:
+      - NCBI accessions listed in assembly_ids_betaproteobacteria_for_tree_clean.txt (99 genomes)
+      - Fasta files listed in D3_Bin1.txt (1 genomes)
+
+                             [0;32mTotal input genomes: 100[0m
+
+    HMM source to be used:
+      - Universal_Hug_et_al (15 targets)
+
+
+    Options set:
+      - The output directory has been set to "universal_tree_0.6/".
+      - Taxonkit will be used to add NCBI taxonomy info to labels where possible.
+      - Genome minimum gene-copy threshold ("-G") has been set to 0.6.
+      - Number of jobs to run during parallelizable steps has been set to 4.
+      - Attempting to use http instead of ftp.
+
+ ############################################################################## 
+ ####          Working on the genomes provided as NCBI accessions          ####
+ ############################################################################## 
+
+		  [0;32mDownloading GenBank assembly summaries...[0m
+
+
+		  [0;32mDownloading RefSeq assembly summaries...[0m
+
+
+
+	        [0;32mAll 99 input accessions successfully found.[0m
+
+________________________________________________________________________________
+
+
+     ******************************* [0;32mUPDATE[0m *******************************  
+        Of the input genomes provided by NCBI accession:
+
+                [0;32mAll 99 successfully downloaded and searched :)[0m
+     ********************************************************************** 
+
+
+ ############################################################################## 
+ ####            Working on the genomes provided as fasta files            ####
+ ############################################################################## 
+
+           It is currently 02:35 PM; the process started at 02:33 PM.
+               Current process runtime: 0 hours and 1 minutes.
+
+_______________________________________________________________________________
+
+
+ ############################################################################## 
+ ####                     Filtering genes by length                        ####
+ ############################################################################## 
+
+     Keeping those with lengths within 20% of the median for the gene set.
+
+           It is currently 02:35 PM; the process started at 02:33 PM.
+               Current process runtime: 0 hours and 1 minutes.
+
+  [0;33m********************************** [0mNOTICE [0;33m**********************************[0m  
+    1 gene(s) either had no hits in any genome, or only multiple hits per
+    genome... Just so ya know!!
+
+        These included:
+
+                     Ribosomal_L18
+
+    Reported in "universal_tree_0.6/run_files/Genes_with_no_hits_to_any_genomes.txt".
+
+   If interested, you can figure out which of those two scenarios was the cause by
+   checking out "universal_tree_0.6/SCG_hit_counts.tsv".
+  [0;33m****************************************************************************[0m  
+
+________________________________________________________________________________ 
+
+
+
+ ############################################################################## 
+ ####                Filtering genomes with too few hits                   ####
+ ############################################################################## 
+
+     Removing those with fewer than 60% of the total SCGs targeted.
+
+           It is currently 02:35 PM; the process started at 02:33 PM.
+               Current process runtime: 0 hours and 1 minutes.
+
+             [0;32mNo genomes were removed for having too few hits :)[0m
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####          Aligning, trimming, and inserting gap-sequences             ####
+ ############################################################################## 
+
+           It is currently 02:35 PM; the process started at 02:33 PM.
+               Current process runtime: 0 hours and 1 minutes.
+
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                  Catting all alignments together                     ####
+ ############################################################################## 
+
+           It is currently 02:35 PM; the process started at 02:33 PM.
+               Current process runtime: 0 hours and 1 minutes.
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                   Adding more informative headers                    ####
+ ############################################################################## 
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                          Running FastTree                            ####
+ ############################################################################## 
+
+           It is currently 02:36 PM; the process started at 02:33 PM.
+               Current process runtime: 0 hours and 2 minutes.
+
+
+
+#################################################################################
+####                                 [0;32mDone!![0m                                  ####
+#################################################################################
+
+  Overall, 101 genomes of the input 100 were retained (see notes below).
+
+    Tree written to:
+        [0;32muniversal_tree_0.6/universal_tree_0.6.tre[0m
+
+    Alignment written to:
+        [0;32muniversal_tree_0.6/Aligned_SCGs_mod_names.faa[0m
+
+    Main genomes summary table with comp./redund. estimates written to:
+        [0;32muniversal_tree_0.6/Genomes_summary_info.tsv[0m
+
+    Summary table with hits per target gene per genome written to:
+        [0;32muniversal_tree_0.6/SCG_hit_counts.tsv[0m
+
+    Partitions (for downstream use with mixed-model treeing) written to:
+        [0;32muniversal_tree_0.6/run_files/Partitions.txt[0m
+
+ _______________________________________________________________________________
+
+  Notes:
+
+        1 gene(s) had no hits in any genome.
+
+    Reported along with additional informative run files in:
+        [0;32muniversal_tree_0.6/run_files/[0m
+
+ _______________________________________________________________________________
+
+    Log file written to:
+        [0;32muniversal_tree_0.6/gtotree-runlog.txt[0m
+
+    Programs used and their citations have been written to:
+        [0;32muniversal_tree_0.6/citations.txt[0m
+
+
+                                         Total process runtime: 0 hours and 2 minutes.
+                                                      [0;32mHappy Friday :)[0m
+

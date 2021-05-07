@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_385_5            -          K08304               -           1.5e-156  521.4   0.1  1.8e-156  521.1   0.1   1.0   1   0   0   1   1   1   1 # 2771 # 3991 # -1 # ID=39_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.640
+NZ_DF967539.1_265    -          K08304               -           9.7e-154  512.1   0.0  1.2e-153  511.7   0.0   1.0   1   0   0   1   1   1   1 # 255904 # 257229 # -1 # ID=59_265;partial=00;start_type=TTG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.598
+NC_022357.1_2482     -          K08304               -           2.4e-152  507.5   0.0  2.9e-152  507.2   0.0   1.0   1   0   0   1   1   1   1 # 2591422 # 2592642 # 1 # ID=1_2482;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.599
+k99_366_11           -          K08304               -           3.6e-115  385.0   0.3  4.3e-115  384.7   0.3   1.0   1   0   0   1   1   1   1 # 8944 # 10056 # 1 # ID=37_11;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.751
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K08304.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K08304.hmm.total.hmmsearch_result.txt -T 78.80 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K08304.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:08:08 2020
+# [ok]

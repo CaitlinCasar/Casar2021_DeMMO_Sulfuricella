@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_634_9            -          K08651               -            3.1e-68  230.4   0.0   3.9e-68  230.0   0.0   1.1   1   0   0   1   1   0   1 # 7410 # 9128 # 1 # ID=65_9;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.755
+k99_2011_3           -          K08651               -            4.3e-32  111.1  14.8   1.8e-31  109.1  14.8   1.9   1   1   0   1   1   0   1 # 2520 # 4019 # -1 # ID=225_3;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.681
+NZ_DF967593.1_1      -          K08651               -            0.00041   18.8   5.7    0.0021   16.4   2.9   2.2   2   0   0   2   2   0   2 # 3 # 1460 # -1 # ID=5_1;partial=10;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.545
+k99_374_10           -          K08651               -             0.0022   16.4   6.9     0.088   11.1   0.1   2.3   2   0   0   2   2   0   2 # 11123 # 13393 # -1 # ID=38_10;partial=00;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=3-4bp;gc_cont=0.635
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K08651.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K08651.hmm.total.hmmsearch_result.txt --domT 396.43 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K08651.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:08:13 2020
+# [ok]

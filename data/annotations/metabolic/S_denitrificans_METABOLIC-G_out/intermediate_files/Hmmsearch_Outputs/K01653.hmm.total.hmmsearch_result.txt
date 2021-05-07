@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_537_1            -          K01653               -            2.9e-65  220.5   0.9   3.3e-65  220.3   0.9   1.0   1   0   0   1   1   1   1 # 70 # 537 # -1 # ID=49_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.620
+NC_022357.1_811      -          K01653               -            3.4e-65  220.3   1.2   3.9e-65  220.1   1.2   1.0   1   0   0   1   1   1   1 # 821293 # 821760 # 1 # ID=1_811;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.558
+k99_1999_20          -          K01653               -            4.2e-64  216.7   0.2   4.6e-64  216.5   0.2   1.0   1   0   0   1   1   1   1 # 18097 # 18633 # 1 # ID=221_20;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.669
+NZ_DF967523.1_116    -          K01653               -            4.7e-64  216.5   1.6   5.1e-64  216.4   1.6   1.0   1   0   0   1   1   1   1 # 125537 # 126004 # 1 # ID=75_116;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.581
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K01653.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K01653.hmm.total.hmmsearch_result.txt -T 50.97 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K01653.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:05:03 2020
+# [ok]

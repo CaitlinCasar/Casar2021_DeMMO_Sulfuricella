@@ -1,0 +1,41 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_429      -          K21023               -           1.8e-248  826.6  40.0  3.8e-186  620.4   6.1   2.1   2   0   0   2   2   2   2 # 457275 # 460136 # -1 # ID=1_429;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.549
+NZ_DF967525.1_28     -          K21023               -           6.9e-244  811.5  36.2  6.9e-182  606.3   4.7   2.1   2   0   0   2   2   2   2 # 25865 # 28726 # 1 # ID=73_28;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.536
+NC_022357.1_2241     -          K21023               -           5.9e-201  669.4   1.7  5.9e-201  669.4   1.7   2.0   2   0   0   2   2   2   1 # 2333026 # 2336982 # 1 # ID=1_2241;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.574
+NZ_DF967544.1_160    -          K21023               -           1.1e-200  668.5   0.1  1.2e-200  668.4   0.1   1.0   1   0   0   1   1   1   1 # 172164 # 174248 # 1 # ID=54_160;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.584
+NZ_DF967557.1_35     -          K21023               -           5.6e-198  659.6   4.0  6.9e-198  659.3   4.0   1.0   1   0   0   1   1   1   1 # 31025 # 33226 # -1 # ID=41_35;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.595
+NC_022357.1_2231     -          K21023               -             1e-197  658.7   0.1  2.2e-197  657.6   0.1   1.4   1   1   0   1   1   1   1 # 2320196 # 2323411 # -1 # ID=1_2231;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.571
+NZ_DF967557.1_55     -          K21023               -           1.2e-197  658.4   0.4    3e-197  657.1   0.4   1.6   1   1   0   1   1   1   1 # 53983 # 57204 # 1 # ID=41_55;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.565
+k99_2217_5           -          K21023               -           2.9e-197  657.2   1.4  4.4e-197  656.6   1.4   1.2   1   0   0   1   1   1   1 # 2988 # 7217 # -1 # ID=211_5;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.598
+NC_022357.1_221      -          K21023               -           5.2e-197  656.4   0.6  6.3e-197  656.1   0.6   1.1   1   0   0   1   1   1   1 # 231233 # 233296 # -1 # ID=1_221;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.571
+NC_022357.1_2392     -          K21023               -             6e-196  652.8   0.7    8e-196  652.4   0.7   1.1   1   0   0   1   1   1   1 # 2499265 # 2502165 # 1 # ID=1_2392;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.579
+NC_022357.1_420      -          K21023               -           9.7e-195  648.8   8.7  1.8e-194  647.9   8.7   1.5   1   1   0   1   1   1   1 # 446761 # 449568 # -1 # ID=1_420;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.576
+NZ_DF967533.1_114    -          K21023               -           1.4e-193  645.0   0.0  1.7e-193  644.7   0.0   1.0   1   0   0   1   1   1   1 # 113309 # 114916 # -1 # ID=65_114;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.555
+NC_022357.1_967      -          K21023               -           1.9e-193  644.6   0.0  2.3e-193  644.3   0.0   1.0   1   0   0   1   1   1   1 # 990930 # 992546 # 1 # ID=1_967;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.547
+NZ_DF967524.1_121    -          K21023               -           1.1e-192  642.0   0.4  1.7e-192  641.4   0.4   1.2   1   0   0   1   1   1   1 # 134976 # 138329 # 1 # ID=74_121;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.620
+NZ_DF967525.1_37     -          K21023               -           3.2e-192  640.5   8.9  8.5e-192  639.1   8.9   1.6   1   1   0   1   1   1   1 # 38528 # 41332 # 1 # ID=73_37;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.580
+NZ_DF967531.1_91     -          K21023               -           5.7e-192  639.7   4.6  9.6e-192  638.9   4.6   1.4   1   1   0   1   1   1   1 # 76326 # 78425 # -1 # ID=67_91;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.606
+NC_022357.1_1134     -          K21023               -           1.6e-191  638.2   0.2  2.4e-191  637.6   0.2   1.2   1   0   0   1   1   1   1 # 1161570 # 1164929 # 1 # ID=1_1134;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.617
+k99_1895_9           -          K21023               -           8.3e-191  635.8   0.5  1.1e-190  635.4   0.5   1.0   1   0   0   1   1   1   1 # 11729 # 13966 # 1 # ID=179_9;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.674
+NZ_DF967528.1_194    -          K21023               -           2.7e-190  634.1   3.9  2.7e-190  634.1   3.9   2.2   2   0   0   2   2   2   1 # 201234 # 204539 # -1 # ID=70_194;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.547
+NC_022357.1_1087     -          K21023               -           5.3e-190  633.2   1.7  5.3e-190  633.2   1.7   1.2   1   1   0   1   1   1   1 # 1103766 # 1105832 # -1 # ID=1_1087;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.522
+k99_1237_1           -          K21023               -           7.6e-190  632.6   0.4  1.7e-189  631.5   0.0   1.7   2   0   0   2   2   2   1 # 211 # 4665 # 1 # ID=101_1;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.623
+NZ_DF967544.1_74     -          K21023               -           4.9e-189  630.0   0.4  6.1e-189  629.7   0.4   1.2   1   0   0   1   1   1   1 # 68639 # 71110 # 1 # ID=54_74;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.504
+k99_2079_8           -          K21023               -           6.2e-188  626.3   0.1  9.9e-188  625.6   0.1   1.2   1   0   0   1   1   1   1 # 9191 # 12409 # -1 # ID=197_8;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.560
+k99_2102_12          -          K21023               -           1.1e-186  622.2   0.1  1.5e-186  621.8   0.1   1.1   1   0   0   1   1   1   1 # 13254 # 15428 # 1 # ID=198_12;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.522
+NC_022357.1_2220     -          K21023               -           1.5e-186  621.8  24.9  2.2e-185  617.9   5.8   2.1   2   0   0   2   2   2   2 # 2303735 # 2306800 # -1 # ID=1_2220;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.545
+k99_865_5            -          K21023               -             4e-186  620.3   0.1    4e-186  620.3   0.1   2.6   3   0   0   3   3   3   1 # 3451 # 7104 # 1 # ID=86_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.682
+NZ_DF967523.1_66     -          K21023               -           9.4e-186  619.1   0.0  1.2e-185  618.8   0.0   1.0   1   0   0   1   1   1   1 # 73184 # 75361 # 1 # ID=75_66;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.514
+NC_022357.1_1819     -          K21023               -           1.7e-185  618.2   1.8    2e-185  618.1   1.8   1.0   1   0   0   1   1   1   1 # 1883265 # 1885751 # 1 # ID=1_1819;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.573
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K21023.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K21023.hmm.total.hmmsearch_result.txt -T 617.77 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K21023.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:12:32 2020
+# [ok]

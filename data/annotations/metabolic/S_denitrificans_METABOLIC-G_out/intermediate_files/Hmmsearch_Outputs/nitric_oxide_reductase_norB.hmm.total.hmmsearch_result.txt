@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_457      -          norB_alignment       -           3.4e-190  633.4  54.0  3.8e-190  633.3  54.0   1.0   1   0   0   1   1   1   1 # 483579 # 484955 # -1 # ID=1_457;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.562
+k99_2342_9           -          norB_alignment       -           1.8e-189  631.0  54.8    2e-189  630.8  54.8   1.0   1   0   0   1   1   1   1 # 7118 # 8494 # 1 # ID=220_9;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.614
+NZ_DF967525.1_11     -          norB_alignment       -             2e-189  630.8  54.9  2.3e-189  630.7  54.9   1.0   1   0   0   1   1   1   1 # 7332 # 8708 # 1 # ID=73_11;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.569
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/nitric_oxide_reductase_norB.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/nitric_oxide_reductase_norB.hmm.total.hmmsearch_result.txt -T 79 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/nitric_oxide_reductase_norB.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:31 2020
+# [ok]

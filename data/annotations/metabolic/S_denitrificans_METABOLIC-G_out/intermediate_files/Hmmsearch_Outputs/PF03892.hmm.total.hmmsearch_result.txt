@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967552.1_1      -          PF03892_full         -            1.8e-45  154.3   0.7   2.2e-45  154.0   0.7   1.0   1   0   0   1   1   1   1 # 292 # 759 # -1 # ID=46_1;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.545
+k99_1832_7           -          PF03892_full         -            4.1e-45  153.1   0.4   4.5e-45  153.0   0.4   1.0   1   0   0   1   1   1   1 # 5746 # 6207 # 1 # ID=165_7;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.563
+NC_022357.1_377      -          PF03892_full         -            1.5e-44  151.3   0.3   1.8e-44  151.1   0.3   1.0   1   0   0   1   1   1   1 # 400216 # 400683 # 1 # ID=1_377;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.560
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/PF03892.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/PF03892.hmm.total.hmmsearch_result.txt -T 23.9 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/PF03892.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:26 2020
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2651     -          dsrR.fasta.alignment -            2.2e-46  155.9   0.1   2.5e-46  155.7   0.1   1.0   1   0   0   1   1   1   1 # 2749992 # 2750360 # -1 # ID=1_2651;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.542
+NZ_DF967539.1_100    -          dsrR.fasta.alignment -            9.8e-46  153.8   0.1   1.1e-45  153.7   0.1   1.0   1   0   0   1   1   1   1 # 103018 # 103380 # 1 # ID=59_100;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.545
+k99_2321_14          -          dsrR.fasta.alignment -            4.9e-41  138.7   0.0   5.6e-41  138.6   0.0   1.0   1   0   0   1   1   1   1 # 12925 # 13281 # 1 # ID=217_14;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.580
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/dsrR.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/dsrR.hmm.total.hmmsearch_result.txt -T 80.00 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/dsrR.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:30 2020
+# [ok]

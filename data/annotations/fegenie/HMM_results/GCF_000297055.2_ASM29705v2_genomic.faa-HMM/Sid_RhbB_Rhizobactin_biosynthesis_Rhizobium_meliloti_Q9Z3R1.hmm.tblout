@@ -1,0 +1,14 @@
+#                                                                                                      --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                  accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                        -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_1607     -          Sid_RhbB_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R1 -            1.5e-80  268.7   0.0   1.9e-80  268.4   0.0   1.0   1   0   0   1   1   1   1 # 1655396 # 1656841 # 1 # ID=1_1607;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.573
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_RhbB_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R1.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Sid_RhbB_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R1.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/Sid_RhbB_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R1.hmm.tblout -T 61 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_RhbB_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R1.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:25 2020
+# [ok]

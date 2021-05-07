@@ -1,0 +1,108 @@
+Category	Function	Gene abbreviation	Gene name	GCF_000297055.2_ASM29705v2_genomic Function presence	GCF_000971475.1_ASM97147v1_genomic Function presence	bin_1_Betaproteobacteria Function presence	bin_2_Rhizobiales Function presence
+Thermophilic specific	Thermophilic specific	rgy	reverse gyrase	Absent	Absent	Absent	Absent
+Amino acid utilization	4-aminobutyrate aminotransferase and related aminotransferases	4-aminobutyrate aminotransferase and related aminotransferases	4-aminobutyrate aminotransferase and related aminotransferases	Absent	Absent	Absent	Present
+Amino acid utilization	Aminotransferase class I and II	aminotransferase class I and II	aminotransferase class I and II	Absent	Absent	Absent	Present
+Amino acid utilization	Phosphoserine aminotransferase	phosphoserine aminotransferase	phosphoserine aminotransferase	Present	Present	Present	Present
+Amino acid utilization	Ornithine/acetylornithine aminotransferase	ornithine/acetylornithine aminotransferase	ornithine/acetylornithine aminotransferase	Present	Present	Present	Present
+Amino acid utilization	Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase	branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase	branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase	Present	Present	Present	Present
+Amino acid utilization	Aspartate/tyrosine/aromatic aminotransferase	aspartate/tyrosine/aromatic aminotransferase	aspartate/tyrosine/aromatic aminotransferase	Present	Present	Present	Present
+Amino acid utilization	Histidinol-phosphate/aromatic aminotransferase	histidinol-phosphate/aromatic aminotransferase	histidinol-phosphate/aromatic aminotransferase	Present	Present	Present	Present
+Amino acid utilization	Serine-pyruvate aminotransferase/archaeal aspartate aminotransferase	serine-pyruvate aminotransferase/archaeal aspartate aminotransferase	serine-pyruvate aminotransferase/archaeal aspartate aminotransferase	Present	Present	Absent	Absent
+Ethanol fermentation	Acetate => Acetaldehyde	acetate => acetaldehyde	acetate => acetaldehyde	Absent	Absent	Absent	Absent
+Ethanol fermentation	Acetaldehyde => Ethanol	acetaldehyde => ethanol	acetaldehyde => ethanol	Absent	Absent	Absent	Present
+Fatty acid degradation	acyl-CoA dehydrogenase	acyl-CoA dehydrogenase	acyl-CoA dehydrogenase	Absent	Absent	Absent	Present
+Aromatics degradation	Protocatechuate/Catechol degradation	catA	catechol 1,2-dioxygenase	Absent	Absent	Absent	Absent
+Aromatics degradation	Phenol => Benzoyl-CoA	ubiX||bsdC	flavin prenyltransferase	Present	Present	Absent	Present
+Aromatics degradation	Benzoyl-CoA reduction	bcrABCD	benzoyl-CoA reductase subunit C	Absent	Absent	Absent	Absent
+Complex carbon degradation	Cellulose degrading	cellobiosidase	cellobiosidase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Cellulose degrading	cellulase	cellulase	Absent	Absent	Absent	Present
+Complex carbon degradation	Cellulose degrading	beta-glucosidase	beta-glucosidase	Absent	Absent	Absent	Present
+Complex carbon degradation	Hemicullulose debranching	arabinosidase	arabinosidase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Hemicullulose debranching	beta-glucuronidase	beta-glucuronidase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Hemicullulose debranching	alpha-L-rhamnosidase	alpha-L-rhamnosidase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Endohemicellulases	mannan endo-1,4-beta-mannosidase	mannan endo-1,4-beta-mannosidase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Endohemicellulases	alpha-D-xyloside xylohydrolase	alpha-D-xyloside xylohydrolase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Other oligosaccharide degrading	beta-xylosidase	beta-xylosidase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Other oligosaccharide degrading	beta-mannosidase	beta-mannosidase	Absent	Absent	Absent	Present
+Complex carbon degradation	Other oligosaccharide degrading	beta-galactosidase	beta-galactosidase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Amylolytic enzymes	alpha-amylase	alpha-amylase	Present	Absent	Absent	Absent
+Complex carbon degradation	Amylolytic enzymes	glucoamylase	glucoamylase	Absent	Absent	Present	Absent
+Complex carbon degradation	Amylolytic enzymes	pullulanase	pullulanase	Absent	Absent	Absent	Absent
+Complex carbon degradation	Amylolytic enzymes	isoamylase	isoamylase	Present	Absent	Absent	Absent
+Complex carbon degradation	Chitin degrading	chitiniase	chitiniase	Absent	Absent	Absent	Present
+Complex carbon degradation	Chitin degrading	hexosaminidase	hexosaminidase	Present	Present	Present	Present
+Fermentation	Pyruvate oxidation	porA	pyruvate ferredoxin oxidoreductase alpha subunit	Absent	Present	Present	Absent
+Fermentation	Alcohol utilization	adh	alcohol dehydrogenase	Absent	Absent	Absent	Absent
+Fermentation	Lactate utilization	ldh	L-lactate dehydrogenase	Absent	Absent	Absent	Absent
+Fermentation	Acetogenesis	acdA||ack||pta	acetyl coenzyme A synthetase (ADP forming), alpha domain	Present	Present	Present	Absent
+Fermentation	Acetate to acetyl-CoA	acs	acetyl-CoA synthetase	Present	Present	Present	Present
+Fermentation	Pyruvate <=> acetyl-CoA + formate 	pflD	formate C-acetyltransferase	Absent	Absent	Absent	Present
+C1 metabolism	Methanol oxidation	mxaF or mdh	methanol dehydrogenase (cytochrome c) subunit 1	Absent	Absent	Absent	Absent
+C1 metabolism	Methyl amine -> formaldehyde	mauAB	methylamine dehydrogenase light chain	Absent	Absent	Absent	Absent
+C1 metabolism	Formaldehyde oxidation	fdhA||fghA||frmA||mycoS_dep_FDH||fae	glutathione-independent formaldehyde dehydrogenase	Present	Present	Absent	Present
+C1 metabolism	Formate oxidation	fdoG||fdwB||fdoH||fdhAB	formate dehydrogenase major subunit	Present	Present	Absent	Present
+C1 metabolism	Aerobic CO oxidation	coxS||coxM||coxL	aerobic carbon-monoxide dehydrogenase small subunit	Absent	Absent	Absent	Absent
+Methane metabolism	Methane oxidation - Partculate methane monooxygenase	pmoABC	methane/ammonia monooxygenase subunit A	Absent	Absent	Absent	Absent
+Methane metabolism	Methane oxidation - Soluble methane monoxygenase	mmoBD	methane monooxygenase regulatory protein B	Absent	Absent	Absent	Absent
+Methane metabolism	Methane production	mcrABC	methyl-coenzyme M reductase alpha subunit	Absent	Absent	Absent	Absent
+Carbon fixation	CBB cycle - Rubisco	Form I	Form I RuBisCO large subunit	Present	Present	Present	Present
+Carbon fixation	CBB cycle - Rubisco	Form II	Form II RuBisCO large subunit	Present	Present	Present	Absent
+Carbon fixation	CBB cycle - Rubisco	Form II/III	Form II/III RuBisCO large subunit	Absent	Absent	Absent	Absent
+Carbon fixation	CBB cycle - Rubisco	Form III	Form III RuBisCO large subunit	Absent	Absent	Absent	Absent
+Carbon fixation	CBB cycle - Rubisco	Form IV	Form IV RuBisCO large subunit	Absent	Absent	Absent	Absent
+Carbon fixation	3 Hydroxypropionate cycle	prpE||mcr||K15017	propionyl-CoA synthetase	Present	Present	Present	Present
+Carbon fixation	3HP/4HB	K14466||4hbl||K18861||E6.2.1.56||abfD	4-hydroxybutyrate---CoA ligase (ADP-forming)	Absent	Absent	Absent	Absent
+Carbon fixation	Wood Ljungdahl pathway	cdhD||cdhE||cooS	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta	Absent	Absent	Absent	Absent
+Carbon fixation	Reverse TCA cycle	aclAB	ATP-citrate lyase alpha-subunit	Absent	Absent	Absent	Absent
+Nitrogen cycling	Ammonia oxidation	amoABC	methane/ammonia monooxygenase subunit A	Absent	Absent	Absent	Absent
+Nitrogen cycling	N2 fixation	anfDKG||nifDK||vnfDKG||nifH	nitrogenase iron-iron protein, alpha subunit	Absent	Present	Present	Present
+Nitrogen cycling	Nitrite oxidation	nxrAB	nitrate reductase / nitrite oxidoreductase, alpha subunit	Absent	Absent	Absent	Absent
+Nitrogen cycling	Nitrate reduction	napAB||narGH	periplasmic nitrate reductase NapA	Present	Present	Present	Absent
+Nitrogen cycling	Nitrite reduction to ammonia	nrfADH||nirBD	cytochrome c nitrite reductase small subunit	Present	Present	Present	Present
+Nitrogen cycling	Nitrite reduction	nirKS||octR	nitrite reductase (NO-forming)	Present	Present	Present	Present
+Nitrogen cycling	Nitric oxide reduction	norBC	nitric oxide reductase subunit B	Present	Present	Present	Absent
+Nitrogen cycling	Nitrous oxide reduction	nosDZ	nitrous oxidase accessory protein	Present	Present	Absent	Present
+Nitrogen cycling	Anammox	hzoA||hzsA	hydroxylamine dehydrogenase, alpha subunit	Absent	Absent	Absent	Absent
+Sulfur cycling	Sulfide oxidation	fccB||sqr	flavocytochrome c sulphide dehydrogenase, flavin-binding	Present	Present	Present	Present
+Sulfur cycling	Sulfite reduction	dsrD	dissimilatory sulfite reductase delta subunit	Absent	Absent	Absent	Absent
+Sulfur cycling	Sulfur oxidation	dsrAB||sdo	dissimilatory sulfite reductase alpha subunit	Present	Present	Present	Present
+Sulfur cycling	Sulfur reduction	sreABC||sor	sulfur reductase	Absent	Absent	Absent	Absent
+Sulfur cycling	Thiosulfate oxidation	soxBCY	S-sulfosulfanyl-L-cysteine sulfohydrolase	Present	Present	Absent	Present
+Sulfur cycling	Sulfate reduction	asrABC	anaerobic sulfite reductase subunit A	Absent	Absent	Absent	Absent
+Sulfur cycling	Sulfate reduction	aprA||sat||cysCN	adenylylsulfate reductase, subunit A	Present	Present	Present	Absent
+Sulfur cycling	Thiosulfate disproportionation	phsA	thiosulfate reductase / polysulfide reductase chain A	Absent	Absent	Present	Absent
+Hydrogenases	FeFe hydrogenase	fefe-group-a13	FeFe hydrogenase, H2-evolution/Electron-bifurcation	Absent	Absent	Absent	Absent
+Hydrogenases	FeFe hydrogenase	fefe-group-a2	FeFe hydrogenase, H2-uptake	Absent	Absent	Absent	Absent
+Hydrogenases	FeFe hydrogenase	fefe-group-a4	FeFe hydrogenase, H2-uptake/Electron-bifurcation	Absent	Absent	Absent	Absent
+Hydrogenases	FeFe hydrogenase	fefe-group-b	FeFe hydrogenase, H2-evolution	Absent	Absent	Absent	Absent
+Hydrogenases	FeFe hydrogenase	fefe-group-c1	FeFe hydrogenase, H2-sensing	Absent	Absent	Absent	Absent
+Hydrogenases	FeFe hydrogenase	fefe-group-c2	FeFe hydrogenase, H2-sensing	Absent	Absent	Absent	Absent
+Hydrogenases	FeFe hydrogenase	fefe-group-c3	FeFe hydrogenase, H2-sensing	Absent	Absent	Absent	Absent
+Hydrogenases	Fe hydrogenase	fe	Fe hydrogenase, Bidirectional	Absent	Absent	Absent	Absent
+Hydrogenases	Ni-Fe Hydrogenase	nife-group-1	Ni-Fe Hydrogenase, H2-uptake	Present	Present	Absent	Present
+Hydrogenases	Ni-Fe Hydrogenase	nife-group-2ade	Ni-Fe Hydrogenase, H2-uptake	Absent	Absent	Absent	Absent
+Hydrogenases	Ni-Fe Hydrogenase	nife-group-2bc	Ni-Fe Hydrogenase, H2-uptake	Absent	Absent	Absent	Present
+Hydrogenases	Ni-Fe Hydrogenase	nife-group-3abd	Ni-Fe Hydrogenase, Bidirectional	Present	Present	Absent	Absent
+Hydrogenases	Ni-Fe Hydrogenase	nife-group-3c	Ni-Fe Hydrogenase, Electron-bifurcation	Absent	Absent	Absent	Absent
+Hydrogenases	Ni-Fe Hydrogenase	nife-group-4a-g	Ni-Fe Hydrogenase, H2-evolving	Absent	Absent	Absent	Present
+Hydrogenases	Ni-Fe Hydrogenase	nife-group-4hi	Ni-Fe Hydrogenase, H2-uptake	Absent	Absent	Absent	Absent
+Oxidative phosphorylation	Complex I (NADH-quinone oxidoreductase)	nuoABC	NADH-quinone oxidoreductase subunit A	Present	Present	Present	Present
+Oxidative phosphorylation	Complex I (NAD(P)H-quinone oxidoreductase)	NdhABC	NAD(P)H-quinone oxidoreductase subunit 1	Absent	Absent	Absent	Absent
+Oxidative phosphorylation	Complex II (Succinate dehydrogenase/Fumarate reductase)	sdhCD	succinate dehydrogenase / fumarate reductase, cytochrome b subunit	Present	Present	Present	Present
+Oxidative phosphorylation	Complex III (Cytochrome c reductase)	petAB||fbcH	ubiquinol-cytochrome c reductase iron-sulfur subunit	Present	Present	Present	Present
+Oxidative phosphorylation	Complex V (ATP synthase: V/A-type H+/Na+-transporting ATPase)	atpAB (V/A-type)	V/A-type H+/Na+-transporting ATPase subunit A	Absent	Absent	Absent	Absent
+Oxidative phosphorylation	Complex V (F-type H+-transporting ATPase)	atpAD (F-type)	F-type H+/Na+-transporting ATPase subunit alpha	Present	Present	Present	Present
+Oxygen metabolism (Oxidative phosphorylation Complex IV)	Oxygen metabolism - cytochrome c oxidase, caa3-type	coxAB	cytochrome c oxidase subunit I	Present	Present	Absent	Present
+Oxygen metabolism (Oxidative phosphorylation Complex IV)	Oxygen metabolism - cytochrome c oxidase, cbb3-type	ccoNOP	cytochrome c oxidase cbb3-type subunit I	Present	Present	Present	Present
+Oxygen metabolism (Oxidative phosphorylation Complex IV)	Oxygen metabolism - cytochrome (quinone) oxidase, bo type	cyoABCD	cytochrome o ubiquinol oxidase subunit II	Absent	Absent	Absent	Absent
+Oxygen metabolism (Oxidative phosphorylation Complex IV)	Oxygen metabolism - cytochrome (quinone) oxidase, bd type	cydAB	cytochrome bd ubiquinol oxidase subunit I	Absent	Absent	Absent	Present
+Oxygen metabolism (Oxidative phosphorylation Complex IV)	Oxygen metabolism - cytochrome (quinone) oxidase, aa3 type, QoxABCD	qoxAB	cytochrome aa3-600 menaquinol oxidase subunit II	Absent	Absent	Absent	Absent
+Urea utilization	Urease	ureABC	urease subunit alpha	Absent	Absent	Absent	Present
+Halogenated compound utilization	Halogenated compounds breakdown	E3.8.1.2||pcpC||cprA||pceA	2-haloacid dehalogenase	Absent	Absent	Absent	Present
+Perchlorate reduction	Perchlorate reduction	pcrAB	perchlorate reductase, subunit alpha	Absent	Absent	Present	Absent
+Chlorite reduction	Chlorite reduction	cld	chlorite dismutase	Absent	Absent	Absent	Absent
+As cycling	Arsenite oxidation	aoxAB	arsenite oxidase small subunit	Absent	Absent	Absent	Present
+As cycling	Arsenate reduction	arsC12	arsenate reductase (glutaredoxin)	Present	Present	Present	Present
+Selenate reduction	Selenate reduction	ygfMK||xdhD	putative selenate reductase FAD-binding subunit	Absent	Absent	Absent	Absent
+Nitrile hydration	Nitrile hydratase	nthAB	nitrile hydratase subunit alpha	Absent	Absent	Absent	Absent
+Metal reduction	Metal (Iron/Manganese) reduction	mtrBC	decaheme c-type cytochrome, OmcA/MtrC family	Present	Present	Absent	Absent

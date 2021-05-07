@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1372_18          -          FeoB_Gate            -            1.8e-55  184.4   6.2   4.2e-30  102.5   0.1   2.5   2   0   0   2   2   2   2 # 21578 # 23443 # 1 # ID=150_18;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF07670_sub-FeoB_gate.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/PF07670_sub-FeoB_gate.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/PF07670_sub-FeoB_gate.hmm.tblout -T 28 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-iron_transport//PF07670_sub-FeoB_gate.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:37 2020
+# [ok]

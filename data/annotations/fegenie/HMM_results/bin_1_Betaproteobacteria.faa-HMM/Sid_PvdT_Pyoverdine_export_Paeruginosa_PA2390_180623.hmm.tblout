@@ -1,0 +1,16 @@
+#                                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                 -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1958_6           -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            2.2e-87  291.3  12.6   2.5e-87  291.2  12.6   1.0   1   0   0   1   1   1   1 # 2600 # 3823 # -1 # ID=185_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.632
+k99_1958_8           -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            1.7e-73  245.5   0.1   1.9e-73  245.4   0.1   1.0   1   0   0   1   1   1   1 # 4274 # 5002 # -1 # ID=185_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.597
+k99_1400_5           -          Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623 -            1.2e-57  193.1   2.6   1.4e-31  107.0   0.3   2.0   2   0   0   2   2   2   2 # 5282 # 7339 # 1 # ID=117_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.641
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623.hmm.tblout -T 175 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//Sid_PvdT_Pyoverdine_export_Paeruginosa_PA2390_180623.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:58 2020
+# [ok]

@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_1367_6           -          K13628               -            1.4e-50  171.7   0.1   1.5e-50  171.6   0.1   1.0   1   0   0   1   1   1   1 # 4362 # 4685 # -1 # ID=112_6;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.556
+NZ_DF967563.1_93     -          K13628               -            1.2e-48  165.5   0.3   1.2e-48  165.3   0.3   1.0   1   0   0   1   1   1   1 # 91001 # 91324 # 1 # ID=35_93;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.552
+NC_022357.1_1237     -          K13628               -            2.5e-48  164.4   0.3   2.7e-48  164.2   0.3   1.0   1   0   0   1   1   1   1 # 1272981 # 1273304 # 1 # ID=1_1237;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.537
+NZ_DF967527.1_120    -          K13628               -            1.9e-46  158.2   0.2     2e-46  158.1   0.2   1.0   1   0   0   1   1   1   1 # 105638 # 105961 # 1 # ID=71_120;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.577
+k99_253_5            -          K13628               -            4.2e-45  153.8   0.0   4.9e-45  153.6   0.0   1.0   1   0   0   1   1   1   1 # 3927 # 4289 # 1 # ID=22_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.656
+k99_913_15           -          K13628               -            9.4e-43  146.1   0.2     1e-42  146.0   0.2   1.0   1   0   0   1   1   0   1 # 11031 # 11381 # 1 # ID=72_15;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.553
+NC_022357.1_2462     -          K13628               -            9.8e-43  146.0   0.1     1e-42  145.9   0.1   1.0   1   0   0   1   1   0   1 # 2576144 # 2576494 # -1 # ID=1_2462;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.530
+NZ_DF967521.1_19     -          K13628               -            9.8e-43  146.0   0.1     1e-42  145.9   0.1   1.0   1   0   0   1   1   0   1 # 12250 # 12600 # 1 # ID=77_19;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.541
+NZ_DF967527.1_119    -          K13628               -              4e-42  144.0   0.0   4.3e-42  143.9   0.0   1.0   1   0   0   1   1   0   1 # 105264 # 105617 # 1 # ID=71_119;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.556
+k99_422_4            -          K13628               -            1.3e-40  139.0   0.3   1.4e-40  138.9   0.3   1.0   1   0   0   1   1   0   1 # 3381 # 3701 # -1 # ID=44_4;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.660
+k99_1636_11          -          K13628               -            3.9e-37  127.6   0.2   4.1e-37  127.5   0.2   1.0   1   0   0   1   1   0   1 # 9000 # 9347 # -1 # ID=181_11;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.675
+k99_2321_14          -          K13628               -            1.8e-26   92.6   0.1   2.2e-26   92.3   0.1   1.1   1   0   0   1   1   0   1 # 12925 # 13281 # 1 # ID=217_14;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.580
+NZ_DF967539.1_100    -          K13628               -            3.3e-26   91.8   0.1   4.2e-26   91.4   0.1   1.1   1   0   0   1   1   0   1 # 103018 # 103380 # 1 # ID=59_100;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.545
+NZ_DF967585.1_219    -          K13628               -            1.1e-25   90.1   0.0   1.2e-25   89.9   0.0   1.0   1   0   0   1   1   0   1 # 225030 # 225395 # -1 # ID=13_219;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.571
+NC_022357.1_2651     -          K13628               -            1.7e-25   89.5   0.1     2e-25   89.2   0.1   1.1   1   0   0   1   1   0   1 # 2749992 # 2750360 # -1 # ID=1_2651;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.542
+k99_1556_4           -          K13628               -            4.1e-25   88.2   0.0   4.7e-25   88.0   0.0   1.0   1   0   0   1   1   0   1 # 4217 # 4582 # 1 # ID=136_4;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.642
+NZ_DF967527.1_116    -          K13628               -            2.3e-18   66.0   0.0   2.6e-18   65.9   0.0   1.0   1   0   0   1   1   0   1 # 102756 # 103094 # 1 # ID=71_116;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.572
+k99_422_3            -          K13628               -            5.2e-06   25.5   0.0   1.1e-05   24.4   0.0   1.5   1   0   0   1   1   0   1 # 2345 # 3355 # -1 # ID=44_3;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.669
+k99_685_17           -          K13628               -              0.045   12.6   0.0     0.058   12.2   0.0   1.1   1   0   0   1   1   0   0 # 15452 # 16006 # -1 # ID=72_17;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.688
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K13628.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K13628.hmm.total.hmmsearch_result.txt --domT 151.63 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K13628.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:09:49 2020
+# [ok]

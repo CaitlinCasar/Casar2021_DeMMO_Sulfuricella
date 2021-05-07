@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2312_10          -          TIGR04484            TIGR04484      9e-70  233.8   0.0   1.1e-69  233.6   0.0   1.0   1   0   0   1   1   1   1 # 6480 # 7337 # 1 # ID=268_10;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.671
+NC_022357.1_2357     -          TIGR04484            TIGR04484    2.1e-66  222.8   0.0   2.5e-66  222.5   0.0   1.0   1   0   0   1   1   1   1 # 2452562 # 2453389 # -1 # ID=1_2357;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.528
+NZ_DF967548.1_72     -          TIGR04484            TIGR04484    4.8e-66  221.6   0.1   5.8e-66  221.3   0.1   1.1   1   0   0   1   1   1   1 # 76508 # 77335 # -1 # ID=50_72;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.514
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/soxA.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/soxA.hmm.total.hmmsearch_result.txt -T 110.00 --cpu 1 /slowdata/data1/Genome_profile_software/METABOLIC_hmm_db/soxA.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:13:32 2020
+# [ok]

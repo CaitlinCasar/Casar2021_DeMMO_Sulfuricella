@@ -1,0 +1,17 @@
+#                                                                                                      --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                  accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                        -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967527.1_41     -          Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2 -            3.5e-62  208.0   4.7   5.7e-45  151.3   2.6   3.0   1   1   0   2   2   2   2 # 35794 # 36969 # -1 # ID=71_41;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.600
+NZ_DF967522.1_124    -          Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2 -            4.6e-39  131.8   1.2   1.5e-37  126.8   1.2   2.1   1   1   0   1   1   1   1 # 135869 # 137158 # 1 # ID=76_124;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.622
+NZ_DF967531.1_125    -          Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2 -            2.6e-36  122.7   0.0   1.6e-35  120.1   0.0   2.0   1   1   0   1   1   1   1 # 109606 # 110910 # -1 # ID=67_125;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=0.613
+NZ_DF967591.1_8      -          Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2 -            1.4e-16   57.7   0.0   1.6e-09   34.4   0.0   2.9   2   1   0   2   2   2   2 # 8535 # 10196 # 1 # ID=7_8;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.579
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2.hmm
+# Target file:     ORFs//GCF_000971475.1_ASM97147v1_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2.hmm.txt --tblout fegenie_output/GCF_000971475.1_ASM97147v1_genomic.faa-HMM/Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2.hmm.tblout -T 35 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_RhbA_Rhizobactin_biosynthesis_Rhizobium_meliloti_Q9Z3R2.hmm ORFs//GCF_000971475.1_ASM97147v1_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:20 2020
+# [ok]

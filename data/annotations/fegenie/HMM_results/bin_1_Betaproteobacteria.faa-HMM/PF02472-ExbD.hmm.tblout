@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_385_3            -          PF02472-ExbD         PF02472.11   7.6e-31  104.3   1.2   8.5e-31  104.2   1.2   1.0   1   0   0   1   1   1   1 # 1603 # 2037 # 1 # ID=39_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.632
+k99_618_4            -          PF02472-ExbD         PF02472.11   8.7e-31  104.2   0.1   9.6e-31  104.0   0.1   1.0   1   0   0   1   1   1   1 # 2103 # 2525 # -1 # ID=53_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.617
+k99_245_22           -          PF02472-ExbD         PF02472.11   4.4e-27   92.2   0.4   4.9e-27   92.0   0.4   1.0   1   0   0   1   1   1   1 # 19882 # 20298 # 1 # ID=19_22;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.609
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF02472-ExbD.hmm
+# Target file:     ORFs//bin_1_Betaproteobacteria.faa
+# Option settings: hmmsearch -o fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PF02472-ExbD.hmm.txt --tblout fegenie_output/bin_1_Betaproteobacteria.faa-HMM/PF02472-ExbD.hmm.tblout -T 32 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF02472-ExbD.hmm ORFs//bin_1_Betaproteobacteria.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:58 2020
+# [ok]

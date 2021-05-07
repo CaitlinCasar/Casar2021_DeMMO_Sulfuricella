@@ -1,0 +1,20 @@
+#                                                                                       --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                   accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                         -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_665      -          PF01618-MotA_TolQ_ExbB_proton_channel_family PF01618.11   9.4e-43  142.9   0.0   1.2e-42  142.6   0.0   1.1   1   0   0   1   1   1   1 # 675396 # 676076 # 1 # ID=1_665;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.580
+NC_022357.1_2486     -          PF01618-MotA_TolQ_ExbB_proton_channel_family PF01618.11     6e-39  130.6   0.0   7.6e-39  130.3   0.0   1.1   1   0   0   1   1   1   1 # 2596293 # 2596949 # -1 # ID=1_2486;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.604
+NC_022357.1_2773     -          PF01618-MotA_TolQ_ExbB_proton_channel_family PF01618.11   8.2e-31  104.2   1.3   1.6e-30  103.3   1.3   1.5   1   0   0   1   1   1   1 # 2868247 # 2869932 # -1 # ID=1_2773;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.569
+NC_022357.1_1851     -          PF01618-MotA_TolQ_ExbB_proton_channel_family PF01618.11   3.7e-29   98.9   2.6   5.6e-29   98.3   2.6   1.4   1   1   0   1   1   1   1 # 1920222 # 1920854 # -1 # ID=1_1851;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.556
+NC_022357.1_1425     -          PF01618-MotA_TolQ_ExbB_proton_channel_family PF01618.11   1.1e-27   94.2   0.4   1.5e-27   93.7   0.4   1.2   1   0   0   1   1   1   1 # 1461661 # 1462308 # 1 # ID=1_1425;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.546
+NC_022357.1_1247     -          PF01618-MotA_TolQ_ExbB_proton_channel_family PF01618.11   7.4e-21   72.0   0.2   7.4e-21   72.0   0.2   1.5   2   0   0   2   2   2   1 # 1282617 # 1283357 # 1 # ID=1_1247;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.516
+NC_022357.1_1587     -          PF01618-MotA_TolQ_ExbB_proton_channel_family PF01618.11   1.8e-05   22.1   0.3   2.9e-05   21.5   0.3   1.4   1   0   0   1   1   1   1 # 1635820 # 1636680 # -1 # ID=1_1587;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.511
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01618-MotA_TolQ_ExbB_proton_channel_family.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/PF01618-MotA_TolQ_ExbB_proton_channel_family.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/PF01618-MotA_TolQ_ExbB_proton_channel_family.hmm.tblout -T 22 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01618-MotA_TolQ_ExbB_proton_channel_family.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:03 2020
+# [ok]

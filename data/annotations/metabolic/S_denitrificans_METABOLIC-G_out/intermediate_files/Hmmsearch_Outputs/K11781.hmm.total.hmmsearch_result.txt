@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_2612     -          K11781               -            4.3e-05   22.0   0.1    0.0096   14.3   0.3   2.2   1   1   0   2   2   0   2 # 2712311 # 2713303 # -1 # ID=1_2612;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.583
+NZ_DF967539.1_123    -          K11781               -            5.5e-05   21.7   0.0    0.0099   14.2   0.3   2.2   1   1   0   2   2   0   2 # 123153 # 124145 # 1 # ID=59_123;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.592
+k99_2321_36          -          K11781               -            0.00011   20.6   0.4    0.0024   16.3   0.6   2.2   1   1   0   2   2   0   1 # 33009 # 34007 # 1 # ID=217_36;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.634
+k99_216_7            -          K11781               -             0.0018   16.6   0.0    0.0023   16.3   0.0   1.2   1   0   0   1   1   0   1 # 6933 # 7919 # -1 # ID=15_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.607
+k99_910_23           -          K11781               -              0.029   12.7   0.0     0.045   12.1   0.0   1.2   1   0   0   1   1   0   0 # 27267 # 28331 # 1 # ID=94_23;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.708
+NC_022357.1_240      -          K11781               -              0.055   11.8   0.0     0.085   11.1   0.0   1.3   1   0   0   1   1   0   0 # 259459 # 260784 # 1 # ID=1_240;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.538
+NZ_DF967563.1_128    -          K11781               -              0.091   11.1   0.0      0.13   10.6   0.0   1.2   1   0   0   1   1   0   0 # 120612 # 121598 # -1 # ID=35_128;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.603
+NC_022358.1_82       -          K11781               -               0.14   10.4   0.0       0.2    9.9   0.0   1.2   1   0   0   1   1   0   0 # 72096 # 73067 # -1 # ID=2_82;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.631
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K11781.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K11781.hmm.total.hmmsearch_result.txt --domT 470.80 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K11781.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:09:13 2020
+# [ok]

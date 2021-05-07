@@ -1,0 +1,19 @@
+#                                                                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_2238_8           -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            2.9e-55  185.4   6.7   3.6e-55  185.1   6.7   1.1   1   0   0   1   1   1   1 # 8965 # 10251 # 1 # ID=256_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.699
+k99_436_13           -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            1.7e-38  130.2   3.2   3.9e-38  129.0   3.2   1.5   1   1   0   1   1   1   1 # 13626 # 14897 # -1 # ID=47_13;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.730
+k99_2251_6           -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            1.8e-32  110.3   1.0   8.9e-24   81.6   1.2   3.0   2   1   0   2   2   2   2 # 4648 # 5856 # -1 # ID=257_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.692
+k99_963_6            -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            6.2e-31  105.2   4.4   8.6e-31  104.8   4.4   1.1   1   0   0   1   1   1   1 # 5739 # 7109 # -1 # ID=100_6;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.684
+k99_364_7            -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            1.6e-30  103.9   1.9   3.5e-30  102.8   1.9   1.5   1   1   0   1   1   1   1 # 6040 # 7362 # 1 # ID=36_7;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.672
+k99_575_6            -          Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623 -            1.9e-29  100.3   6.6   2.7e-29   99.8   6.6   1.1   1   0   0   1   1   1   1 # 6146 # 7519 # 1 # ID=62_6;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.686
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm.tblout -T 98 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_synthesis//Sid_PvdH_Pyoverdine_biosynthesis_Pseudomonas_aeruginosa_PA2413_180623.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:09 2020
+# [ok]

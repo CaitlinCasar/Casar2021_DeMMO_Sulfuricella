@@ -1,0 +1,15 @@
+#                                                                                                             --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                         accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                               -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_1148     -          FpuD-CbrD-FepC-FhuC-PvuDE-FecE-SstC-ViuC-Siderophore_ABC_transport -            3.8e-60  200.6   0.7   3.8e-31  105.6   0.0   2.1   2   0   0   2   2   2   2 # 1180364 # 1182373 # 1 # ID=1_1148;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.614
+NC_022357.1_2175     -          FpuD-CbrD-FepC-FhuC-PvuDE-FecE-SstC-ViuC-Siderophore_ABC_transport -            1.7e-54  182.1   0.0     2e-54  181.9   0.0   1.0   1   0   0   1   1   1   1 # 2252568 # 2253326 # -1 # ID=1_2175;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.621
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//FpuD-CbrD-FepC-FhuC-PvuDE-FecE-SstC-ViuC-Siderophore_ABC_transport.hmm
+# Target file:     ORFs//GCF_000297055.2_ASM29705v2_genomic.faa
+# Option settings: hmmsearch -o fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/FpuD-CbrD-FepC-FhuC-PvuDE-FecE-SstC-ViuC-Siderophore_ABC_transport.hmm.txt --tblout fegenie_output/GCF_000297055.2_ASM29705v2_genomic.faa-HMM/FpuD-CbrD-FepC-FhuC-PvuDE-FecE-SstC-ViuC-Siderophore_ABC_transport.hmm.tblout -T 172 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//FpuD-CbrD-FepC-FhuC-PvuDE-FecE-SstC-ViuC-Siderophore_ABC_transport.hmm ORFs//GCF_000297055.2_ASM29705v2_genomic.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:20:04 2020
+# [ok]

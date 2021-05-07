@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NC_022357.1_442      -          K13771               -            1.6e-66  223.1   0.1   1.7e-66  223.0   0.1   1.0   1   0   0   1   1   1   1 # 472635 # 473054 # -1 # ID=1_442;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.598
+NZ_DF967525.1_18     -          K13771               -            2.2e-65  219.4   0.1   2.4e-65  219.2   0.1   1.0   1   0   0   1   1   1   1 # 14004 # 14405 # 1 # ID=73_18;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.612
+k99_2342_15          -          K13771               -            2.5e-64  216.0   0.3   2.7e-64  215.8   0.3   1.0   1   0   0   1   1   1   1 # 14015 # 14425 # 1 # ID=220_15;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.589
+k99_1565_23          -          K13771               -            7.9e-56  188.2   0.2   9.4e-56  187.9   0.2   1.0   1   0   0   1   1   1   1 # 22839 # 23315 # 1 # ID=171_23;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.675
+k99_1689_12          -          K13771               -            1.8e-48  164.1   0.3     2e-48  164.0   0.3   1.0   1   0   0   1   1   1   1 # 10306 # 10737 # -1 # ID=187_12;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.678
+k99_1689_11          -          K13771               -              6e-35  120.0   1.5   6.4e-35  119.9   1.5   1.0   1   0   0   1   1   1   1 # 9835 # 10266 # 1 # ID=187_11;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.690
+k99_1565_24          -          K13771               -            4.9e-33  113.7   2.9   5.6e-33  113.5   2.9   1.0   1   0   0   1   1   1   1 # 23320 # 23727 # -1 # ID=171_24;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.654
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K13771.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K13771.hmm.total.hmmsearch_result.txt -T 110.33 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K13771.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:09:54 2020
+# [ok]

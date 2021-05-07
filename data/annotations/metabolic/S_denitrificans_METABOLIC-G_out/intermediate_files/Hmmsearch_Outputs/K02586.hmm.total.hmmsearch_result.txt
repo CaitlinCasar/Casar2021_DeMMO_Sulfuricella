@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NZ_DF967527.1_142    -          K02586               -           6.4e-214  710.6   0.0  7.7e-214  710.3   0.0   1.0   1   0   0   1   1   1   1 # 122830 # 124293 # 1 # ID=71_142;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.583
+k99_568_1            -          K02586               -           7.5e-212  703.8   0.0    9e-212  703.5   0.0   1.0   1   0   0   1   1   1   1 # 186 # 1688 # 1 # ID=61_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.623
+k99_1738_11          -          K02586               -           5.2e-211  701.0   0.1  5.7e-211  700.9   0.1   1.0   1   0   0   1   1   1   1 # 8658 # 10106 # -1 # ID=151_11;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.600
+NZ_DF967527.1_146    -          K02586               -             2e-112  375.9   0.0  2.3e-112  375.7   0.0   1.0   1   0   0   1   1   0   1 # 126713 # 128092 # 1 # ID=71_146;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.603
+k99_1738_7           -          K02586               -           1.9e-106  356.1   0.0  2.3e-106  355.9   0.0   1.0   1   0   0   1   1   0   1 # 3887 # 5275 # -1 # ID=151_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.617
+k99_568_4            -          K02586               -           6.5e-100  334.6   0.0  8.4e-100  334.3   0.0   1.0   1   0   0   1   1   0   1 # 4575 # 6161 # 1 # ID=61_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.686
+k99_1738_10          -          K02586               -            3.2e-24   85.0   0.0   2.3e-17   62.4   0.0   2.1   2   0   0   2   2   0   2 # 6956 # 8494 # -1 # ID=151_10;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.602
+NZ_DF967527.1_143    -          K02586               -            7.6e-24   83.7   0.0   2.8e-16   58.8   0.0   2.3   2   1   0   2   2   0   2 # 124381 # 125916 # 1 # ID=71_143;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.586
+k99_568_2            -          K02586               -            2.5e-21   75.4   0.0   9.6e-21   73.5   0.0   1.7   1   1   0   1   1   0   1 # 2036 # 3574 # 1 # ID=61_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.634
+NZ_DF967527.1_147    -          K02586               -            1.3e-17   63.2   0.0   3.7e-12   45.2   0.0   2.1   2   0   0   2   2   0   2 # 128097 # 129491 # 1 # ID=71_147;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.601
+k99_1738_6           -          K02586               -            2.7e-15   55.5   0.0   7.2e-14   50.8   0.0   2.1   1   1   0   1   1   0   1 # 2387 # 3793 # -1 # ID=151_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.615
+k99_568_5            -          K02586               -              5e-14   51.4   0.0   9.6e-12   43.8   0.0   2.2   2   1   0   2   2   0   2 # 6172 # 7557 # 1 # ID=61_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.695
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /slowdata/data1/Genome_profile_software/kofam_database/profiles/K02586.hmm
+# Target file:     S_denitrificans_genomes//total.faa
+# Option settings: hmmsearch --tblout S_denitrificans_METABOLIC-G_out/intermediate_files/Hmmsearch_Outputs/K02586.hmm.total.hmmsearch_result.txt --domT 502.23 --cpu 1 /slowdata/data1/Genome_profile_software/kofam_database/profiles/K02586.hmm S_denitrificans_genomes//total.faa 
+# Current dir:     /slowdata/data3/Northwestern_Metagenomes
+# Date:            Mon Sep 21 03:05:41 2020
+# [ok]

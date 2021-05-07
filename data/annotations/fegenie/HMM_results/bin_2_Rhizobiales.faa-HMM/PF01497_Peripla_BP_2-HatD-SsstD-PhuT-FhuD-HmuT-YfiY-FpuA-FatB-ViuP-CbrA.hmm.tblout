@@ -1,0 +1,16 @@
+#                                                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                              accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                                    -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+k99_395_2            -          PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA PF01497.18   1.8e-28   97.7   0.0   2.5e-28   97.2   0.0   1.1   1   0   0   1   1   1   1 # 130 # 1245 # -1 # ID=42_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.685
+k99_1606_1           -          PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA PF01497.18   5.3e-10   37.2   0.0   6.4e-10   37.0   0.0   1.0   1   0   0   1   1   1   1 # 1 # 408 # 1 # ID=175_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.743
+k99_1959_1           -          PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA PF01497.18     1e-09   36.3   0.1   1.2e-09   36.1   0.1   1.1   1   0   0   1   1   1   1 # 1 # 333 # -1 # ID=216_1;partial=10;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.739
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm
+# Target file:     ORFs//bin_2_Rhizobiales.faa
+# Option settings: hmmsearch -o fegenie_output/bin_2_Rhizobiales.faa-HMM/PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm.txt --tblout fegenie_output/bin_2_Rhizobiales.faa-HMM/PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm.tblout -T 27 --cpu 1 /home/cpc7770/FeGenie/hmms/iron/iron_aquisition-siderophore_transport_potential//PF01497_Peripla_BP_2-HatD-SsstD-PhuT-FhuD-HmuT-YfiY-FpuA-FatB-ViuP-CbrA.hmm ORFs//bin_2_Rhizobiales.faa 
+# Current dir:     /projects/p30777/S_denitrificans
+# Date:            Mon Sep 21 11:19:53 2020
+# [ok]
